@@ -1,0 +1,1085 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.11)  19 NOV 2026 13:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2026-11-01>
+L3 programming layer <2026-09-09>
+(/home/thelagari/.TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2026-06-04 v1.4n Standard LaTeX document class
+(/home/thelagari/.TinyTeX/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2026-06-04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2026-06-26 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2026-06-01 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip51
+\@affilsep=\skip52
+\c@Maxaffil=\count284
+\c@authors=\count285
+\c@affil=\count286
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks18
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen161
+\captionmargin=\dimen162
+\caption@leftmargin=\dimen163
+\caption@rightmargin=\dimen164
+\caption@width=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count290
+\c@continuedfloat=\count291
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count292
+\float@exts=\toks19
+\float@box=\box53
+\@float@everytoks=\toks20
+\@floatcapt=\box54
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count293
+)
+\MT@toks=\toks21
+\MT@tempbox=\box55
+\MT@count=\count294
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks22
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen169
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count295
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip53
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count296
+\@cmidlb=\count297
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count298
+\@lastruleclass=\count299
+\@thisrulewidth=\dimen182
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count300
+\multirow@dima=\skip55
+\bigstrutjot=\dimen183
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2026/06/26 v2.7b Tabular extension package (FMi)
+\col@sep=\dimen184
+\ar@mcellbox=\box56
+\extrarowheight=\dimen185
+\NC@list=\toks23
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box57
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen186
+\c@nlinenum=\count301
+\TeXr@lab=\toks24
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2026-08-26 v2.18e AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2026/06/26 v2.01 AMS text
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen187
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen188
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count302
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count303
+\leftroot@=\count304
+LaTeX Info: Redefining \overline on input line 370.
+LaTeX Info: Redefining \colon on input line 381.
+\classnum@=\count305
+\DOTSCASE@=\count306
+LaTeX Info: Redefining \ldots on input line 467.
+LaTeX Info: Redefining \dots on input line 470.
+LaTeX Info: Redefining \cdots on input line 591.
+\Mathstrutbox@=\box58
+\strutbox@=\box59
+LaTeX Info: Redefining \big on input line 693.
+LaTeX Info: Redefining \Big on input line 694.
+LaTeX Info: Redefining \bigg on input line 695.
+LaTeX Info: Redefining \Bigg on input line 696.
+\big@size=\dimen189
+LaTeX Font Info:    Redeclaring font encoding OML on input line 714.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 715.
+\macc@depth=\count307
+LaTeX Info: Redefining \bmod on input line 876.
+LaTeX Info: Redefining \pmod on input line 881.
+LaTeX Info: Redefining \smash on input line 911.
+LaTeX Info: Redefining \relbar on input line 941.
+LaTeX Info: Redefining \Relbar on input line 942.
+\c@MaxMatrixCols=\count308
+\dotsspace@=\muskip18
+\c@parentequation=\count309
+\dspbrk@lvl=\count310
+\tag@help=\toks26
+\row@=\count311
+\column@=\count312
+\maxfields@=\count313
+\andhelp@=\toks27
+\eqnshift@=\dimen190
+\alignsep@=\dimen191
+\tagshift@=\dimen192
+\tagwidth@=\dimen193
+\totwidth@=\dimen194
+\lineht@=\dimen195
+\@envbody=\toks28
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2937.
+LaTeX Info: Redefining \] on input line 2938.
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip61
+\enit@outerparindent=\dimen196
+\enit@toks=\toks30
+\enit@inbox=\box60
+\enit@count@id=\count314
+\enitdp@description=\count315
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen197
+\pgfutil@tempdimb=\dimen198
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box61
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2026-08-01 v3.1.12 (3.1.12)
+))
+Package: pgf 2026-08-01 v3.1.12 (3.1.12)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2026-08-01 v3.1.12 (3.1.12)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen199
+\pgf@y=\dimen256
+\pgf@xa=\dimen257
+\pgf@ya=\dimen258
+\pgf@xb=\dimen259
+\pgf@yb=\dimen260
+\pgf@xc=\dimen261
+\pgf@yc=\dimen262
+\pgf@xd=\dimen263
+\pgf@yd=\dimen264
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count316
+\c@pgf@countb=\count317
+\c@pgf@countc=\count318
+\c@pgf@countd=\count319
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count320
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2026-08-01 v3.1.12 (3.1.12)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2026-08-01 v3.1.12 (3.1.12)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2026-08-01 v3.1.12 (3.1.12)
+))) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfsyssoftpath@smallbuffer@items=\count321
+\pgfsyssoftpath@bigbuffer@items=\count322
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2026-08-01 v3.1.12 (3.1.12)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen265
+\pgfmath@count=\count323
+\pgfmath@box=\box62
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count324
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@picminx=\dimen266
+\pgf@picmaxx=\dimen267
+\pgf@picminy=\dimen268
+\pgf@picmaxy=\dimen269
+\pgf@pathminx=\dimen270
+\pgf@pathmaxx=\dimen271
+\pgf@pathminy=\dimen272
+\pgf@pathmaxy=\dimen273
+\pgf@xx=\dimen274
+\pgf@xy=\dimen275
+\pgf@yx=\dimen276
+\pgf@yy=\dimen277
+\pgf@zx=\dimen278
+\pgf@zy=\dimen279
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@path@lastx=\dimen280
+\pgf@path@lasty=\dimen281
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@shorten@end@additional=\dimen282
+\pgf@shorten@start@additional=\dimen283
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count325
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgflinewidth=\dimen284
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@pt@x=\dimen285
+\pgf@pt@y=\dimen286
+\pgf@pt@temp=\dimen287
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfarrowsep=\dimen288
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@max=\dimen289
+\pgf@sys@shading@range@num=\count326
+\pgf@shadingcount=\count327
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfexternal@startupbox=\box66
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2026-08-01 v3.1.12 (3.1.12)
+))) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfnodeparttextbox=\box67
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2026-08-01 v3.1.12 (3.1.12)
+\pgf@nodesepstart=\dimen290
+\pgf@nodesepend=\dimen291
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2026-08-01 v3.1.12 (3.1.12)
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2026-08-01 v3.1.12 (3.1.12)
+\pgffor@iter=\dimen292
+\pgffor@skip=\dimen293
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2026-08-01 v3.1.12 (3.1.12)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@plot@mark@count=\count328
+\pgfplotmarksize=\dimen294
+)
+\tikz@lastx=\dimen295
+\tikz@lasty=\dimen296
+\tikz@lastxsaved=\dimen297
+\tikz@lastysaved=\dimen298
+\tikz@lastmovetox=\dimen299
+\tikz@lastmovetoy=\dimen300
+\tikzleveldistance=\dimen301
+\tikzsiblingdistance=\dimen302
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count329
+\tikznumberofchildren=\count330
+\tikznumberofcurrentchild=\count331
+\tikz@fig@count=\count332
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfmatrixcurrentrow=\count333
+\pgfmatrixcurrentcolumn=\count334
+\pgf@matrix@numberofcolumns=\count335
+)
+\tikz@expandcount=\count336
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2026-08-01 v3.1.12 (3.1.12)
+))) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2026-08-01 v3.1.12 (3.1.12)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfarrowinset=\dimen303
+\pgfarrowlength=\dimen304
+\pgfarrowwidth=\dimen305
+\pgfarrowlinewidth=\dimen306
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@layerbox@background=\box72
+\pgf@layerboxsaved@background=\box73
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2026/09/24 v3.22a programmable bibliographies (PK/MW)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count337
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2026-06-01 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count338
+\c@listtotal=\count339
+\c@listcount=\count340
+\c@liststart=\count341
+\c@liststop=\count342
+\c@citecount=\count343
+\c@citetotal=\count344
+\c@multicitecount=\count345
+\c@multicitetotal=\count346
+\c@instcount=\count347
+\c@maxnames=\count348
+\c@minnames=\count349
+\c@maxitems=\count350
+\c@minitems=\count351
+\c@citecounter=\count352
+\c@maxcitecounter=\count353
+\c@savedcitecounter=\count354
+\c@uniquelist=\count355
+\c@uniquename=\count356
+\c@refsection=\count357
+\c@refsegment=\count358
+\c@maxextratitle=\count359
+\c@maxextratitleyear=\count360
+\c@maxextraname=\count361
+\c@maxextradate=\count362
+\c@maxextraalpha=\count363
+\c@abbrvpenalty=\count364
+\c@highnamepenalty=\count365
+\c@lownamepenalty=\count366
+\c@maxparens=\count367
+\c@parenlevel=\count368
+\blx@tempcnta=\count369
+\blx@tempcntb=\count370
+\blx@tempcntc=\count371
+\c@blx@maxsection=\count372
+\blx@maxsegment@0=\count373
+\blx@notetype=\count374
+\blx@parenlevel@text=\count375
+\blx@parenlevel@foot=\count376
+\blx@sectionciteorder@0=\count377
+\blx@sectionciteorderinternal@0=\count378
+\blx@entrysetcounter=\count379
+\blx@biblioinstance=\count380
+\labelnumberwidth=\skip62
+\labelalphawidth=\skip63
+\biblabelsep=\skip64
+\bibitemsep=\skip65
+\bibnamesep=\skip66
+\bibinitsep=\skip67
+\bibparsep=\skip68
+\bibhang=\skip69
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language3
+\c@mincomprange=\count381
+\c@maxcomprange=\count382
+\c@mincompwidth=\count383
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2026/09/24 v3.22a biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count384
+\c@savedafterword=\count385
+\c@annotator=\count386
+\c@savedannotator=\count387
+\c@author=\count388
+\c@savedauthor=\count389
+\c@bookauthor=\count390
+\c@savedbookauthor=\count391
+\c@commentator=\count392
+\c@savedcommentator=\count393
+\c@editor=\count394
+\c@savededitor=\count395
+\c@editora=\count396
+\c@savededitora=\count397
+\c@editorb=\count398
+\c@savededitorb=\count399
+\c@editorc=\count400
+\c@savededitorc=\count401
+\c@foreword=\count402
+\c@savedforeword=\count403
+\c@holder=\count404
+\c@savedholder=\count405
+\c@introduction=\count406
+\c@savedintroduction=\count407
+\c@namea=\count408
+\c@savednamea=\count409
+\c@nameb=\count410
+\c@savednameb=\count411
+\c@namec=\count412
+\c@savednamec=\count413
+\c@translator=\count414
+\c@savedtranslator=\count415
+\c@shortauthor=\count416
+\c@savedshortauthor=\count417
+\c@shorteditor=\count418
+\c@savedshorteditor=\count419
+\c@labelname=\count420
+\c@savedlabelname=\count421
+\c@institution=\count422
+\c@savedinstitution=\count423
+\c@lista=\count424
+\c@savedlista=\count425
+\c@listb=\count426
+\c@savedlistb=\count427
+\c@listc=\count428
+\c@savedlistc=\count429
+\c@listd=\count430
+\c@savedlistd=\count431
+\c@liste=\count432
+\c@savedliste=\count433
+\c@listf=\count434
+\c@savedlistf=\count435
+\c@location=\count436
+\c@savedlocation=\count437
+\c@organization=\count438
+\c@savedorganization=\count439
+\c@origlocation=\count440
+\c@savedoriglocation=\count441
+\c@origpublisher=\count442
+\c@savedorigpublisher=\count443
+\c@publisher=\count444
+\c@savedpublisher=\count445
+\c@language=\count446
+\c@savedlanguage=\count447
+\c@origlanguage=\count448
+\c@savedoriglanguage=\count449
+\c@pageref=\count450
+\c@savedpageref=\count451
+\shorthandwidth=\skip70
+\shortjournalwidth=\skip71
+\shortserieswidth=\skip72
+\shorttitlewidth=\skip73
+\shortauthorwidth=\skip74
+\shorteditorwidth=\skip75
+\locallabelnumberwidth=\skip76
+\locallabelalphawidth=\skip77
+\localshorthandwidth=\skip78
+\localshortjournalwidth=\skip79
+\localshortserieswidth=\skip80
+\localshorttitlewidth=\skip81
+\localshortauthorwidth=\skip82
+\localshorteditorwidth=\skip83
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2026/09/24 v3.22a biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2026/09/24 v3.22a biblatex compatibility (PK/MW)
+\c@textcitecount=\count452
+\c@textcitetotal=\count453
+\c@textcitemaxnames=\count454
+\c@biburlbigbreakpenalty=\count455
+\c@biburlbreakpenalty=\count456
+\c@biburlnumpenalty=\count457
+\c@biburlucpenalty=\count458
+\c@biburllcpenalty=\count459
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count460
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2026/09/24 v3.22a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2026/09/24 v3.22a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count461
+\c@bbx:relatedtotal=\count462
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2026/09/24 v3.22a biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-09-09 L3 programming layer (loader) 
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/l3kernel/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-09-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count463
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2026-09-09 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2026/09/24 v3.22a expl3 case changing code for biblatex
+)) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-11-03 v7.01t Hypertext links for LaTeX
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/nameref/nameref.sty
+Package: nameref 2026-11-03 v2.60 Cross-referencing by name of section
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count464
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen307
+\Hy@linkcounter=\count465
+\Hy@pagecounter=\count466
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-11-03 v7.01t Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count467
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-11-03 v7.01t Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count468
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen308
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count469
+\Field@Width=\dimen309
+\Fld@charsize=\dimen310
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count470
+\c@Item=\count471
+\c@Hfootnote=\count472
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2026-11-03 v7.01t Hyperref driver for pdfTeX
+\Fld@listcount=\count473
+\c@bookmark@seq@number=\count474
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip84
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 30.
+\@quotelevel=\count475
+\@quotereset=\count476
+ (output/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 49.
+Package microtype Info: Applying patch `item' on input line 49.
+Package microtype Info: Applying patch `toc' on input line 49.
+Package microtype Info: Applying patch `eqnum' on input line 49.
+Package microtype Info: Applying patch `footnote' on input line 49.
+Package microtype Info: Applying patch `verbatim' on input line 49.
+LaTeX Info: Redefining \microtypesetup on input line 49.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/home/thelagari/.TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2026/09/24 v3.22a biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (output/main.bbl)
+Package biblatex Info: Reference section=0 on input line 49.
+Package biblatex Info: Reference segment=0 on input line 49.
+Package hyperref Info: Link coloring ON on input line 49.
+ (output/main.out) (output/main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [1
+
+{/home/thelagari/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+<figures/data_analysis/01_original_class_distribution.png, id=267, 498.663pt x 317.988pt>
+File: figures/data_analysis/01_original_class_distribution.png Graphic file (type png)
+<use figures/data_analysis/01_original_class_distribution.png>
+Package pdftex.def Info: figures/data_analysis/01_original_class_distribution.png  used on input line 328.
+(pdftex.def)             Requested size: 206.69334pt x 131.80243pt.
+<figures/data_analysis/03_question_label_heatmap_refined.png, id=269, 544.0325pt x 368.1755pt>
+File: figures/data_analysis/03_question_label_heatmap_refined.png Graphic file (type png)
+<use figures/data_analysis/03_question_label_heatmap_refined.png>
+Package pdftex.def Info: figures/data_analysis/03_question_label_heatmap_refined.png  used on input line 332.
+(pdftex.def)             Requested size: 253.66455pt x 171.67174pt.
+ [5]
+<figures/data_analysis/10_train_augmentation_comparison.png, id=276, 570.933pt x 353.7215pt>
+File: figures/data_analysis/10_train_augmentation_comparison.png Graphic file (type png)
+<use figures/data_analysis/10_train_augmentation_comparison.png>
+Package pdftex.def Info: figures/data_analysis/10_train_augmentation_comparison.png  used on input line 362.
+(pdftex.def)             Requested size: 328.82707pt x 203.7337pt.
+ [6 <./figures/data_analysis/01_original_class_distribution.png> <./figures/data_analysis/03_question_label_heatmap_refined.png>]
+<figures/study_design.pdf, id=287, 1383.66937pt x 319.94531pt>
+File: figures/study_design.pdf Graphic file (type pdf)
+<use figures/study_design.pdf>
+Package pdftex.def Info: figures/study_design.pdf  used on input line 378.
+(pdftex.def)             Requested size: 469.75502pt x 108.61885pt.
+ [7 <./figures/data_analysis/10_train_augmentation_comparison.png> <./figures/study_design.pdf>]
+<figures/methodology_workflow_v4.png, id=316, 1806.75pt x 1224.575pt>
+File: figures/methodology_workflow_v4.png Graphic file (type png)
+<use figures/methodology_workflow_v4.png>
+Package pdftex.def Info: figures/methodology_workflow_v4.png  used on input line 408.
+(pdftex.def)             Requested size: 460.35791pt x 312.01024pt.
+ [8 <./figures/methodology_workflow_v4.png>]
+<figures/vbri_architecture.pdf, id=330, 1258.7025pt x 668.4975pt>
+File: figures/vbri_architecture.pdf Graphic file (type pdf)
+<use figures/vbri_architecture.pdf>
+Package pdftex.def Info: figures/vbri_architecture.pdf  used on input line 453.
+(pdftex.def)             Requested size: 432.17375pt x 229.52003pt.
+ [9 <./figures/vbri_architecture.pdf>] [10]
+<figures/generated/ft_loss_curves.pdf, id=382, 794.46751pt x 345.59682pt>
+File: figures/generated/ft_loss_curves.pdf Graphic file (type pdf)
+<use figures/generated/ft_loss_curves.pdf>
+Package pdftex.def Info: figures/generated/ft_loss_curves.pdf  used on input line 565.
+(pdftex.def)             Requested size: 469.75502pt x 204.34859pt.
+ [11]
+<figures/generated/ft_confusion_matrices.pdf, id=395, 790.65561pt x 402.20236pt>
+File: figures/generated/ft_confusion_matrices.pdf Graphic file (type pdf)
+<use figures/generated/ft_confusion_matrices.pdf>
+Package pdftex.def Info: figures/generated/ft_confusion_matrices.pdf  used on input line 606.
+(pdftex.def)             Requested size: 469.75502pt x 238.96661pt.
+ [12 <./figures/generated/ft_loss_curves.pdf>]
+<figures/vbri/imbalance_free_9_vdb_benchmark.png, id=428, 1149.093pt x 424.7067pt>
+File: figures/vbri/imbalance_free_9_vdb_benchmark.png Graphic file (type png)
+<use figures/vbri/imbalance_free_9_vdb_benchmark.png>
+Package pdftex.def Info: figures/vbri/imbalance_free_9_vdb_benchmark.png  used on input line 625.
+(pdftex.def)             Requested size: 469.75502pt x 173.62538pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 632.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\times' on input line 632.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 632.
+
+[13 <./figures/generated/ft_confusion_matrices.pdf> <./figures/vbri/imbalance_free_9_vdb_benchmark.png>]
+<figures/generated/ablation_progression.pdf, id=463, 788.74214pt x 226.09093pt>
+File: figures/generated/ablation_progression.pdf Graphic file (type pdf)
+<use figures/generated/ablation_progression.pdf>
+Package pdftex.def Info: figures/generated/ablation_progression.pdf  used on input line 670.
+(pdftex.def)             Requested size: 469.75502pt x 134.65514pt.
+<figures/generated/k_sweep.pdf, id=465, 644.20215pt x 210.6708pt>
+File: figures/generated/k_sweep.pdf Graphic file (type pdf)
+<use figures/generated/k_sweep.pdf>
+Package pdftex.def Info: figures/generated/k_sweep.pdf  used on input line 690.
+(pdftex.def)             Requested size: 399.29463pt x 130.57918pt.
+ [14 <./figures/generated/ablation_progression.pdf>]
+<figures/generated/effectiveness_comparison.pdf, id=483, 787.3237pt x 291.28426pt>
+File: figures/generated/effectiveness_comparison.pdf Graphic file (type pdf)
+<use figures/generated/effectiveness_comparison.pdf>
+Package pdftex.def Info: figures/generated/effectiveness_comparison.pdf  used on input line 744.
+(pdftex.def)             Requested size: 469.75502pt x 173.79407pt.
+ [15 <./figures/generated/k_sweep.pdf>]
+<figures/generated/head_to_head_confusion.pdf, id=504, 790.65561pt x 197.33806pt>
+File: figures/generated/head_to_head_confusion.pdf Graphic file (type pdf)
+<use figures/generated/head_to_head_confusion.pdf>
+Package pdftex.def Info: figures/generated/head_to_head_confusion.pdf  used on input line 771.
+(pdftex.def)             Requested size: 469.75502pt x 117.24747pt.
+ [16 <./figures/generated/effectiveness_comparison.pdf> <./figures/generated/head_to_head_confusion.pdf>]
+<figures/generated/cost_comparison.pdf, id=545, 787.33833pt x 225.48616pt>
+File: figures/generated/cost_comparison.pdf Graphic file (type pdf)
+<use figures/generated/cost_comparison.pdf>
+Package pdftex.def Info: figures/generated/cost_comparison.pdf  used on input line 812.
+(pdftex.def)             Requested size: 469.75502pt x 134.53578pt.
+ [17 <./figures/generated/cost_comparison.pdf>]
+<figures/vbri/confusion_matrices_9_vdb.png, id=569, 1045.506pt x 933.4875pt>
+File: figures/vbri/confusion_matrices_9_vdb.png Graphic file (type png)
+<use figures/vbri/confusion_matrices_9_vdb.png>
+Package pdftex.def Info: figures/vbri/confusion_matrices_9_vdb.png  used on input line 878.
+(pdftex.def)             Requested size: 422.77664pt x 377.47638pt.
+<figures/vbri/calibration_before_after_confusion.png, id=571, 817.8555pt x 353.8821pt>
+File: figures/vbri/calibration_before_after_confusion.png Graphic file (type png)
+<use figures/vbri/calibration_before_after_confusion.png>
+Package pdftex.def Info: figures/vbri/calibration_before_after_confusion.png  used on input line 890.
+(pdftex.def)             Requested size: 375.80544pt x 162.60953pt.
+ [18 <./figures/vbri/confusion_matrices_9_vdb.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 924--924
+[]|\OT1/cmr/bx/n/10 (+20) True la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--924
+[]|\OT1/cmr/bx/n/10 (+20) What the re-trieval
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--924
+[]|\OT1/cmr/m/n/10 (+20) Pooled:
+ []
+
+
+Overfull \hbox (3.67384pt too wide) in paragraph at lines 924--924
+[]|\OT1/cmr/m/n/10 (-20) Inconclusive| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--924
+[]|\OT1/cmr/m/n/10 (+20) VBRI: In-
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 924--924
+\OT1/cmr/m/n/10 (+20) the mar-gin $\OML/cmm/m/it/10 ^^N \OT1/cmr/m/n/10 (+20) = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (+20) 05$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--924
+[]|\OT1/cmr/m/n/10 (+20) Neighbours agree with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--924
+\OT1/cmr/m/n/10 (+20) la-belled abandonment-
+ []
+
+[19 <./figures/vbri/calibration_before_after_confusion.png>]
+<figures/vbri/patient_level_diagnostic_agreement.png, id=589, 1004.553pt x 353.8821pt>
+File: figures/vbri/patient_level_diagnostic_agreement.png Graphic file (type png)
+<use figures/vbri/patient_level_diagnostic_agreement.png>
+Package pdftex.def Info: figures/vbri/patient_level_diagnostic_agreement.png  used on input line 964.
+(pdftex.def)             Requested size: 399.29463pt x 140.66475pt.
+ [20 <./figures/vbri/patient_level_diagnostic_agreement.png>] [21]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1054.
+ (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1054.
+ [22] [23] [24] [25] (output/main.aux)
+ ***********
+LaTeX2e <2026-11-01>
+L3 programming layer <2026-09-09>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CB11D212A05453E177CBDFF3E1699742;5851.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 33848 strings out of 468958
+ 652812 string characters out of 5454276
+ 1510080 words of memory out of 5000000
+ 62148 multiletter control sequences out of 15000+600000
+ 652494 words of font info for 242 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 92i,16n,94p,1001b,1484s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/thelagari/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/thelagari/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600.600pk> </home/thelagari/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on output/main.pdf (25 pages, 1757504 bytes).
+PDF statistics:
+ 814 PDF objects out of 1000 (max. 8388607)
+ 639 compressed objects within 7 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 50466 words of extra memory for PDF output out of 51595 (max. 10000000)
+

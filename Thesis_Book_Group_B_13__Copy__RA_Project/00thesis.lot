@@ -1,0 +1,19 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Model Configurations with Feature Extraction and Hyperparameters}}{27}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Model Configuration For Oversampling Technique}}{29}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Model Configuration For Text Augmentation}}{30}{table.3.3}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Performance Comparison on Question-Wise Stratified Split Dataset with Text Augmentation}}{35}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Performance Comparison on Question-Wise Stratified Split Dataset with SMOTE Oversampling}}{37}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Performance Comparison on Question-Wise Stratified Split Dataset with ADASYN Oversampling}}{38}{table.4.3}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Performance Comparison on Question-Wise Stratified Split Dataset with SMOTE Oversampling}}{40}{table.4.4}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Performance Comparison on Question-Wise Stratified Split Dataset with ADASYN Oversampling}}{41}{table.4.5}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Performance Comparison on Question-Wise Stratified Split Dataset with Text Augmentation}}{41}{table.4.6}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Performance Comparison of Transformer Models on Question-Wise Stratified Split Dataset with No Class Balancing Technique}}{45}{table.4.7}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Performance Comparison of Transformer Models with Inverse Class-Weighted Cross Entropy Loss}}{45}{table.4.8}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Performance Comparison of Transformer Models with Text Augmentation}}{45}{table.4.9}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Results of Stacking Architecture with 5 Fold Cross Validation }}{48}{table.4.10}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,528 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{American Psychiatric Association}%
+}{%
+{American Psychiatric Association}%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+APA2013}
+\APACinsertmetastar {%
+APA2013}%
+\begin{APACrefauthors}%
+{American Psychiatric Association}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {Diagnostic and statistical manual of mental disorders} {Diagnostic and statistical manual of mental disorders}\ (\PrintOrdinal{5th ed.}\ \BEd).
+\newblock
+\begin{APACrefDOI} \doi{10.1176/appi.books.9780890425596} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Biskin%
+\ \BBA {} Paris%
+}{%
+Biskin%
+\ \BBA {} Paris%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+biskin2013comorbidities}
+\APACinsertmetastar {%
+biskin2013comorbidities}%
+\begin{APACrefauthors}%
+Biskin, R\BPBI S.%
+\BCBT {}\ \BBA {} Paris, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comorbidities in Borderline Personality Disorder.} {Comorbidities in borderline personality disorder.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychiatric Times}{30}{1}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dinu%
+\ \BBA {} Moldovan%
+}{%
+Dinu%
+\ \BBA {} Moldovan%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+dinu2021automatic}
+\APACinsertmetastar {%
+dinu2021automatic}%
+\begin{APACrefauthors}%
+Dinu, A.%
+\BCBT {}\ \BBA {} Moldovan, A\BHBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automatic detection and classification of mental illnesses from general social media texts} {Automatic detection and classification of mental illnesses from general social media texts}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2021)} {Proceedings of the international conference on recent advances in natural language processing (ranlp 2021)}\ (\BPGS\ 358--366).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ellouze%
+\ \BBA {} Hadrich~Belguith%
+}{%
+Ellouze%
+\ \BBA {} Hadrich~Belguith%
+}{%
+{\protect \APACyear {2022}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+ellouze2022deep}
+\APACinsertmetastar {%
+ellouze2022deep}%
+\begin{APACrefauthors}%
+Ellouze, M.%
+\BCBT {}\ \BBA {} Hadrich~Belguith, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A deep learning architecture based on advanced textual language models for detecting disease through its symptoms associated with a reinforcement learning algorithm} {A deep learning architecture based on advanced textual language models for detecting disease through its symptoms associated with a reinforcement learning algorithm}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on Software Technologies} {International conference on software technologies}\ (\BPGS\ 207--229).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ellouze%
+\ \BBA {} Hadrich~Belguith%
+}{%
+Ellouze%
+\ \BBA {} Hadrich~Belguith%
+}{%
+{\protect \APACyear {2022}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+ellouze2022hybrid}
+\APACinsertmetastar {%
+ellouze2022hybrid}%
+\begin{APACrefauthors}%
+Ellouze, M.%
+\BCBT {}\ \BBA {} Hadrich~Belguith, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A hybrid approach for the detection and monitoring of people having personality disorders on social networks} {A hybrid approach for the detection and monitoring of people having personality disorders on social networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Social Network Analysis and Mining}{12}{1}{67}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ellouze%
+\ \BBA {} Hadrich~Belguith%
+}{%
+Ellouze%
+\ \BBA {} Hadrich~Belguith%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+ellouze2024artificial}
+\APACinsertmetastar {%
+ellouze2024artificial}%
+\begin{APACrefauthors}%
+Ellouze, M.%
+\BCBT {}\ \BBA {} Hadrich~Belguith, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Artificial Intelligence application for the analysis of personality traits and disorders in social media: A Survey} {Artificial intelligence application for the analysis of personality traits and disorders in social media: A survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM Transactions on Asian and Low-Resource Language Information Processing}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Greco%
+, Simeri%
+, Tagarelli%
+\BCBL {}\ \BBA {} Zumpano%
+}{%
+Greco%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+greco2023transformer}
+\APACinsertmetastar {%
+greco2023transformer}%
+\begin{APACrefauthors}%
+Greco, C\BPBI M.%
+, Simeri, A.%
+, Tagarelli, A.%
+\BCBL {}\ \BBA {} Zumpano, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Transformer-based language models for mental health issues: a survey} {Transformer-based language models for mental health issues: a survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Pattern Recognition Letters}{167}{}{204--211}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haque%
+, Nur%
+, Jahan%
+, Mahmud%
+\BCBL {}\ \BBA {} Shah%
+}{%
+Haque%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+suicidalideationtransformers2020}
+\APACinsertmetastar {%
+suicidalideationtransformers2020}%
+\begin{APACrefauthors}%
+Haque, F.%
+, Nur, R\BPBI U.%
+, Jahan, S\BPBI A.%
+, Mahmud, Z.%
+\BCBL {}\ \BBA {} Shah, F\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Transformer Based Approach To Detect Suicidal Ideation Using Pre-Trained Language Models} {A transformer based approach to detect suicidal ideation using pre-trained language models}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2020 23rd International Conference on Computer and Information Technology (ICCIT)} {2020 23rd international conference on computer and information technology (iccit)}\ (\BPG~1-5).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ICCIT51783.2020.9392692} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jain%
+, Arora%
+, Jha%
+\BCBL {}\ \BBA {} Malik%
+}{%
+Jain%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+jain2024text}
+\APACinsertmetastar {%
+jain2024text}%
+\begin{APACrefauthors}%
+Jain, D.%
+, Arora, S.%
+, Jha, C.%
+\BCBL {}\ \BBA {} Malik, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Text classification models for personality disorders identification} {Text classification models for personality disorders identification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Social Network Analysis and Mining}{14}{1}{1--20}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jiang%
+, Levitan%
+, Zomick%
+\BCBL {}\ \BBA {} Hirschberg%
+}{%
+Jiang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+jiang-etal-2020-detection}
+\APACinsertmetastar {%
+jiang-etal-2020-detection}%
+\begin{APACrefauthors}%
+Jiang, Z.%
+, Levitan, S\BPBI I.%
+, Zomick, J.%
+\BCBL {}\ \BBA {} Hirschberg, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Detection of Mental Health from {R}eddit via Deep Contextualized Representations} {Detection of mental health from {R}eddit via deep contextualized representations}.{\BBCQ}
+\newblock
+\BIn{} E.~Holderness, A.~Jimeno~Yepes, A.~Lavelli, A\BHBI L.~Minard, J.~Pustejovsky\BCBL {}\ \BBA {} F.~Rinaldi\ (\BEDS), \APACrefbtitle {Proceedings of the 11th International Workshop on Health Text Mining and Information Analysis} {Proceedings of the 11th international workshop on health text mining and information analysis}\ (\BPGS\ 147--156).
+\newblock
+\APACaddressPublisher{Online}{Association for Computational Linguistics}.
+\newblock
+\begin{APACrefURL} \url{https://aclanthology.org/2020.louhi-1.16} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.18653/v1/2020.louhi-1.16} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Khazbak%
+, Wael%
+, Ehab%
+, Gerorge%
+\BCBL {}\ \BBA {} Eliwa%
+}{%
+Khazbak%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+khazbak2021mindtime}
+\APACinsertmetastar {%
+khazbak2021mindtime}%
+\begin{APACrefauthors}%
+Khazbak, M.%
+, Wael, Z.%
+, Ehab, Z.%
+, Gerorge, M.%
+\BCBL {}\ \BBA {} Eliwa, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {MindTime: deep learning approach for borderline personality disorder detection} {Mindtime: deep learning approach for borderline personality disorder detection}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2021 International Mobile, Intelligent, and Ubiquitous Computing Conference (MIUCC)} {2021 international mobile, intelligent, and ubiquitous computing conference (miucc)}\ (\BPGS\ 337--344).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mart{\'\i}nez-Casta{\~n}o%
+, Htait%
+, Azzopardi%
+\BCBL {}\ \BBA {} Moshfeghi%
+}{%
+Mart{\'\i}nez-Casta{\~n}o%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+martinez2022early}
+\APACinsertmetastar {%
+martinez2022early}%
+\begin{APACrefauthors}%
+Mart{\'\i}nez-Casta{\~n}o, R.%
+, Htait, A.%
+, Azzopardi, L.%
+\BCBL {}\ \BBA {} Moshfeghi, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Early risk detection of self-harm using BERT-based transformers} {Early risk detection of self-harm using bert-based transformers}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Early Detection of Mental Health Disorders by Social Media Monitoring: The First Five Years of the eRisk Project} {Early detection of mental health disorders by social media monitoring: The first five years of the erisk project}\ (\BPGS\ 183--206).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Montejo-R{\'a}ez%
+, Molina-Gonz{\'a}lez%
+, Jim{\'e}nez-Zafra%
+, Garc{\'\i}a-Cumbreras%
+\BCBL {}\ \BBA {} Garc{\'\i}a-L{\'o}pez%
+}{%
+Montejo-R{\'a}ez%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+montejo2024survey}
+\APACinsertmetastar {%
+montejo2024survey}%
+\begin{APACrefauthors}%
+Montejo-R{\'a}ez, A.%
+, Molina-Gonz{\'a}lez, M\BPBI D.%
+, Jim{\'e}nez-Zafra, S\BPBI M.%
+, Garc{\'\i}a-Cumbreras, M\BPBI {\'A}.%
+\BCBL {}\ \BBA {} Garc{\'\i}a-L{\'o}pez, L\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A survey on detecting mental disorders with natural language processing: Literature review, trends and challenges} {A survey on detecting mental disorders with natural language processing: Literature review, trends and challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Science Review}{53}{}{100654}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Singh%
+\ \protect \BOthers {.}}{%
+Singh%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+singh2020framework}
+\APACinsertmetastar {%
+singh2020framework}%
+\begin{APACrefauthors}%
+Singh, R.%
+, Du, J.%
+, Zhang, Y.%
+, Wang, H.%
+, Miao, Y.%
+, Sianaki, O\BPBI A.%
+\BCBL {}\ \BBA {} Ulhaq, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A framework for early detection of antisocial behavior on Twitter using natural language processing} {A framework for early detection of antisocial behavior on twitter using natural language processing}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Complex, Intelligent, and Software Intensive Systems: Proceedings of the 13th International Conference on Complex, Intelligent, and Software Intensive Systems (CISIS-2019)} {Complex, intelligent, and software intensive systems: Proceedings of the 13th international conference on complex, intelligent, and software intensive systems (cisis-2019)}\ (\BPGS\ 484--495).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vajre%
+, Naylor%
+, Kamath%
+\BCBL {}\ \BBA {} Shehu%
+}{%
+Vajre%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+vajre2021psychbert}
+\APACinsertmetastar {%
+vajre2021psychbert}%
+\begin{APACrefauthors}%
+Vajre, V.%
+, Naylor, M.%
+, Kamath, U.%
+\BCBL {}\ \BBA {} Shehu, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {PsychBERT: a mental health language model for social media mental health behavioral analysis} {Psychbert: a mental health language model for social media mental health behavioral analysis}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)} {2021 ieee international conference on bioinformatics and biomedicine (bibm)}\ (\BPGS\ 1077--1082).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xu%
+\ \protect \BOthers {.}}{%
+Xu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+xu2024mental}
+\APACinsertmetastar {%
+xu2024mental}%
+\begin{APACrefauthors}%
+Xu, X.%
+, Yao, B.%
+, Dong, Y.%
+, Gabriel, S.%
+, Yu, H.%
+, Hendler, J.%
+\BDBL {}Wang, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mental-llm: Leveraging large language models for mental health prediction via online text data} {Mental-llm: Leveraging large language models for mental health prediction via online text data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies}{8}{1}{1--32}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yang%
+\ \protect \BOthers {.}}{%
+Yang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+yang2024mentallama}
+\APACinsertmetastar {%
+yang2024mentallama}%
+\begin{APACrefauthors}%
+Yang, K.%
+, Zhang, T.%
+, Kuang, Z.%
+, Xie, Q.%
+, Huang, J.%
+\BCBL {}\ \BBA {} Ananiadou, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {MentaLLaMA: interpretable mental health analysis on social media with large language models} {Mentallama: interpretable mental health analysis on social media with large language models}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the ACM on Web Conference 2024} {Proceedings of the acm on web conference 2024}\ (\BPGS\ 4489--4500).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zanarini%
+\ \protect \BOthers {.}}{%
+Zanarini%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+zanarini2003screening}
+\APACinsertmetastar {%
+zanarini2003screening}%
+\begin{APACrefauthors}%
+Zanarini, M\BPBI C.%
+, Vujanovic, A\BPBI A.%
+, Parachini, E\BPBI A.%
+, Boulanger, J\BPBI L.%
+, Frankenburg, F\BPBI R.%
+\BCBL {}\ \BBA {} Hennen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A screening measure for BPD: The McLean screening instrument for borderline personality disorder (MSI-BPD)} {A screening measure for bpd: The mclean screening instrument for borderline personality disorder (msi-bpd)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of personality disorders}{17}{6}{568--573}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+, Schoene%
+, Ji%
+\BCBL {}\ \BBA {} Ananiadou%
+}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+zhang2022natural}
+\APACinsertmetastar {%
+zhang2022natural}%
+\begin{APACrefauthors}%
+Zhang, T.%
+, Schoene, A\BPBI M.%
+, Ji, S.%
+\BCBL {}\ \BBA {} Ananiadou, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Natural language processing applied to mental illness detection: a narrative review} {Natural language processing applied to mental illness detection: a narrative review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{NPJ digital medicine}{5}{1}{1--13}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

@@ -1,0 +1,26 @@
+Build the thesis from this directory:
+
+    latexmk -pdf -synctex=1 -interaction=nonstopmode -file-line-error 00thesis.tex
+
+The root document is 00thesis.tex. In VS Code / LaTeX Workshop, open that
+file and run Build LaTeX project. Latexmk runs BibTeX and repeats pdfLaTeX
+as needed to resolve citations, tables of contents, and cross-references.
+
+For a minimal TinyTeX installation, install the additional packages with:
+
+    tlmgr install algorithms comment sectsty datatool tracklang tocloft apacite pdfpages ragged2e listings fancyhdr caption multirow courier
+
+The algorithms package provides both algorithm.sty and algorithmic.sty.
+Package dependencies are installed automatically by tlmgr.
+
+If an interrupted build leaves stale auxiliary files, clean them and rebuild:
+
+    latexmk -c 00thesis.tex
+    latexmk -pdf -synctex=1 -interaction=nonstopmode -file-line-error 00thesis.tex
+
+Manual build (without latexmk):
+
+    pdflatex 00thesis.tex
+    bibtex 00thesis
+    pdflatex 00thesis.tex
+    pdflatex 00thesis.tex

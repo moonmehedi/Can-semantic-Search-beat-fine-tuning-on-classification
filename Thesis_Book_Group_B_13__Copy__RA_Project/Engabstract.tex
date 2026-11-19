@@ -1,0 +1,41 @@
+%\chapter{Abstract}\label{intro}
+%\renewcommand{\abstractname}{\textbf{{\Large ABSTRACT}}}
+\addcontentsline{toc}{section}{\normalsize{ABSTRACT}}
+%\parbox{\textwidth}{\centering\MakeUppercase{\thetitle}}\\[24pt]
+%{\l{ \bn \textbf{সারসংক্ষেপ}}
+%\includegraphics[2pt]{sfcsdsds-01.png}
+%\textbf{ABSTRACT}
+
+\begin{figure}
+\centering
+% \vspace{-30mm}
+\includegraphics[width=0.22\textwidth, height=\textwidth,keepaspectratio]{ABSTRACT.png}
+% \vspace{-25mm}
+\end{figure}
+\vspace{-30pt}
+
+
+\centering
+\begin{figure}
+%\vspace{-30mm}
+\centering
+\textbf{LLM-DRIVEN CLINICAL QNA CLASSIFICATION: AN NLP-BASED METHOD FOR BORDERLINE PERSONALITY
+DISORDER SCREENING}
+\end{figure}
+
+
+%\section*{Predicting Green Space of a Location Through Historical Image Analysis And Predictive Modeling}
+%\vspace{10mm}
+  
+\justifying
+Borderline personality disorder, or BPD, is one of the leading causes of depression, where one in ten effected patients commit suicide. However, BPD diagnosis remains a challenge, as mental health practitioners struggle to keep up with the overwhelming number of patients requiring screening and assessment. While existing research has leveraged artificial intelligence (AI) and natural language processing (NLP) in detecting BPD symptoms, the vast majority of the work focuses on social media text classification. Furthermore, existing screening tools utilized by mental health practitioners, such as Likert scales and dichotomous questionnaires,  struggle with issues of central tendency (avoiding extremes) and acquiescence (agreeing with statements regardless), as well as limited insight and reduced data accuracy due to the fixed response options. Addressing these issues, this study proposes a large language model-driven (LLM) approach for clinical question-and-answer (QnA) classification aimed at screening borderline personality disorder.
+A novel QnA classification dataset \textbf{BPDQAC}, which stands for Borderline Personality Disorder Question Answer Classification, containing \textbf{3258 expert annotated clinical QnA pairs} was created in collaboration with psychologists and psychiatrists.
+% We propose leveraging transformer architectures such as ELECTRA, RoBERTa and XLNet to automate the detection of BPD markers from QnA analysis, trained using the BPDQAC dataset.
+To address class imbalance inherent in clinical datasets, weighted loss functions, minority class oversampling and data augmentation was carried out.
+A detailed comparative analysis of machine learning, deep learning, LLM-based models as well as a stacking architecture incorporating the three best-performing LLMs as the base learners and Logistic Regression as the meta model was performed using the BPDQAC dataset, where LLM-based models such as ELECTRA, RoBERTa and DeBERTa achieved the best performance.
+The standalone ELECTRA model, trained on augmented text, achieved the highest overall \textbf{F1 score of 86.84\%} and \textbf{accuracy of 87.09\%}. Subsequently, this model was then deployed as the basis of the proposed screening tool, incorporating explainable AI using Local Interpretable Model-Agnostic Explanations (LIME) to provide explanations for model predictions.  
+A user interface prototype was developed to present classification results and salient explanation to clinicians.
+Feedback from a panel of psychiatrists indicated high usability and interpretability of the system.
+This LLM-driven approach represents a significant advancement in automated mental health assessment tools, and further suggests that NLP-based clinical QnA classification can enhance early detection and screening for borderline personality disorder.
+
+%\end{abstract}

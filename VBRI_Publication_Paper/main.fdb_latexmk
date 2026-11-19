@@ -1,0 +1,24 @@
+# Fdb version 4
+["pdflatex"] 1794579822.47337 "/home/thelagari/MIST/Research/BPD-20261111T023533Z-1-001/BPD/VBRI_Publication_Paper/main.tex" "main.pdf" "main" 1794579822.57267 2
+  "/home/thelagari/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/base/article.cls" 1793389839 20144 c320f103d647f141332f1a6594e2527e ""
+  "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/base/size11.clo" 1793389839 8464 a25ea0bc676792fde1ad04499c640d2f ""
+  "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
+  "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def" 1759176675 19626 23e2822b9b2b5005f4c549ca98b9334d ""
+  "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty" 1780258940 18585 02393ee85dc80955e05e568e02814a7c ""
+  "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty" 1793389839 8118 9513710565d64a8399170d659c0d594d ""
+  "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty" 1793389839 2671 50d0b16dcfca8c1d0a4654ba4cffe1db ""
+  "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty" 1780258940 4023 5a4fcfe68d7c6df02f94d7bf578e99fd ""
+  "/home/thelagari/.TinyTeX/texmf-dist/web2c/texmf.cnf" 1782667392 43815 bcd8835056a2dfac260166a1c9541261 ""
+  "/home/thelagari/.TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1794367077 2262989 8290b7fb5beb0e6cc068c147abe6c6ef ""
+  "/home/thelagari/.TinyTeX/texmf.cnf" 1794367057 637 edd806fb06a89761a6034e1968af9017 ""
+  "/home/thelagari/MIST/Research/BPD-20261111T023533Z-1-001/BPD/VBRI_Publication_Paper/main.tex" 1790445410 52261 08ab345281f2be9c813fc3b0591cd84f ""
+  "authblk.sty" 0 -1 0 ""
+  "main.aux" 1794579814.47147 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1790445410 52261 08ab345281f2be9c813fc3b0591cd84f ""
+  (generated)
+  "main.aux"
+  "main.fls"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)

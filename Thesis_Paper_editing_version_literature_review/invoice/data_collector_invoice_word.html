@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cloud Data-Storage Subscription Invoice</title>
+<style>
+  @page { size: A4; margin: 16mm 18mm; }
+  body { font-family: Arial, sans-serif; color: #17263c; font-size: 10pt; margin: 0; }
+  table { border-collapse: collapse; width: 100%; }
+  .brands { border: 1px solid #d9e0e8; margin-bottom: 18px; }
+  .brands td { width: 25%; padding: 10px 5px; text-align: center; font-weight: bold; vertical-align: middle; }
+  .brands img { width: 25px; height: 25px; object-fit: contain; vertical-align: middle; margin-right: 6px; }
+  .masthead td { vertical-align: top; }
+  .institution { color: #2859a8; font-size: 9pt; font-weight: bold; margin: 0 0 6px; }
+  h1 { font-size: 16pt; line-height: 1.1; margin: 0 0 7px; white-space: nowrap; }
+  .department, .muted { color: #566171; }
+  .invoice-meta { text-align: right; font-weight: bold; }
+  .label { color: #566171; font-size: 7.5pt; font-weight: bold; text-transform: uppercase; margin-top: 0; }
+  .meta-value { font-size: 10pt; margin: 2px 0 8px; }
+  .blue-rule { border: 0; border-top: 2px solid #2859a8; margin: 14px 0 20px; }
+  .details td { width: 50%; vertical-align: top; padding-right: 20px; }
+  .details .name { font-size: 11pt; font-weight: bold; margin: 6px 0 2px; }
+  .details p { margin: 2px 0; }
+  .items { margin-top: 24px; }
+  .items th { background: #17263c; color: white; padding: 9px; text-align: left; }
+  .items th:first-child, .items td:first-child, .items th:nth-child(3), .items td:nth-child(3) { text-align: center; }
+  .items th:last-child, .items td:last-child { text-align: right; }
+  .items td { padding: 9px; vertical-align: top; }
+  .summary { width: 48%; margin: 14px 0 0 auto; }
+  .summary td { padding: 5px 8px; }
+  .summary td:last-child { text-align: right; }
+  .summary .shade { background: #edf3fa; }
+  .summary .total td { border-top: 1px solid #d9e0e8; padding-top: 10px; font-weight: bold; }
+  .summary .amount { color: #2859a8; font-size: 14pt; }
+  .words { background: #edf3fa; border: 1px solid #d9e0e8; padding: 11px 14px; margin-top: 18px; }
+  .words p { margin: 4px 0 0; font-weight: bold; }
+  .spacer { height: 105px; }
+  .closing td { width: 50%; vertical-align: bottom; }
+  .note { color: #566171; font-size: 8.5pt; padding-right: 30px; }
+  .signature { text-align: center; padding-left: 35px; }
+  .signature-line { border-top: 1px solid #d9e0e8; padding-top: 7px; font-weight: bold; }
+  .disclaimer { border-top: 1px solid #d9e0e8; color: #566171; font-size: 7pt; text-align: center; padding-top: 9px; margin-top: 24px; }
+</style>
+</head>
+<body>
+  <table class="brands">
+    <tr>
+      <td><img src="invoice_assets/anthropic.png">Anthropic</td>
+      <td><img src="invoice_assets/openai.png">GPT</td>
+      <td><img src="invoice_assets/google.png">Google</td>
+      <td><img src="invoice_assets/claude.png"><span style="color:#d97757">Claude</span></td>
+    </tr>
+  </table>
+
+  <table class="masthead">
+    <tr>
+      <td style="width:70%">
+        <p class="institution">MILITARY INSTITUTE OF SCIENCE AND TECHNOLOGY</p>
+        <h1>CLOUD DATA-STORAGE SUBSCRIPTION INVOICE</h1>
+        <div class="department">Department of Computer Science and Engineering (CSE)</div>
+      </td>
+      <td class="invoice-meta" style="width:30%">
+        <div class="label">Invoice No.</div><div class="meta-value">CDS-2026-001</div>
+        <div class="label">Issue Date</div><div class="meta-value">18 December 2025</div>
+        <div class="label">Payment Terms</div><div class="meta-value">Due upon receipt</div>
+      </td>
+    </tr>
+  </table>
+
+  <hr class="blue-rule">
+
+  <table class="details">
+    <tr>
+      <td>
+        <div class="label">Bill To</div>
+        <p class="name">Nusrat Sharmin, PhD</p>
+        <p>Associate Professor</p>
+        <p>Department of Computer Science and Engineering</p>
+        <p>Military Institute of Science and Technology (MIST)</p>
+        <p>Mirpur Cantonment, Dhaka-1216, Bangladesh</p>
+      </td>
+      <td>
+        <div class="label">Service Summary</div>
+        <p class="name">Claude Cloud Data-Storage Subscription</p>
+        <p class="muted">Expense category: Cloud subscription services</p>
+      </td>
+    </tr>
+  </table>
+
+  <table class="items">
+    <tr><th style="width:8%">Sl.</th><th>Description of Service</th><th style="width:12%">Qty.</th><th style="width:22%">Amount (BDT)</th></tr>
+    <tr><td>1</td><td>Claude cloud data-storage subscription service.</td><td>1</td><td>59,000.00</td></tr>
+  </table>
+
+  <table class="summary">
+    <tr><td>Subtotal</td><td>59,000.00</td></tr>
+    <tr class="shade"><td>Tax / VAT</td><td>0.00</td></tr>
+    <tr class="total"><td>TOTAL DUE</td><td class="amount">BDT 59,000.00</td></tr>
+  </table>
+
+  <div class="words"><div class="label">Amount in Words</div><p>Fifty-nine thousand Bangladeshi taka only.</p></div>
+  <div class="spacer"></div>
+
+  <table class="closing"><tr>
+    <td class="note"><div class="label">Notes</div><p>This invoice records the cloud data-storage subscription expense stated above. Please retain it with the relevant subscription receipt and payment record.</p></td>
+    <td class="signature"><div class="signature-line">Authorized Signature</div><div class="muted">Name, designation, and date</div></td>
+  </tr></table>
+
+  <div class="disclaimer">Brand marks identify the referenced technology providers and services; their inclusion does not imply sponsorship or endorsement.</div>
+</body>
+</html>

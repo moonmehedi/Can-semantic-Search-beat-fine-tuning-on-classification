@@ -1,0 +1,147 @@
+3 Domain-Focused Mental Health Language Models
+
+Understanding that general-purpose language models may not address the complexities of mental health
+discourse, researchers developed domain-specific models. Vajre et al. [24] introduced PsychBERT, a
+Specialized BERT: 1B word pretrained BERT model on annotated biomedical mental health literature and trained (out-of-domain from DBLP) social media text.
+Mental Health Labels F1 Score — 0.98 Yang et al. [25] proposed MentaLLaMA, an Large Language Model instruction-tuned on the IMHI (n=105,000) which is provided interpretable explanations alongside predictions. Xu et al. [26] demonstrated that instruction Fine-tuning promotes the performance of large language models in mental health prediction tasks. Martinez-Castano et al. BERT-based transformers were further applied to the early detection of self-harm by [27], as follows: 91.3% precision. However, these domain-oriented approaches enhanced precision and interpretability although the In that case, your underling training data is still primarily social media based, and not broadly applicable to the full clinical population.
+
+Chapter 2: Survey Results and Important Limitations of datasets
+
+Several reviews have collated the landscape of mental health NLP research and highlighted
+
+systemic limitations. Montejo-Raez et al. Depression was the [28] evident, due to survey of the current literature in
+
+The most studied condition was the per se with 249 publications while also pointing at English-language dominance, privacy
+
+Issues like, bias on social media and various concerns went unsolved. Zhang et al. [29] conducted a narrative
+
+Systematic review of 399 publications, and found that 81% relied on expert-annotated social media data
+
+However, there were few datasets, and clinical validation of natural language processing (NLP) systems was rare. Greco et al. [30] confirmed
+
+In recent work, the dominance of transformers while emphasizing data quality as a key bottleneck.
+
+These reviews highlight some of the core issues with social media-driven approaches. First, demographic
+
+platform bias in the populations using those platforms: for example, Reddit's users consist disproportionately of males and young males.
+
+[20]. Second, there are ethical issues related to the analysis of users without consent [28].
+
+Third, self-reported diagnostic labels add noise and
+
+uncertainty [21]. Fourth, actual clinical risk assessment is poorly calibrated by prediction scores
+
+[21]. Finally, most of the data is inaccessible, with only 35 out of the 102 identified datasets publicly available.
+
+[19]. These limitations cumulatively threaten the clinical relevance of social media-based mental health
+
+detection systems.
+
+2.5 Personality Disorder Detection
+
+Research on personality disorders has become a separate subdomain in computational mental health.
+
+Jain et al. Base Models on Text Classification for Categorial Personality Block Citation 31 (2019)
+
+using BERT, with an accuracy of 74.7% on their PD-TXT dataset. A – Ellouze and Belguith [32] proposed a
+
+By using a hybrid architecture of CNN, BiLSTM and SVM the results are at 84% F1 score for personality disorder.
+
+detection from tweets. Ellouze and Belguith [33] completed a review on applications of AI for
+
+Across sites, 16 papers trained on construct-level approaches to personality traits and disorders in social media, documenting the shift from traditional machine learning
+
+to deep learning approaches. Tretina [33] used LSTM-based deep learning for social media analysis, and Baqasah [34].
+
+detects personality disorders with 89% accuracy. Although these studies went beyond general
+
+Detecting mental health problems in Personality-based classification, they kept the trend of being dependent on
+
+Jojo, then over broad multi-class classification instead of staying with single social media data
+
+disorders.
+
+2.6 BPD-Specific Computational Work
+
+In contrast to classification of computational studies about depression, anxiety, or the generic personality disorder
+
+only it impacts BPD stay constrained to learn. Khazbak et al. [35] developed
+
+BriefMind, a diary app that assessed daily notes of users–events, experiences, thoughts and time.
+
+emotions to detect BPD symptoms. With SVM and LSTM classifiers, they got the user accuracy of
+
+3
+
+of 90.1% and 91% respectively. But that method was based on each person's personal Diary, not
+
+structured clinical assessment. Wang et al. Abstract Background Naturalistic language use and speech prosody have been repeatedly assessed among non-clinical populations by measuring features known to correlate with clinical outcomes.
+
+interviews to discriminate bipolar disorder from BPD and controls with an AuROC of
+
+0.733 for BPD detection. Their dataset consisted of only 50 interviews, compromising generalizability. These
+
+Studies show BPD can be modeled computationally, but neither use expert-annotated
+
+answers to partially standardized diagnostic items, reflecting clinical criteria.
+
+Insights from Mental Health Q&A: A Different Use case
+
+There have been question-answering approaches in mental health AI, however this has seen a totally different
+
+objectives than patient screening. Guo et al. A mental health question-answering system was developed by [37].
+
+integrating BERT with knowledge graph, a specific application on answering question related to users mental health status
+
+instead of their mental health at that moment Racha et al. In [38], MHQA dataset were introduced with
+
+∼58K Q-A pairs for evaluating language model comprehension on mental health
+
+Anxiety, depression, trauma and OCD related topics. The dataset evaluates if the models have
+
+how well they can screen someone for sanity or insanity, but whether they have an understanding of what mental health conditions are
+
+responses to diagnostic questions. These efforts head towards question-answer formats, but do not acknowledge
+
+how responses of persons themselves to standardised questions can be classified for the purposes of screening by disorder.
+
+2.8 Research Gap
+
+The earlier review indicates an obvious gap in literature. Above all, the vast majority of mental
+
+Most social media based health NLP research depends on the social media data which is inherently not sufficient for clinical screening
+
+inaccessibility, consent issues, demographic bias, noisy labels and lack of clinical validation [29]. Second, most
+
+workRandom Read_PrepFocuses on the generalization of multi-class classification over a number of mental health conditions rather than
+
+than for specific screening of single disorders [28]. Third, BPD-specific computational research is
+
+This is very limited, with no diary-based [35] or interview-based [36] approaches using
+
+expert created annotations for structured diagnostic questions Fourth, existing question-answering work
+
+in mental health, focuses on knowledge retrieval and model benchmarking [37, 38], not screening patients
+
+through response classification.
+
+Importantly, this gap is in contradiction with actual clinical practice: psychiatrists and psychologists diagnose
+
+It is used in the form of structured, criterion-based questioning that corresponds to DSM-5 categories, not through critique of social.
+
+media posts. No dataset has been created with expert-annotated question-answer pairs specifically designed
+
+on a second set of BPD screening where the answers to diagnostic questions are tagged based on whether
+
+These indicate that BPD symptoms are present. To fill this gap, in this work we introduceBPDQAC, a
+
+In collaboration with mental health experts, we create a specialized question-answer classification dataset called the Q-A Classifier.
+
+aligned with clinical diagnostic criteria.
+
+3 Dataset
+
+This section gives an overview of the construction of BPDQAC, including questionnaire formulation, survey response
+
+
+

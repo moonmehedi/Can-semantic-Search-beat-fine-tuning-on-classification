@@ -1,0 +1,4 @@
+split,rows,participants,questions,Normal,BPD,Inconclusive
+train,5238,362,9,1746,1746,1746
+validation,333,215,9,224,68,41
+test,333,221,9,225,67,41

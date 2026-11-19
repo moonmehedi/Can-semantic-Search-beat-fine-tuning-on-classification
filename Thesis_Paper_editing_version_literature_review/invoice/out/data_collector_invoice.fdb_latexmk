@@ -1,0 +1,25 @@
+# Fdb version 4
+["pdflatex"] 1788845806.05289 "/media/thela-gari/NewVolume/Experience/Being an RA AT MIST/BPD/Thesis_Paper_editing_version_literature_review/data_collector_invoice.tex" "out/data_collector_invoice.pdf" "data_collector_invoice" 1788845807.04836 2
+  "/etc/texmf/web2c/texmf.cnf" 1773301028.69717 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/media/thela-gari/NewVolume/Experience/Being" 1783002515.36745 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/media/thela-gari/NewVolume/Experience/Being an RA AT MIST/BPD/Thesis_Paper_editing_version_literature_review/data_collector_invoice.tex" 1786866946.38509 5246 28bd92a1b77e7389c30b92ae7d3eab12 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1705352648 20144 147463a6a579f4597269ef9565205cfe ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty" 1642282977 1656 7e824878bad4df5a3e8bba4e463d9126 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1704491087 30006 57b07afb710ee2f649c65cfbafda39c1 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty" 1705955748 6565 cfd9fd0a1d5f5ad985151778771ff7a9 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1696969620 9327 c30c00c0072edba199ede5889311aaa9 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1773924875 8210782 89f45ffcf0a991c27380069267ef6cdc ""
+  "data_collector_invoice.tex" 1786866946.38509 5246 28bd92a1b77e7389c30b92ae7d3eab12 ""
+  "out/data_collector_invoice.aux" 1788845806.00685 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  (generated)
+  "out/data_collector_invoice.aux"
+  "out/data_collector_invoice.log"
+  "out/data_collector_invoice.pdf"
+  (rewritten before read)

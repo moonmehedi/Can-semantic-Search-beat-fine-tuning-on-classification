@@ -1,0 +1,52 @@
+
+\chapter{INTRODUCTION}
+\onehalfspacing
+\label{intro}
+\vspace{-3em}
+
+This chapter discusses the background of the research to introduce the problem statements
+and establish the objectives of the thesis. The research methodology is illustrated subsequently. Finally, the scope of the research and the organization of the thesis are presented.
+
+\section{Research  Background}
+Personality disorders are a pattern of thoughts and behavior that differ greatly from what is expected in an individual's social setting. Of all the personality disorders, borderline personality disorder, or BPD in short, has been most linked with depression and suicide. 8-10\% of BPD patients commit suicide \cite{APA2013} while lifetime depression is reported at 71\% to 83\% \cite{biskin2013comorbidities}. Although existing studies have dealt with BPD symptom detection from text analysis \cite{jain2024text} \cite{ellouze2022deep} \cite{singh2020framework} \cite{ellouze2022hybrid}, the major focus has been on social media text classification, which cannot be used to effectively screen BPD patients. To the best of our knowledge, a question-answer format of text classification for BPD symptom detection and screening is yet to be explored. Existing tools such as Likert scales and dichotomous questionnaires like MSI-BPD \cite{zanarini2003screening} do exist, but these struggle with issues of- central tendency (avoiding extremes) and acquiescence (agreeing with statements regardless), as well as limited insight and reduced data accuracy due to the fixed response options.
+
+This research proposes an NLP-based screening tool, that incorporates a large language model and explainable AI, which can be utilized by specialists to screen patients for BPD indicators and to aid a definitive diagnosis. The tool can also be used by the general population for self-assessment of BPD symptoms, and seek professional help afterwards for a definitive diagnosis. It is to be noted that this tool is only to be used to aid in providing a definitive diagnosis by mental health practitioners, and is not applicable to diagnose BPD on its own. The study also develops a novel expert-annotated QnA classification dataset for BPD screening, which includes 362 collected responses and a total of 3258 expert-annotated rows, serving as the knowledge base for incorporating large language models in the screening tool. The ELECTRA model, trained on augmented dataset, achieved an F1-score of 86.84 \% and  87.09 \% accuracy, exemplifying the efficacy of large language models in NLP tasks like text classification.
+
+\section{Thesis Objectives}
+
+The following are the objectives of this thesis: 
+\begin{enumerate}
+    \item To construct an expert-annotated question-and-answer text dataset (BPDQAC) for borderline personality disorder classification.
+
+    \item To conduct a comparative analysis of machine learning, deep learning and large language models on created dataset
+
+    \item To propose a novel method for personality disorder screening through NLP-based question-and-answer analysis
+
+    \item To develop an intuitive user interface for utilization of this screening tool by incorporating explainable AI 
+\end{enumerate}
+
+
+\section{Methodological Overview}
+
+To achieve the aforementioned objectives, this research was conducted in four phases - Phase 1 : dataset collection , Phase 2 : text preprocessing, Phase 3: model training,  finetuning and evaluation, and Phase 4 : incorporation of Explainable AI and screening tool deployment. Firstly, a literature review was conducted to understand the existing work on personality disorder identification and detection from text analysis. Secondly, all tasks related to dataset creation, including- questionnaire formulation, multi expert annotation and semi-supervised learning, were carried out. Thirdly, a comparative analysis was conducted to evaluate the performance of machine learning models, deep learning models and large language models. Finally, the best-performing model was deployed as the base of the proposed BPD screening tool, while also incorporating explainable AI. \
+
+
+\section{Scope of The Thesis}
+
+The thesis primarily focused on developing an NLP-based automated BPD screening tool and creation of a novel QnA based classification dataset (BPDQAC) for BPD screening. The proposed BPD screening tool is tailored to detect only borderline personality disorder symptoms, and is not applicable for other personality disorders. Moreover, the proposed tool can only to be used to aid in providing a
+definitive diagnosis by mental health practitioners, and is not applicable to diagnose BPD on its own.  \
+ 
+
+\section{Organization of The Thesis}
+
+The remainder of this research is organized as follows. 
+The theoretical background and related works are briefly introduced in Chapter 2. 
+
+The methodology which was followed throughout this research is presented in Chapter 3. The overall work has been divided into four phases. Methodology of all four phases are described in brief.
+
+ A detailed comparative analysis of nine machine learning models, five deep learning models and six LLM-based models have been shown in Chapter 4. The evaluation metrics used for performance comparison have also been discussed.
+ 
+ The engineering considerations, challenges and remedies involved in this thesis have been discussed in Chapter 5.
+
+ Finally, the discussion and conclusion are discussed in chapter 6. The discussion includes the thesis overview, contribution, research outcome, limitations, and future works.
+

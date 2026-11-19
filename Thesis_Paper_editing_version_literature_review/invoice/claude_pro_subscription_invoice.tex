@@ -1,0 +1,166 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=16mm,bottom=15mm,left=18mm,right=18mm]{geometry}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usepackage{microtype}
+\usepackage{ragged2e}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+
+\setmainfont{Inter}
+\definecolor{Navy}{HTML}{17263C}
+\definecolor{Blue}{HTML}{2859A8}
+\definecolor{LightBlue}{HTML}{EDF3FA}
+\definecolor{RuleGray}{HTML}{D9E0E8}
+\definecolor{TextGray}{HTML}{566171}
+\definecolor{ClaudeOrange}{HTML}{D97757}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\scriptsize\color{TextGray}Claude AI Services \textbullet{} MIST}
+\fancyfoot[R]{\scriptsize\color{TextGray}Page \thepage\ of \pageref{LastPage}}
+
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
+\newcommand{\brand}[3]{%
+  \begin{minipage}[c][12mm][c]{0.42\textwidth}
+    \centering
+    \includegraphics[width=6.7mm,height=6.7mm,keepaspectratio]{#1}\hspace{2mm}%
+    {\fontsize{9.5}{11}\selectfont\bfseries\color{#3}#2}
+  \end{minipage}%
+}
+\newcommand{\fieldlabel}[1]{{\fontsize{7.5}{9}\selectfont\bfseries\color{TextGray}\MakeUppercase{#1}}}
+
+\begin{document}
+\thispagestyle{fancy}
+
+\begin{tikzpicture}
+  \node[draw=RuleGray,rounded corners=2pt,fill=white,inner xsep=2mm,inner ysep=1.5mm,text width=\dimexpr\textwidth-4mm-2\pgflinewidth\relax] {
+    \centering
+    \brand{invoice_assets/anthropic.png}{Anthropic}{Navy}\hspace{4mm}%
+    \brand{invoice_assets/claude.png}{Claude Pro}{ClaudeOrange}%
+  };
+\end{tikzpicture}
+
+\vspace{5mm}
+\begin{minipage}[t]{0.66\textwidth}
+  {\fontsize{9}{11}\selectfont\bfseries\color{Blue}MILITARY INSTITUTE OF SCIENCE AND TECHNOLOGY}\par
+  \vspace{1.5mm}
+  {\fontsize{13}{16}\selectfont\bfseries\color{Navy}\mbox{CLAUDE PRO SUBSCRIPTION INVOICE}}\par
+  \vspace{1.8mm}
+  {\fontsize{9}{11}\selectfont\color{TextGray}Department of Computer Science and Engineering (CSE)}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.31\textwidth}
+  \RaggedLeft
+  \fieldlabel{Invoice No.}\par
+  {\bfseries\color{Navy}CPS-2026-001}\par
+  \vspace{2mm}
+  \fieldlabel{Issue Date}\par
+  {\bfseries\color{Navy}8 September 2026}\par
+  \vspace{2mm}
+  \fieldlabel{Payment Terms}\par
+  {\bfseries\color{Navy}Due upon receipt}
+\end{minipage}
+
+\vspace{4mm}
+{\color{Blue}\rule{\textwidth}{1.2pt}}
+\vspace{5mm}
+
+\begin{minipage}[t]{0.48\textwidth}
+  \fieldlabel{Bill To}\par
+  \vspace{1.7mm}
+  {\fontsize{10.5}{13}\selectfont\bfseries\color{Navy}Department of Computer Science\\and Engineering}\par
+  \vspace{1.5mm}
+  {\small Military Institute of Science and Technology (MIST)}\par
+  {\small Mirpur Cantonment, Dhaka-1216, Bangladesh}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \fieldlabel{Service Summary}\par
+  \vspace{1.7mm}
+  {\fontsize{9.5}{12}\selectfont\bfseries\color{Navy}
+  Claude Pro Subscription}\par
+  \vspace{2mm}
+  {\small\color{TextGray}Expense category: AI subscription services\par
+  Subscription billing cycle: Monthly (4 Months)}
+  Subscription billing cycle: Monthly (6 Months)}
+\end{minipage}
+
+\vspace{7mm}
+\renewcommand{\arraystretch}{1.45}
+\rowcolors{2}{LightBlue}{white}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}p{9mm} Y >{\centering\arraybackslash}p{22mm} >{\centering\arraybackslash}p{22mm} R{26mm}}
+  \rowcolor{Navy}
+  {\color{white}\bfseries Sl.} &
+  {\color{white}\bfseries Description of Service} &
+  {\color{white}\bfseries Rate (BDT)} &
+  {\color{white}\bfseries Duration} &
+  {\color{white}\bfseries Amount (BDT)} \\
+  1 & Claude Pro subscription service. & 2,650.00 & 4 Months & 10,600.00 \\
+  1 & Claude Pro subscription service. & 3,750.00 & 4 Months & 15,000.00 \\
+  1 & Claude Pro subscription service. & 2,850.00 & 6 Months & 17,100.00 \\
+\end{tabularx}
+
+\vspace{5mm}
+\hfill
+\begin{minipage}{0.47\textwidth}
+  \renewcommand{\arraystretch}{1.35}
+  \begin{tabularx}{\textwidth}{Y R{32mm}}
+    Subtotal & 10,600.00 \\
+    Subtotal & 15,000.00 \\
+    Subtotal & 17,100.00 \\
+    Tax / VAT & 0.00 \\
+    \arrayrulecolor{RuleGray}\midrule
+    {\bfseries\color{Navy}TOTAL DUE} & {\fontsize{12}{14}\selectfont\bfseries\color{Blue}BDT 10,600.00} \\
+    {\bfseries\color{Navy}TOTAL DUE} & {\fontsize{12}{14}\selectfont\bfseries\color{Blue}BDT 15,000.00} \\
+    {\bfseries\color{Navy}TOTAL DUE} & {\fontsize{12}{14}\selectfont\bfseries\color{Blue}BDT 17,100.00} \\
+  \end{tabularx}
+\end{minipage}
+
+\vspace{5mm}
+\begin{tikzpicture}
+  \node[anchor=north west,draw=RuleGray,rounded corners=2pt,fill=LightBlue,
+        inner xsep=4mm,inner ysep=3mm,text width=\dimexpr\textwidth-8mm\relax] {
+    \fieldlabel{Amount in Words}\par\vspace{1mm}
+    {\small\bfseries\color{Navy}Ten thousand six hundred Bangladeshi taka only.}
+    {\small\bfseries\color{Navy}Fifteen thousand Bangladeshi taka only.}
+    {\small\bfseries\color{Navy}Seventeen thousand one hundred Bangladeshi taka only.}
+  };
+\end{tikzpicture}
+
+\vfill
+\begin{minipage}[b]{0.48\textwidth}
+  \fieldlabel{Notes}\par
+  \vspace{1.5mm}
+  {\footnotesize\color{TextGray}
+  This invoice records the Claude Pro subscription expense (4 months @ BDT 2,650.00/month). Please retain it with the relevant monthly subscription receipts and payment records.}
+  This invoice records the Claude Pro subscription expense (4 months @ BDT 3,750.00/month). Please retain it with the relevant monthly subscription receipts and payment records.}
+  This invoice records the Claude Pro subscription expense (6 months @ BDT 2,850.00/month). Please retain it with the relevant monthly subscription receipts and payment records.}
+\end{minipage}%
+\hfill
+\begin{minipage}[b]{0.38\textwidth}
+  \centering
+  \vspace{10mm}
+  {\color{RuleGray}\rule{0.88\textwidth}{0.6pt}}\par
+  \vspace{1.5mm}
+  {\small\bfseries\color{Navy}Authorized Signature}\par
+  {\footnotesize\color{TextGray}Designation and date}
+\end{minipage}
+
+\vspace{5mm}
+{\color{RuleGray}\rule{\textwidth}{0.5pt}}\par
+\vspace{1.5mm}
+{\centering\fontsize{6.8}{8}\selectfont\color{TextGray}
+Brand marks identify the referenced technology providers and services; their inclusion does not imply sponsorship or endorsement.\par}
+
+\end{document}
+

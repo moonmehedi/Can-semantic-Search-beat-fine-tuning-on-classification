@@ -1,0 +1,4 @@
+label_name,Original train subset,Augmented train split
+Normal,1746,1746
+BPD,538,1746
+Inconclusive,308,1746

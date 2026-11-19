@@ -1,0 +1,17 @@
+{
+ "argv": [
+  "/media/thela-gari/NewVolume/Experience/Being an RA AT MIST/BPD/Thesis_Paper_editing_version_literature_review/.venv-notebook/bin/python",
+  "-Xfrozen_modules=off",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Codex Notebook Python",
+ "language": "python",
+ "metadata": {
+  "debugger": true,
+  "supported_encryption": "curve"
+ },
+ "kernel_protocol_version": "5.5"
+}

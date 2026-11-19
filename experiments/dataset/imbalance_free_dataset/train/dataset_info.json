@@ -1,0 +1,64 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "participant_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "question_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "names": [
+        "0",
+        "1",
+        "2"
+      ],
+      "_type": "ClassLabel"
+    },
+    "Criteria B": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Criteria C": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Criteria D": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Criteria E": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Criteria F": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "augmentation_method": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "augmentation_source": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

@@ -1,0 +1,103 @@
+\contentsline {section}{\normalsize {ACKNOWLEDGEMENTS}}{i}{DTLrowi.1.6}%
+\contentsline {section}{\normalsize {ABSTRACT}}{ii}{DTLrowi.1.6}%
+\contentsline {section}{\normalsize {LIST OF NOTATIONS}}{iv}{figure.caption.3}%
+\contentsline {section}{LIST OF TABLES}{v}{table.0.1}%
+\contentsline {section}{LIST OF FIGURES}{vi}{chapter*.4}%
+\contentsline {section}{TABLE OF CONTENTS}{vii}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Research Background}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Thesis Objectives}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Methodological Overview}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Scope of The Thesis}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Organization of The Thesis}{6}{section.1.5}%
+\contentsline {chapter}{\numberline {2}THEORETICAL BACKGROUND AND LITERATURE REVIEW}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Theoretical Background}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Natural Language Processing}{7}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Preprocessing in NLP}{7}{subsubsection.2.1.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Vectorization Methods}{8}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Bag-of-Words}{8}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Term Frequency-Inverse Document Frequency}{8}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Word2Vec}{9}{subsubsection.2.1.2.3}%
+\contentsline {subsubsection}{\numberline {2.1.2.4}GloVe: Global Vectors for Word Representation}{9}{subsubsection.2.1.2.4}%
+\contentsline {subsubsection}{\numberline {2.1.2.5}FastText}{10}{subsubsection.2.1.2.5}%
+\contentsline {subsubsection}{\numberline {2.1.2.6}Bert Embeddings}{10}{subsubsection.2.1.2.6}%
+\contentsline {subsection}{\numberline {2.1.3}Machine learning}{10}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Logistic Regression}{11}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Linear Support Vector Machine}{11}{subsubsection.2.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.3.3}Multinomial Naive Bayes}{11}{subsubsection.2.1.3.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.4}Decision Tree}{11}{subsubsection.2.1.3.4}%
+\contentsline {subsubsection}{\numberline {2.1.3.5}Random Forest}{11}{subsubsection.2.1.3.5}%
+\contentsline {subsubsection}{\numberline {2.1.3.6}XGBoost}{12}{subsubsection.2.1.3.6}%
+\contentsline {subsubsection}{\numberline {2.1.3.7}AdaBoost}{12}{subsubsection.2.1.3.7}%
+\contentsline {subsubsection}{\numberline {2.1.3.8}LightGBM}{12}{subsubsection.2.1.3.8}%
+\contentsline {subsection}{\numberline {2.1.4}Deep Learning Models}{12}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}LSTM}{12}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}GRU}{12}{subsubsection.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {2.1.4.3}BiLSTM}{13}{subsubsection.2.1.4.3}%
+\contentsline {subsubsection}{\numberline {2.1.4.4}BiGRU}{13}{subsubsection.2.1.4.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.5}CNN}{13}{subsubsection.2.1.4.5}%
+\contentsline {subsection}{\numberline {2.1.5}Oversampling Technique}{13}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}SMOTE}{13}{subsubsection.2.1.5.1}%
+\contentsline {subsubsection}{\numberline {2.1.5.2}ADASYN}{14}{subsubsection.2.1.5.2}%
+\contentsline {subsection}{\numberline {2.1.6}Explainable AI}{14}{subsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.6.1}LIME}{14}{subsubsection.2.1.6.1}%
+\contentsline {section}{\numberline {2.2}Related Works}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Critical Summary}{17}{section.2.3}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dataset collection}{19}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Data Sources}{19}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Dataset Description}{20}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Data Annotation}{20}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Stage 1 : Manual Annotation by Domain Experts}{21}{subsubsection.3.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Stage 2 : Semi-Supervised Annotation with Expert Verification}{21}{subsubsection.3.1.3.2}%
+\contentsline {section}{\numberline {3.2}Data Pre-processing}{21}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Data Cleaning}{22}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Text Normalization}{22}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Text Pre-processing for Machine Learning and Deep Learning}{23}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Question-Answer Pair Construction}{23}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Tokenization}{23}{subsubsection.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}Stop Word Removal and Frequent Word Filtering}{23}{subsubsection.3.2.3.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.4}Lemmatization}{24}{subsubsection.3.2.3.4}%
+\contentsline {subsubsection}{\numberline {3.2.3.5}Feature Extraction Techniques}{24}{subsubsection.3.2.3.5}%
+\contentsline {subsection}{\numberline {3.2.4}Text Preprocessing for Large Language Models}{25}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Model Training and Finetuning}{25}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Dataset Preparation}{25}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Dataset Preparation for Machine Learning Model and Deep Learning}{25}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Dataset Preparation for Large Language Models}{26}{subsubsection.3.3.1.2}%
+\contentsline {subsection}{\numberline {3.3.2}Experimental Setup}{27}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Experimental Setup for Machine Learning Model}{27}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Experimental Setup for Deep Learning}{29}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Experimental Setup for Large Language Model}{32}{subsubsection.3.3.2.3}%
+\contentsline {section}{\numberline {3.4}Explanation using Explainable AI}{33}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Application in This Research}{33}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Clinical and Practical Value}{33}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}RESULT ANALYSIS}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Evaluation Metrics}{34}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Accuracy}{34}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Precision}{34}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Recall}{34}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}F1 Score}{35}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Result and Performance Analysis}{35}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Comparative Analysis for Machine Learning Model}{35}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Comparative Analysis for Deep Learning Model}{40}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Comparative Analysis of Large Language Models}{44}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Stacking Architecture}{47}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Result Interpretation and Key Findings}{48}{subsection.4.2.5}%
+\contentsline {chapter}{\numberline {5}ENGINEERING CONSIDERATIONS, CHALLENGES AND REMEDIES}{50}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Ethical Considerations}{50}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Data Security Consideration}{51}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Complex Engineering Problem}{51}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}P1: Deep Knowledge Needed}{51}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}P4: Understanding the Challenges}{52}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}P6: How Many People Were Involved \& Their Different Needs}{52}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}P7: How Parts Depend on Each Other}{52}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Engineering Activities}{53}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Types of Resources Used}{53}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Innovation}{53}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Familiarity}{53}{subsection.5.4.3}%
+\contentsline {chapter}{\numberline {6}DISCUSSION AND CONCLUSION}{55}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Thesis Outcome}{55}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Thesis Implication and Contribution}{55}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Thesis Limitation}{55}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Future Work}{56}{section.6.4}%
+\contentsline {chapter}{\centering REFERENCES}{57}{appendix*.16}%

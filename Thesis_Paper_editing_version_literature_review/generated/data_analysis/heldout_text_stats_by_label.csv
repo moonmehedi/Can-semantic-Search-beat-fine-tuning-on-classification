@@ -1,0 +1,4 @@
+label_name,count,mean_words,median_words,std_words,mean_chars,median_chars
+BPD,135,28.12,23.0,17.57,145.81,123.0
+Inconclusive,82,16.77,10.5,15.63,88.94,58.5
+Normal,449,21.18,16.0,19.52,109.03,86.0

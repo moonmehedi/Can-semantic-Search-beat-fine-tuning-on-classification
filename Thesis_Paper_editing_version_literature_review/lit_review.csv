@@ -1,0 +1,390 @@
+﻿No.,Title,,,Journal / Conference,Category,Features,,,Limitations,,,Dataset Used ,Cite(BibTex),,,Link,,findings,,,,,,,,,,
+1,Text classification models for personality disorders identification (2024),,,Springer,"1. Dataset Creation
+2. Transformer model usage","1. Developed a unique collection of words (PD-Corpus) and a dataset (PD-TXT), which includes texts marked with different personality disorder traits.
+2. Classified these texts into four types of personality disorders, using Natural Language Processing (NLP) classification models
+3. The BERT-base-uncased model achieved a 74.7% success rate in correctly classifying disorders",,,"1. Proposed model faced difficulties in identifying Narcissistic and Histrionic Personality Disorder.
+2. Model struggled in situations of co-morbidity
+3. Did not explore ensemble techniques
+4. Did not handle class imbalance",,,PD-Corpus and PD-TXT,"@article{jain2024text,
+  title={Text classification models for personality disorders identification},
+  author={Jain, Deepti and Arora, Sandhya and Jha, CK and Malik, Garima},
+  journal={Social Network Analysis and Mining},
+  volume={14},
+  number={1},
+  pages={1--20},
+  year={2024},
+  publisher={Springer}
+}",,,https://doi.org/10.1007/s13278-024-01219-8,Found,"1. Deep learning and transformer models significantly improve mental health detection accuracy.
+2. Social media language patterns can reveal psychological conditions.
+3. Large language models enable better contextual understanding and generalization",,,,,,,,,,
+2,Automatic Detection and Classification of Mental Illnesses from General Social Media Texts (2021),,,RANLP/ACL ANTHOLOGY,"1. Mental illness detection from social media text
+2. Transformer-based NLP models","1. Employed three deep learning models: BERT, RoBERTa and XLNET
+2. The researchers analyze general Reddit posts (not mental-health discussions) and try to predict mental illnesses using deep learning models.
+3. Focused on general text rather than mental health support groups
+4. Used Transformer models (BERT, RoBERTa, XLNet) for classifying mental illnesses.
+5. Focused on general Reddit discussions instead of mental health support groups.
+6. Performed post-level classification rather than user-level classification.
+7. Achieved up to 81% accuracy, significantly outperforming previous baselines.",,,"1. The model is not user centered
+2. Attention was not paid to contextual cues such as time, events, entailment of posts or any other possible triggers that might help the earlier detection of a mental illness.
+3. Dataset bias due to Reddit demographics (mostly young male users).
+4. Depression detection was difficult due to subtle linguistic cues.
+5. Experiments used only a subset of the dataset due to computational limits.
+6. Contextual signals like time or event triggers were not incorporated
+7. Dataset bias (Reddit mostly young male users); Depression hard to detect linguistically; Computational resource limits; Uses subset of dataset",,,SMHD,"@inproceedings{dinu2021automatic,
+  title={Automatic detection and classification of mental illnesses from general social media texts},
+  author={Dinu, Anca and Moldovan, Andreea-Codrina},
+  booktitle={Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2021)},
+  pages={358--366},
+  year={2021}
+}",,,https://doi.org/10.26615/978-954-452-072-4_041,Found,"1. Mental illness can be detected from general text
+Even when people are not talking about mental health directly.
+2. Single posts are enough
+You don’t need the whole user history.
+3. Transformer models work very well
+Models used:
+BERT
+RoBERTa
+XLNet
+4. Results improved previous research by 10–30%
+5. Achieved up to 81% accuracy.
+6. Eating disorder was easiest to detect.
+7. Depression was hardest to detect.
+8. Transformer models outperformed previous baselines.",,,,,,,,,,
+3,A Deep Learning Architecture Based on Advanced Textual Language Models for Detecting Disease Through Its Symptoms Associated with a Reinforcement Learning Algorithm (2021),,,Springer,,"1. Combined different model languages to transform text data into numeric data
+2. Used CNN layers to extract only the relevant part of the entry form
+3. Used an SVM classifier to identify a disease based on previously identified symptoms",,,1. Emphasized on detecting paranoid personality disorder,,,,"@inproceedings{ellouze2022deep,
+  title={A deep learning architecture based on advanced textual language models for detecting disease through its symptoms associated with a reinforcement learning algorithm},
+  author={Ellouze, Mourad and Hadrich Belguith, Lamia},
+  booktitle={International Conference on Software Technologies},
+  pages={207--229},
+  year={2022},
+  organization={Springer}
+}",,,https://scholar.google.com/scholar?q=%22deep+learning+architecture+based+on+advanced+textual+language+models%22+Ellouze,Not Found,,,,,,,,,,,
+4,Detection of Mental Health from Reddit via Deep Contextualized Representations (2020),,,Proceedings of the 11th International Workshop on Health Text Mining and Information Analysis (Published in ACL Anthology),"1. Mental health detection from Reddit
+2. Deep contextual NLP models","1. Extracted and analyzed linguistic characteristics of posts and identify differences between diagnostic groups.
+2. The authors created a large Reddit dataset.
+Disorder        Posts
+Bipolar        5.8M
+GAD        3.0M
+PTSD        2.1M
+OCD        1.8M
+3. They used distant supervision by identifying self-reported mental health diagnoses in Reddit posts with regex patterns, validating the labels with human annotation, and achieving over 95% precision. (page 3)
+4. Build strong classification models based on deep contextualized word representations and  and demonstrate that they outperform the LIWC
+5. Created a large Reddit dataset with 17.5M posts from 35k users across 8 mental health disorders.
+6. Used deep contextual word representations (BERT) for detecting mental illnesses.
+7. Proposed attention-based BERT model (BERT-ATT) to aggregate user posts.
+8. Introduced REALM-like retrieval model selecting top-k relevant posts for prediction.
+9. Demonstrated user-level classification performs better than post-level classification.
+10. A REALM-like model predicts illness by selecting the top-k most relevant posts and combining them for the final prediction—for example, if a user has 100 posts, the model may use only the 5 most relevant ones, such as posts about sadness, panic, or sleep problems.
+11. They evaluated the model on three tasks: classifying a user from all their posts, classifying a single post, and predicting multiple possible disorders at once
+12. used BERT",,,"1. LIWC feature representation is not as useful for classification
+2. Multi-label classification performance was low due to model calibration issues.
+3. Contextual models relied heavily on semantic triggers in text.
+4. Dataset labeling depended on self-reported diagnoses.
+5. Post-level classification accuracy remained significantly lower than user-level classification.
+6. Contextualized representations rely heavily on semantic content and always perform better when semantic indicators are obvious
+7. The prediction scores of their classification models, even the accurate ones, are not well calibrated and thus are not an accurate uncertainty estimator of mental health risk.",,,Dataset of Reddit posts,"@inproceedings{jiang-etal-2020-detection,
+    title = ""Detection of Mental Health from {R}eddit via Deep Contextualized Representations"",
+    author = ""Jiang, Zhengping  and
+      Levitan, Sarah Ita  and
+      Zomick, Jonathan  and
+      Hirschberg, Julia"",
+    editor = ""Holderness, Eben  and
+      Jimeno Yepes, Antonio  and
+      Lavelli, Alberto  and
+      Minard, Anne-Lyse  and
+      Pustejovsky, James  and
+      Rinaldi, Fabio"",
+    booktitle = ""Proceedings of the 11th International Workshop on Health Text Mining and Information Analysis"",
+    month = nov,
+    year = ""2020"",
+    address = ""Online"",
+    publisher = ""Association for Computational Linguistics"",
+    url = ""https://aclanthology.org/2020.louhi-1.16"",
+    doi = ""10.18653/v1/2020.louhi-1.16"",
+    pages = ""147--156"",
+    abstract = ""We address the problem of automatic detection of psychiatric disorders from the linguistic content of social media posts. We build a large scale dataset of Reddit posts from users with eight disorders and a control user group. We extract and analyze linguistic characteristics of posts and identify differences between diagnostic groups. We build strong classification models based on deep contextualized word representations and show that they outperform previously applied statistical models with simple linguistic features by large margins. We compare user-level and post-level classification performance, as well as an ensembled multiclass model."",
+}",,,https://doi.org/10.18653/v1/2020.louhi-1.16,Found,"1. Deep contextual models outperformed LIWC/logistic regression baselines.
+2. User-level classification performed better than post-level classification.
+3. Best F1 scores were around 0.88 for disorders like bipolar and eating disorder.",,,,,,,,,,
+5,A Framework for Early Detection of Antisocial Behavior on Twitter Using Natural Language Processing (2020),,,Springer,,"1. Focusses on identifying anti-social behavior using nlp and machine learning by twitter data.
+2. NLP processes the data by Tokenization, Removing stop words, Stemming, Vectorization and structures the data for machine learning models.
+3. Machine Learning algorithm classisfies and predicts the antisocial behavior by various models like Logistic Regression, Support Vector Machines, Decision Trees, Random Forests, and Naïve Bayes based on their performace metrics.",,,"1. Paper focusses detection of antisocial behavior only for Twitter.
+2. The dataset is combined with 55,810 data only. Model can outperform with a large set of data
+3. Initial data labeling was done mannually which might introduce biased and inconsistent result.",,,Dataset of Twitter Posts,"@inproceedings{singh2020framework,
+  title={A framework for early detection of antisocial behavior on Twitter using natural language processing},
+  author={Singh, Ravinder and Du, Jiahua and Zhang, Yanchun and Wang, Hua and Miao, Yuan and Sianaki, Omid Ameri and Ulhaq, Anwaar},
+  booktitle={Complex, Intelligent, and Software Intensive Systems: Proceedings of the 13th International Conference on Complex, Intelligent, and Software Intensive Systems (CISIS-2019)},
+  pages={484--495},
+  year={2020},
+  organization={Springer}
+}",,,https://scholar.google.com/scholar?q=%22Framework+for+Early+Detection+of+Antisocial+Behavior+on+Twitter%22+Singh,Not Found,,,,,,,,,,,
+6,"A survey on detecting mental disorders with natural language processing: Literature review, trends and challenges (2024)",,,Elsevier,"1. Mental disorder detection using NLP
+2. Literature review of machine learning and deep learning approaches","1. Identified the main types of features used to represent the texts, the machine learning algorithms that are preferred or the most targeted social media platforms
+2. Depression is the most commonly studied disorder (249 publications), followed by suicidal ideation (186 papers), anorexia (14 papers), and pathological gambling (10 papers).
+3. Provides a comprehensive review of NLP techniques for detecting mental disorders from text.
+4. Analyzes different datasets such as Twitter, Reddit, blogs and clinical text sources.
+5. Reviews traditional machine learning methods (SVM, Naive Bayes, Logistic Regression).
+6. Discusses deep learning approaches including CNN, LSTM and Transformer models.
+7. Identifies research trends, datasets, evaluation metrics and future directions in mental health detection research.
+8. The paper explores numerous algorithms used in NLP for mental health identification, including a move from traditional machine learning models (like SVM and Logistic Regression) to deep learning models (like BERT and BiLSTM).",,,"1. Most research is focused on English, with little exploration of other languages.
+2. Does not propose a new detection model.
+3. Limited coverage of multimodal data such as audio or images.
+4. Many reviewed studies rely heavily on social media datasets, which may introduce bias.
+5. Ethical and privacy issues remain unresolved in existing research.",,,"Facebook, Twitter, Reddit, and Weibo","@article{montejo2024survey,
+  title={A survey on detecting mental disorders with natural language processing: Literature review, trends and challenges},
+  author={Montejo-R{\'a}ez, Arturo and Molina-Gonz{\'a}lez, M Dolores and Jim{\'e}nez-Zafra, Salud Mar{\'\i}a and Garc{\'\i}a-Cumbreras, Miguel {\'A}ngel and Garc{\'\i}a-L{\'o}pez, Luis Joaqu{\'\i}n},
+  journal={Computer Science Review},
+  volume={53},
+  pages={100654},
+  year={2024},
+  publisher={Elsevier}
+}",,,https://doi.org/10.1145/3491107,Found,"1. Transformer and deep learning methods dominate recent work.
+2. Social media datasets are the most common data source.
+3. Bias, privacy, explainability, and generalization are major open challenges.",,,,,,,,,,
+7,Natural language processing applied to mental illness detection:a narrative review (2021),,,Nature,"1. NLP for mental health detection and intervention
+2. Systematic review of mental health NLP system","1. Reviewed 399 articles related to mental illness detection through NLP
+2. Supervised Learning models have been utilized most, however annotated/labeled datasets are scarce
+3. Provides a systematic review of NLP applications in mental health detection, monitoring and intervention.
+4. Analyzes different NLP models including traditional ML, deep learning and Transformer models.
+5. Reviews multiple data sources such as social media, clinical records and therapy conversations.
+6. Proposes a research framework for developing NLP-based mental health systems.
+7. Discusses ethical issues, clinical integration and future research directions
+8. Models trained on multimodal data performed better. However, users are less likely to share audio and video.",,,"1. Used supervised learning model where success rate is attributed with number of training datasets available and those datasets often need human annotation.
+2. Does not propose a new predictive model.
+3. Many reviewed studies rely on social media data which may introduce bias.
+4. Limited availability of clinical datasets due to privacy restrictions.
+5. Many NLP systems are not clinically validated for real-world deployment.",,,"Multiple datasets reviewed (Twitter, Reddit, online therapy platforms, clinical transcripts)","@article{zhang2022natural,
+  title={Natural language processing applied to mental illness detection: a narrative review},
+  author={Zhang, Tianlin and Schoene, Annika M and Ji, Shaoxiong and Ananiadou, Sophia},
+  journal={NPJ digital medicine},
+  volume={5},
+  number={1},
+  pages={1--13},
+  year={2022},
+  publisher={Nature Publishing Group}
+}",,,https://doi.org/10.1038/s41746-022-00589-7,Found,"1. NLP is being used for detection, monitoring, and intervention.
+2. Deep learning and Transformer models are increasingly central.
+3. Clinical validation, interpretability, and privacy remain major gaps.",,,,,,,,,,
+8,MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models (2024),,,ACM,1. Mental health analysis using large language models,"1. built the IMHI dataset with 105,000 data samples to support training and evaluating language models for interpretable mental health analysis.
+2. Proposes MentaLLaMA, a mental-health-specific LLM based on LLaMA-2.
+3. Introduces IMHI dataset (105K instruction samples) for mental health tasks.
+4. Uses instruction tuning with explanations to improve interpretability.
+5. Supports multiple tasks: depression, suicide ideation, stress, loneliness detection.
+6. introduced MentaLLaMA, an open-source language model specifically trained for interpretable mental health analysis
+7. established the IMHI benchmark, the first evaluation framework for mental health analysis models",,,"1. Explanations sometimes less professional than human experts.
+2. Generated explanations may contain noise.
+3. Model should not be used for clinical diagnosis.",,,IMHI dataset (105K instruction samples) constructed from 10 mental health datasets including Reddit and Twitter sources,"@inproceedings{yang2024mentallama,
+  title={MentaLLaMA: interpretable mental health analysis on social media with large language models},
+  author={Yang, Kailai and Zhang, Tianlin and Kuang, Ziyan and Xie, Qianqian and Huang, Jimin and Ananiadou, Sophia},
+  booktitle={Proceedings of the ACM on Web Conference 2024},
+  pages={4489--4500},
+  year={2024}
+}",,,https://doi.org/10.1145/3589334.3645467,Found,"1. MentaLLaMA achieves competitive performance with SOTA mental health models.
+2. Provides interpretable explanations for predictions.
+3. Shows better generalization than zero-shot LLMs like ChatGPT on mental health tasks.",,,,,,,,,,
+9,PsychBERT: A Mental Health Language Model for Social Media Mental Health Behavioral Analysis (2021),,,IEEE,1. Mental health detection using domain-specific language models,"1. Proposed a taxonomy and puts forth a comprehensive dataset of social media text
+2. Proposed a two-stage framework, first discriminating text relevant to mental health from non-relevant text and then carrying out multi-class classification for detection of mental health behaviors
+3. Introduces PsychBERT, a mental health specific BERT model trained on social media and biomedical texts.
+4. Uses two-stage classification framework: mental health detection then behavior classification.
+5. Builds dataset from Twitter hashtags and Reddit communities related to mental health.
+6. Uses HiTOP taxonomy to map language traits to psychological behaviors.
+7. Incorporates explainability using Integrated Gradients for interpreting predictions.
+8. Key Contributions This paper introduces 4 major contributions.
+9. Mental health taxonomy mapping Using HiTOP to link language with mental health traits.
+10. Two-stage detection system Stage 1 → mental health detection Stage 2 → behavior classification
+11. PsychBERT language model A BERT model specialized for mental health text.
+12. Explainable AI Integrated gradients show which words influence predictions.
+13. Proposed a novel mental health language model, PsychBERT, which is pretrained on a large corpus of biomedical literature on mental health and social media data",,,"1. Social media text may not represent actual clinical diagnosis.
+2. Language overlap between mental health behaviors makes classification difficult.
+3. Dataset may contain noisy or ambiguous social media language.",,,Twitter + Reddit mental health dataset + PubMed mental health articles,"@inproceedings{vajre2021psychbert,
+  title={PsychBERT: a mental health language model for social media mental health behavioral analysis},
+  author={Vajre, Vedant and Naylor, Mitch and Kamath, Uday and Shehu, Amarda},
+  booktitle={2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages={1077--1082},
+  year={2021},
+  organization={IEEE}
+}",,,https://doi.org/10.1109/BIBM52615.2021.9669469,Found,"1. PsychBERT achieved highest performance (F1 = 0.98) for detecting mental health text.
+2. Domain-specific pretraining improves mental health detection.
+3. Multi-class mental health behavior detection is harder (F1 ≈ 0.63).",,,,,,,,,,
+10,Artificial Intelligence application for the analysis of personality traits and disorders in social media: A Survey (2024),,,ACM,1. Survey on AI-based personality and mental disorder detection,"1. The study provides a detailed evaluation of artificial intelligence applications for detecting personality traits and diseases in social media data.
+2. Focuses on the ""Big Five"" personality traits
+3. Reviews AI techniques for personality trait detection from social media.
+4. Categorizes studies into personality traits, personality disorders, feature engineering, and AI models.
+5. Reviews machine learning and deep learning approaches.
+6. Several strategies are discussed, including classical machine learning, deep learning, linguistics, and hybrid approaches.",,,"1. Privacy concerns with social media data.
+2. Difficulty in obtaining labeled datasets.
+3. Models may not generalize across platforms.",,,"Various datasets used in prior studies (Twitter, Reddit, Facebook, MyPersonality dataset)","@article{ellouze2024artificial,
+  title={Artificial Intelligence application for the analysis of personality traits and disorders in social media: A Survey},
+  author={Ellouze, Mourad and Hadrich Belguith, Lamia},
+  journal={ACM Transactions on Asian and Low-Resource Language Information Processing},
+  year={2024},
+  publisher={ACM New York, NY}
+}",,,https://doi.org/10.1145/3674971,Found,"1. Social media data can effectively reveal personality traits and disorders.
+2. Deep learning models outperform traditional machine learning methods.
+3. Combining linguistic and behavioral features improves prediction accuracy.",,,,,,,,,,
+11,Mental-LLM: Leveraging Large Language Models for Mental Health Prediction via Online Text Data (2024),,,ACM,1. LLM-based mental health detection,"1. Present a comprehensive evaluation of multiple LLMs on various mental health prediction tasks via online text data
+2. Uses Large Language Model (LLaMA) for mental health analysis.
+3. Applies instruction tuning for reasoning-based classification.
+4. Provides interpretable explanations for predictions
+5. Covered zero-shot prompting, few-shot prompting, and instruction fine-tuning
+6. Found that instruction finetuning can significantly boost the performance of LLMs for all tasks simultaneously",,,"1. Requires high computational resources.
+2. Social media data may contain noisy language.",,,Reddit + Twitter mental health posts,"@article{xu2024mental,
+  title={Mental-llm: Leveraging large language models for mental health prediction via online text data},
+  author={Xu, Xuhai and Yao, Bingsheng and Dong, Yuanzhe and Gabriel, Saadia and Yu, Hong and Hendler, James and Ghassemi, Marzyeh and Dey, Anind K and Wang, Dakuo},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={8},
+  number={1},
+  pages={1--32},
+  year={2024},
+  publisher={ACM New York, NY, USA}
+}",,,https://doi.org/10.1145/3643540,Found,"1. LLM-based model improves mental health detection accuracy.
+2. Instruction tuning enables explainable predictions.
+3. LLMs show strong capability for reasoning on mental health text.",,,,,,,,,,
+12,A hybrid approach for the detection and monitoring of people having personality disorders on social networks (2022),,,Springer,1. Personality disorder detection using hybrid deep learning,"1. identified individuals with personality disorder from their textual production on social networks by classifying their set of tweets into distinct classes representing respectively the presence, the category and the type of the disease
+2. Hybrid deep learning architecture combining CNN, LSTM, and SVM.
+3. Detects presence, category, and type of personality disorder from tweets.
+4. Uses sentence embedding (LASER) for semantic representation.
+5. Filters harmful tweets to monitor patient state.
+6. utilized CNN layers for features extraction from the textual part, two LSTM layers to preserve long-term dependencies between different lexical units, SVM classifier to detect the sick person using the dependency links found from the previous layer
+7. acquired an F-measure rate equivalent to 84% for the detection of personality disorder, 64% for the detection of the type of disease and 70% for the task of filtering inappropriate content.",,,"1. Small dataset for some PD types.
+2. Overlap between symptoms of disorders.
+3. Social media language noise (sarcasm, slang).",,,"Two datasets were used.
+
+Dataset 1 (Main Dataset)
+
+Twitter dataset containing:
+
+884 users with personality disorder
+
+531 normal users
+
+Total tweets:
+
+17,680 PD tweets
+
+10,620 normal tweets
+
+Tweets were manually annotated by psychiatrists.
+
+Dataset 2 (Additional dataset)
+
+An Indonesian antisocial behavior Twitter dataset from Kaggle.
+
+Used to validate results.","@article{ellouze2022hybrid,
+  title={A hybrid approach for the detection and monitoring of people having personality disorders on social networks},
+  author={Ellouze, Mourad and Hadrich Belguith, Lamia},
+  journal={Social Network Analysis and Mining},
+  volume={12},
+  number={1},
+  pages={67},
+  year={2022},
+  publisher={Springer}
+}",,,https://doi.org/10.1007/s13278-022-00884-x,Found,"1. Achieved 84% F1-score for PD detection.
+2. Best performance using BiLSTM + SVM model.
+3. Sentence embeddings improve semantic understanding.
+4. Monitoring system filters harmful tweets with ~70% F1-score.",,,,,,,,,,
+13,MindTime: Deep Learning Approach for Borderline Personality Disorder Detection (2021),,,IEEE,,"1. introduces the MindTime system, a personal diary app, that allows users to make notes of daily events, experiences, thoughts, and feelings
+2. users' diary inputs are analyzed to detect if there are signs of BPD symptoms using Naive Bayes, SVM, KNN, and finally LSTM classifiers
+3. result showed that SVM and LSTM classifiers achieved the best user accuracy of 90.1% and 91%. As for audiovisual input CNN achieved user accuracy of 65%.",,,1. did not utilise transformer models (LLMs),,,,"@inproceedings{khazbak2021mindtime,
+  title={MindTime: deep learning approach for borderline personality disorder detection},
+  author={Khazbak, Mohamed and Wael, Zeyad and Ehab, Zahwa and Gerorge, Maria and Eliwa, Essam},
+  booktitle={2021 International Mobile, Intelligent, and Ubiquitous Computing Conference (MIUCC)},
+  pages={337--344},
+  year={2021},
+  organization={IEEE}
+}",,,https://scholar.google.com/scholar?q=%22MindTime%22+deep+learning+borderline+personality+disorder+Khazbak,Not Found,,,,,,,,,,,
+14,Early Risk Detection of Self-Harm Using BERT-Based Transformers (2022),,,Springer,,"1. found that BERT-based classifiers, when trained appropriately, can accurately infer which social media users are at risk of self-harming, with precision up to 91.3 and 83.9% for anorexia",,,,,,,"@incollection{martinez2022early,
+  title={Early risk detection of self-harm using BERT-based transformers},
+  author={Mart{\'\i}nez-Casta{\~n}o, Rodrigo and Htait, Amal and Azzopardi, Leif and Moshfeghi, Yashar},
+  booktitle={Early Detection of Mental Health Disorders by Social Media Monitoring: The First Five Years of the eRisk Project},
+  pages={183--206},
+  year={2022},
+  publisher={Springer}
+}",,,https://scholar.google.com/scholar?q=%22Early+Risk+Detection+of+Self-Harm+Using+BERT-Based+Transformers%22+Martinez,Not Found,,,,,,,,,,,
+15,Transformer-based language models for mental health issues: A survey (2023),,,Elsevier,,,,,,,,,"@article{greco2023transformer,
+  title={Transformer-based language models for mental health issues: a survey},
+  author={Greco, Candida M and Simeri, Andrea and Tagarelli, Andrea and Zumpano, Ester},
+  journal={Pattern Recognition Letters},
+  volume={167},
+  pages={204--211},
+  year={2023},
+  publisher={Elsevier}
+}",,,https://scholar.google.com/scholar?q=%22Transformer-based+language+models+for+mental+health+issues%22+Greco,Not Found,,,,,,,,,,,
+16,On the State of Social Media Data for Mental Health Research (2020),,,arXiv / ACL Findings-style dataset review,1. Social media mental health dataset analysis / review,"1. Organized social media datasets used for mental health research
+2. Reviews and catalogs social media datasets used in mental health research.
+3. Builds a standardized schema to compare datasets by platform, task, annotation, size, language, and availability.
+4. Analyzes 102 datasets across multiple mental health tasks.",,,"1. Most datasets explored depression, anxiety or single personality disorder
+2. Focuses only on non-clinical text/social media datasets.
+3. Excludes speech, mobile traces, and many clinical datasets.
+4. Availability information was unclear for many datasets.",,,Meta-analysis of 102 social media mental health datasets identified from 139 articles,"bibtex @article{harrigian2021state, title={On the State of Social Media Data for Mental Health Research}, author={Harrigian, Keith and Aguirre, Carlos and Dredze, Mark}, journal={arXiv preprint arXiv:2011.05233}, year={2021}}",,,https://arxiv.org/abs/2011.05233,Found,"1. Found 102 datasets after filtering from 139 articles.
+2. Twitter and Reddit are the dominant platforms.
+3. Depression and suicidal ideation are the most studied tasks.
+4. Only 35 datasets were known to be accessible, showing major data-sharing limitations.
+5. The field suffers from noisy labels, small sample sizes, English dominance, and fairness concerns.",,,,,,,,,,
+17,A Transformer Based Approach To Detect Suicidal Ideation Using Pre-Trained Language Models,,,ICCIT Conference,1. Suicidal ideation detection using transformer models,"1. applied BiLSTM, BERT, ALBERT, ROBERTa and XLNET to analyze raw social media posts and classify the indication of suicidal ideation
+2. Uses Transformer models (BERT, ALBERT, RoBERTa, XLNet) for suicidal ideation detection.
+3. Compares transformer models with Bi-LSTM deep learning architecture.
+4. Uses contextual word embeddings to understand social media text.",,,"1. Small dataset size.
+2. Possible annotation bias.
+3. Only text features considered.",,,Reddit SuicideWatch dataset (3549 suicidal posts + non-suicidal posts),"@inproceedings{haque2020transformer, title={A Transformer Based Approach To Detect Suicidal Ideation Using Pre-Trained Language Models}, author={Haque, Farsheed and Nur, Ragib Un and Jahan, Shaeekh Al and Mahmud, Zarar and Shah, Faisal Muhammad}, booktitle={ICCIT}, year={2020}}",,,https://doi.org/10.1109/ICCIT51783.2020.9392692,Found,"1. Transformer models significantly outperform Bi-LSTM models.
+2. RoBERTa achieved the highest accuracy (95.21%).
+3. Pretrained language models improve suicidal ideation detection.",,,,,,,,,,
+18,Mental Health Question and Answering System Based on BERT Model and Knowledge Graph Technology (2021),,,ISAIMS 2021,1. Mental health question answering system using BERT and knowledge graphs,"1. Combines BERT semantic understanding with knowledge graph reasoning.
+2. Uses cosine similarity on BERT embeddings for question matching.
+3. Builds a mental health knowledge graph from web Q&A and medical data.",,,"1. Small knowledge graph.
+2. Rule-based question classification.
+3. Limited evaluation dataset.",,,Mental health Q&A data from IASK and Dr. Dingxiang websites + mental health knowledge graph data,"@inproceedings{guo2021mental, title={Mental Health Question and Answering System Based on Bert Model and Knowledge Graph Technology}, author={Guo, Chaohui and Lin, Shaofu and Huang, Zhisheng and Yao, Yahong}, booktitle={ISAIMS}, year={2021}}",,,https://doi.org/10.1145/3500931.3501011,Found,"1. Hybrid approach improves answer retrieval accuracy.
+2. BERT captures contextual meaning of questions.
+3. Knowledge graphs help answer structured medical queries.",,,,,,,,,,
+19,Deciphering Personality Disorders in the Digital Realm: A Deep Learning Approach Based on LSTM to Social Media Analysis,,,ISSATK Conference (IEEE),1. Personality disorder detection using deep learning,"1. assembly of a robust dataset, a collection of 26,799 social media posts exhibiting presumed signs of personality disorders or articulating thoughts suggestive of suicidal tendencies
+2. Uses LSTM-based deep learning model for personality disorder detection.
+3. Combines CNN + Bidirectional LSTM for feature extraction and sequence modeling.
+4. Uses Word2Vec and GloVe embeddings for text representation.
+5. Extracted features using Word2Vec and GloVe
+6. Used ML models and LSTM for classification",,,"1. Did not explore transformer based models
+2. Social media posts may not reflect real clinical diagnosis.
+3. Dataset size and labeling limitations.
+4. Ethical concerns about social media data use.",,,,"bibtex @inproceedings{baqasah2024personality, title={Deciphering Personality Disorders in the Digital Realm: A Deep Learning Approach Based on LSTM to Social Media Analysis}, author={Baqasah, Abdullah M.}, booktitle={International Symposium of Systems, Advanced Technologies and Knowledge}, year={2024}}",,,https://doi.org/10.1109/ISSATK62463.2024.10808851,Found,"1. Achieved ~89% accuracy in detecting personality disorders.
+2. LSTM models outperform traditional machine learning methods.
+3. Linguistic patterns in social media posts indicate personality disorder traits.",,,,,,,,,,
+20,"MHQA: A Diverse, Knowledge Intensive Mental Health Question Answering Challenge for Language Models",,,arxiv,1. Mental health question answering dataset for LLM evaluation,"1. Introduces MHQA dataset for mental health question answering tasks.
+2. Uses PubMed research abstracts to generate QA pairs.
+3. Covers four domains: anxiety, depression, trauma, OCD.
+4. Questions include factoid, diagnostic, prognostic, and preventive types.",,,"1. Not applicable for mental health diagnosis
+2. Limited to four mental health domains.
+3. Pseudo-labeling may introduce noise.
+4. Mental health reasoning tasks remain challenging for LLMs.",,,MHQA,"bibtex @article{racha2025mhqa, title={MHQA: A Diverse, Knowledge Intensive Mental Health Question Answering Challenge for Language Models}, author={Racha, Suraj and Joshi, Prashant and Raman, Anshika and Jangid, Nikita}, journal={arXiv preprint arXiv:2502.15418}, year={2025}}",,,https://doi.org/10.1109/ISSATK62463.2024.10808851,Found,"1. Dataset contains ~58k QA pairs (2,475 expert-verified).
+2. GPT-4o achieved ~79.8% F1 score on MHQA benchmark.
+3. BioBERT fine-tuned model achieved ~81% accuracy.
+4. Factoid questions were the most difficult for models.",,,,,,,,,,
+21,Learning to Detect Bipolar Disorder and Borderline Personality Disorder with Language and Speech in Non-Clinical Interviews (2020),,,INTERSPEECH 2020,Multimodal mental disorder detection using language and speech,"1. Main focus: detecting Bipolar Disorder (BD) and Borderline Personality Disorder (BPD) from interview language and speech.
+2. Specifically studies BD vs Healthy, BPD vs Healthy, and BD vs BPD classification.
+3. Uses linguistic, semantic, and dialogue features from non-clinical interviews.
+4. Uses path signatures to summarize temporal speech/language patterns.
+5. Uses logistic regression for classification.",,,"1. Small interview dataset.
+2. Lower performance for BPD vs Healthy.
+3. Interviewer features were weak.",,,"AMoSS-I dataset, 50 non-clinical interviews (21 BD, 17 BPD, 12 healthy controls)","@inproceedings{wang2020learning,
+  title={Learning to Detect Bipolar Disorder and Borderline Personality Disorder with Language and Speech in Non-Clinical Interviews},
+  author={Wang, Bo and Wu, Yue and Taylor, Niall and Lyons, Terry and Liakata, Maria and Nevado-Holgado, Alejo J and Saunders, Kate E A},
+  booktitle={INTERSPEECH},
+  year={2020}
+}",,,https://doi.org/10.21437/Interspeech.2020-3040,Found,"1. Achieved AUROC 0.810 for BD vs Healthy.
+2. Achieved AUROC 0.733 for BPD vs Healthy.
+3. Achieved AUROC 0.817 for BD vs BPD.
+4. Linguistic features were the strongest predictors.",,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

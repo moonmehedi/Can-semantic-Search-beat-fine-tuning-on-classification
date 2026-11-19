@@ -1,0 +1,7 @@
+Metric,Value
+Clinical Screening Accuracy,81.68%
+Clinical Sensitivity (Recall),86.57%
+Clinical Specificity,80.45%
+Negative Predictive Value (NPV),95.96%
+Positive Predictive Value (PPV),52.73%
+Diagnostic Odds Ratio (DOR),26.52

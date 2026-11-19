@@ -1,0 +1,13 @@
+{
+  "original_rows": 3258,
+  "original_participants": 362,
+  "original_class_counts": {
+    "Normal": 2195,
+    "BPD": 673,
+    "Inconclusive": 390
+  },
+  "screening_positive_participants": 23,
+  "screening_positive_rate": 0.06353591160220995,
+  "mean_bpd_a_count": 1.8591160220994476,
+  "mean_criteria_yes_count": 2.955801104972376
+}
