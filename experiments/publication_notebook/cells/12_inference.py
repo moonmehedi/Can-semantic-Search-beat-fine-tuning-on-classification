@@ -47,10 +47,11 @@ if RUN_INFERENCE_BENCH:
         d = RUNS_DIR / f"seed{bench_seed}" / m
         if (d / "final_model").exists():
             print("benchmarking", m, "...")
-            rows.append(bench_model(m, d))
+            rows.append(bench_model(m, d, n_cpu=20 if TEST_MODE else 100))
     if rows:
+        atomic_write_json(WORK_DIR / "inference_benchmark.json", rows)
         keys = sorted({k for r in rows for k in r}, key=lambda k: (k != "model", k))
-        with open(out_path, "w", newline="") as f:
+        with open(out_path, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=keys); w.writeheader()
             for r in rows:
                 w.writerow({k: (round(v, 3) if isinstance(v, float) else v) for k, v in r.items()})

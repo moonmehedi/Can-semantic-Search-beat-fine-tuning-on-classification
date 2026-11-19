@@ -43,10 +43,14 @@ class TimedTrainer(Trainer):
 
 def build_training_args(spec, seed, run_dir, epochs, precision):
     params = inspect.signature(TrainingArguments.__init__).parameters
+    if FULL_BATCH:      # big GPU: the whole effective batch (16) in one step, no accumulation
+        bs, accum, ebs = spec["bs"] * spec["accum"], 1, EVAL_BS or spec["eval_bs"]
+    else:               # earlier baseline settings (needed on a 16 GB T4)
+        bs, accum, ebs = spec["bs"], spec["accum"], spec["eval_bs"]
     kw = dict(
         output_dir=str(run_dir),
-        per_device_train_batch_size=spec["bs"], per_device_eval_batch_size=spec["eval_bs"],
-        gradient_accumulation_steps=spec["accum"], num_train_epochs=epochs,
+        per_device_train_batch_size=bs, per_device_eval_batch_size=ebs,
+        gradient_accumulation_steps=accum, num_train_epochs=epochs,
         learning_rate=spec["lr"], weight_decay=spec["wd"], lr_scheduler_type="linear",
         save_strategy="epoch", logging_strategy="epoch",
         save_total_limit=2, load_best_model_at_end=True,
@@ -59,8 +63,10 @@ def build_training_args(spec, seed, run_dir, epochs, precision):
         kw["warmup_ratio"] = spec["warmup"]
     else:
         kw["warmup_steps"] = spec["warmup"]          # newer transformers accept a float ratio here
-    if spec.get("eval_accum"):
+    if spec.get("eval_accum") and not FULL_BATCH:
         kw["eval_accumulation_steps"] = spec["eval_accum"]
+    if PROFILE == "windows":
+        kw["dataloader_num_workers"] = 0          # worker processes from a notebook are unreliable on Windows
     return TrainingArguments(**kw)
 
 
@@ -79,7 +85,7 @@ def get_tokenised(model_name, subset=None):
             out[split] = ds.map(f, batched=True, remove_columns=[c for c in ds.column_names if c != "label"])
         _TOKEN_CACHE[model_name] = (tok, out)
     tok, out = _TOKEN_CACHE[model_name]
-    if subset:                                         # smoke test only
+    if subset:                                         # smoke test / local test mode only
         tr = out["train"].shuffle(seed=0).select(range(subset["train"]))
         va = out["validation"].select(range(subset["val"]))
         out = DatasetDict({"train": tr, "validation": va, "test": out["test"]})
@@ -93,7 +99,7 @@ def softmax_rows(x):
 
 
 def write_test_probs(path, probs):
-    with open(path, "w", newline="") as f:
+    with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["id", "question_id", "label", "p_normal", "p_bpd", "p_inconclusive"])
         for i, (pid, q, y, p) in enumerate(zip(TEST_IDS, TEST_QIDS, TEST_Y, probs)):
@@ -114,6 +120,7 @@ def run_training(model_name, seed, variant="", precision=None, run_root=None, ep
     spec = MODEL_SPECS[model_name]
     precision = precision or PRECISION
     epochs = epochs or MAX_EPOCHS
+    subset = subset if subset is not None else TRAIN_SUBSET
     patience = PATIENCE if patience is None else patience
     run_root = Path(run_root) if run_root else RUNS_DIR
     run_dir = run_root / f"seed{seed}" / f"{model_name}{variant}"
@@ -154,7 +161,7 @@ def run_training(model_name, seed, variant="", precision=None, run_root=None, ep
         class _CrashOnce(TrainerCallback):
             def on_step_end(self, args, state, control, **kw):
                 if state.global_step >= crash_at_step and not marker.exists():
-                    marker.write_text("crashed")
+                    marker.write_text("crashed", encoding="utf-8")
                     raise RuntimeError("SIMULATED CRASH (smoke test)")
                 return control
         cbs.append(_CrashOnce())
@@ -199,6 +206,7 @@ def run_training(model_name, seed, variant="", precision=None, run_root=None, ep
     result = {
         "code_version": CODE_VERSION, "status": "done", "model": model_name, "variant": variant, "seed": seed,
         "checkpoint": spec["checkpoint"], "params_m": round(n_params / 1e6, 1), "precision": precision, "gpu": GPU_NAME,
+        "train_batch": args.per_device_train_batch_size, "grad_accum": args.gradient_accumulation_steps,
         "dataset": DATASET_REPORT["path"], "epochs_run": len(evals), "best_epoch": best_ev.get("epoch"),
         "best_val_loss": best_ev.get("eval_loss"), "collapsed": collapsed,
         "timing": summary, "val": val_m, "test": test_m,

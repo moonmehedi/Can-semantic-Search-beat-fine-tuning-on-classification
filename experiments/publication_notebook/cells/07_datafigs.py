@@ -63,7 +63,8 @@ def make_data_figures():
     ax.set_xticks(x, CLASSES)
     ax.set_ylabel("Training answers")
     ax.set_title("(a) Class counts of the training views")
-    ax.legend(fontsize=7, loc="upper right")
+    ax.set_ylim(0, max(max(v.values()) for v in views.values()) * 1.12)
+    ax.legend(fontsize=7, loc="upper center", bbox_to_anchor=(0.5, -0.12), ncol=len(names))
     ax.grid(axis="x", visible=False)
     ax = axes[1]
     im = ax.imshow(share, cmap="Oranges", vmin=0, vmax=100, aspect="auto")

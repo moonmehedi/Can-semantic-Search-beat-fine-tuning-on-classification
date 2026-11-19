@@ -3,10 +3,10 @@ SMOKE_FLAG = WORK_DIR / "smoke_passed.json"
 def run_smoke_test():
     root = WORK_DIR / "smoke"
     shutil.rmtree(root, ignore_errors=True)
-    sub = {"train": 800, "val": 120}
+    sub = {"train": 96, "val": 48} if TEST_MODE else {"train": 800, "val": 120}
     steps_per_epoch = sub["train"] // (MODEL_SPECS["DistilBERT"]["bs"] * MODEL_SPECS["DistilBERT"]["accum"])
     crash_at = int(steps_per_epoch * 1.5)
-    kw = dict(model_name="DistilBERT", seed=1, run_root=root, epochs=4, patience=99, subset=sub, heartbeat_s=1.0, keep_weights=False)
+    kw = dict(model_name="DistilBERT", seed=1, run_root=root, epochs=3 if TEST_MODE else 4, patience=99, subset=sub, heartbeat_s=1.0, keep_weights=False)
 
     print(">>> Smoke test A: first session, will be killed at step", crash_at)
     try:

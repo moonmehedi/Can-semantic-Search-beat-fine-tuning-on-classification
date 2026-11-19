@@ -19,8 +19,8 @@ def run_all():
         for m in MODELS:
             try:
                 res = run_training(m, seed)
-                if m == "DeBERTa" and res.get("collapsed") and PRECISION == "fp16":
-                    print(f"[seed{seed}/DeBERTa] collapsed under fp16 -> one documented retry in fp32")
+                if m == "DeBERTa" and res.get("collapsed") and (PRECISION == "fp16" or (PROFILE == "windows" and PRECISION == "bf16")):
+                    print(f"[seed{seed}/DeBERTa] collapsed under {PRECISION} -> one documented retry in fp32")
                     run_training(m, seed, variant="-fp32", precision="fp32")
             except Exception as e:
                 print(f"\n!!! seed{seed}/{m} failed: {type(e).__name__}: {e}")

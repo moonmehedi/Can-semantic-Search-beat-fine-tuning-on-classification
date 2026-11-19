@@ -3,7 +3,7 @@ def load_results():
     for p in sorted(RUNS_DIR.glob("seed*/*/result.json")):
         r = read_json(p, None)
         if r and r.get("code_version") == CODE_VERSION and r.get("status") == "done":
-            probs = list(csv.DictReader(open(p.parent / "test_probs.csv")))
+            probs = list(csv.DictReader(open(p.parent / "test_probs.csv", encoding="utf-8", newline="")))
             score = [float(x["p_bpd"]) for x in probs]
             yb = [int(x["label"]) == 1 for x in probs]
             r["auroc_bpd"] = auroc(score, yb)
@@ -16,7 +16,7 @@ def write_tables():
     if not R:
         print("no finished runs yet"); return
     # per run
-    with open(WORK_DIR / "results_all_runs.csv", "w", newline="") as f:
+    with open(WORK_DIR / "results_all_runs.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["model", "seed", "precision", "params_m", "epochs_run", "best_epoch", "collapsed",
                     "train_effective_s", "train_gross_s", "train_wasted_s", "eval_s", "save_s", "n_sessions", "resumed", "hf_last_session_runtime_s",
@@ -41,7 +41,7 @@ def write_tables():
                       f(lambda r: r["epochs_run"], 1), f(lambda r: r["test"]["accuracy"], 2), f(lambda r: r["test"]["macro_f1"], 2),
                       f(lambda r: r["test"]["bpd_sensitivity"], 2), f(lambda r: r["test"]["bin_specificity"], 2),
                       f(lambda r: r["auroc_bpd"] * 100, 1), f(lambda r: r["spec_at_sens85"], 1)])
-    with open(WORK_DIR / "summary_mean_sd.csv", "w", newline="") as fh:
+    with open(WORK_DIR / "summary_mean_sd.csv", "w", newline="", encoding="utf-8") as fh:
         csv.writer(fh).writerows(lines)
     widths = [max(len(str(l[i])) for l in lines) for i in range(len(hdr))]
     print("\nSUMMARY (mean ± sd over seeds; time in seconds; GPU:", GPU_NAME, ")\n")

@@ -1,0 +1,14 @@
+# Install PyTorch first with the CUDA 12.8 build (needed for RTX 50-series GPUs):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+transformers>=4.48
+accelerate
+datasets>=2.19
+sentence-transformers>=3.0
+scikit-learn
+scipy
+numpy
+pandas
+matplotlib
+rank-bm25
+contractions
+ipykernel

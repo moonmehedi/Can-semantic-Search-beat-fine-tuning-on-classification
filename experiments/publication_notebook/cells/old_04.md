@@ -1,1 +1,0 @@
-## 2. Helpers: JSON, metrics, fingerprints (pure Python)

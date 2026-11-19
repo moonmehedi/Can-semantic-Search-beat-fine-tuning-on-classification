@@ -1,3 +1,5 @@
+PROFILE = "__PROFILE__"   # set by build_notebook.py: "kaggle" or "windows"
+
 import os, sys, json, time, shutil, hashlib, platform, subprocess, random, math, gc, re, csv, statistics, zipfile, inspect, traceback, base64, io
 from pathlib import Path
 from datetime import datetime, timezone
@@ -6,6 +8,8 @@ from collections import Counter, defaultdict
 # Use ONE GPU so that timings are not affected by Kaggle's 2xT4 / DataParallel. Must be set before torch is imported.
 os.environ["CUDA_VISIBLE_DEVICES"] = os.environ.get("CUDA_VISIBLE_DEVICES", "0").split(",")[0]
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+if PROFILE == "windows":
+    os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")   # Windows without developer mode cannot symlink the HF cache
 
 def _pip(*pkgs):
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", *pkgs], check=False)
@@ -38,7 +42,14 @@ RUN_ANALYSIS = True                        # statistics, patient level, vignette
 RUN_FIGURES = True
 RUN_TABLES = True
 RUN_EXPORT = True
-EMBED_BUNDLE_IN_NOTEBOOK = True            # also print the results bundle into this notebook's output (for a VS Code remote kernel)
+EMBED_BUNDLE_IN_NOTEBOOK = PROFILE == "kaggle"   # print the results bundle into the notebook (Kaggle remote kernel only)
+COPY_TO_PAPER = PROFILE == "windows"       # copy final figures/tables straight into ../VBRI_Publication_Paper (if that folder exists)
+
+# GPU use. "windows" = one big local GPU: every model trains with batch 16 in a single step (same effective batch 16
+# as before, no gradient accumulation), larger evaluation and encoding batches, bf16 and TF32 on Ampere or newer.
+FULL_BATCH = PROFILE == "windows"
+EVAL_BS = 64 if PROFILE == "windows" else None   # None = the per-model value from the earlier baseline
+ENCODE_BS = 256 if PROFILE == "windows" else 64
 
 FORCE_FRESH = False                        # DANGER: True deletes everything this notebook produced. Leave False when resuming.
 DATASET_DIR_OVERRIDE = None                # e.g. "/kaggle/input/<name>/imbalance_free_dataset"
@@ -58,7 +69,13 @@ if TEST_MODE:
     print("!!! TEST MODE: tiny CPU run for checking the notebook. Results are NOT valid.")
 
 ON_KAGGLE = Path("/kaggle/working").exists()
-WORK_DIR = Path(os.environ.get("BPD_WORK_DIR") or ("/kaggle/working/final_baseline_run" if ON_KAGGLE else "./final_baseline_run_out"))
+if PROFILE == "windows":
+    # everything (checkpoints, results, figures) is saved next to this notebook
+    WORK_DIR = Path(os.environ.get("BPD_WORK_DIR") or (Path.cwd() / "final_baseline_run_out"))
+    PAPER_REPO_DIR = Path(os.environ.get("BPD_PAPER_DIR") or (Path.cwd().parent / "VBRI_Publication_Paper"))
+else:
+    WORK_DIR = Path(os.environ.get("BPD_WORK_DIR") or ("/kaggle/working/final_baseline_run" if ON_KAGGLE else "./final_baseline_run_out"))
+    PAPER_REPO_DIR = None
 if FORCE_FRESH and WORK_DIR.exists():
     print("!!! FORCE_FRESH=True -> deleting", WORK_DIR)
     shutil.rmtree(WORK_DIR)
@@ -69,4 +86,7 @@ FIG_DIR, TAB_DIR = PAPER_DIR / "figures", PAPER_DIR / "tables"
 for _d in (WORK_DIR, RUNS_DIR, RETR_DIR, FIG_DIR, TAB_DIR):
     _d.mkdir(parents=True, exist_ok=True)
 print("Work dir:", WORK_DIR.resolve())
-print("Free disk (GB):", round(shutil.disk_usage(WORK_DIR).free / 1e9, 1))
+print("Free disk (GB):", round(shutil.disk_usage(WORK_DIR).free / 1e9, 1), "(about 25 GB is needed for checkpoints, weights and model downloads)")
+if PROFILE == "windows" and len(str(WORK_DIR.resolve())) > 120:
+    print("!!! The work folder path is long. Windows limits paths to 260 characters; move the project closer to the drive root "
+          "or enable long paths if you see 'file not found' errors when checkpoints are saved.")
