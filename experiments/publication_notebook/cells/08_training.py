@@ -137,6 +137,10 @@ def run_training(model_name, seed, variant="", precision=None, run_root=None, ep
     set_seed(seed)
     tok, ds = get_tokenised(model_name, subset)
     model = AutoModelForSequenceClassification.from_pretrained(spec["checkpoint"], num_labels=3)
+    if any(p.dtype != torch.float32 for p in model.parameters()):
+        # transformers 5 keeps the checkpoint dtype (DeBERTa-v3 ships fp16 weights); the Trainer needs fp32 master weights
+        print(f"[{tag}] weights loaded as {next(model.parameters()).dtype} -> cast to fp32")
+        model = model.float()
     if spec.get("pad_left"):
         model.config.pad_token_id = tok.pad_token_id
     n_params = sum(p.numel() for p in model.parameters())
@@ -176,7 +180,7 @@ def run_training(model_name, seed, variant="", precision=None, run_root=None, ep
         st = _last_state(run_dir)
         best = st.get("best_model_checkpoint") if st else None
         print(f"[{tag}] training had already finished -> loading best checkpoint {best} for evaluation (no extra training)")
-        trainer.model = AutoModelForSequenceClassification.from_pretrained(best).to(args.device)
+        trainer.model = AutoModelForSequenceClassification.from_pretrained(best).float().to(args.device)
         history = st.get("log_history", [])
         summary = read_json(run_dir / "ledger.json", {}).get("summary") or read_json(run_dir / "train_complete.json", {})
     else:

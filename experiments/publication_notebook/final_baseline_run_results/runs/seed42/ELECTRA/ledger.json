@@ -1,0 +1,35 @@
+{
+  "code_version": "final_baseline_v1",
+  "created_utc": "2026-11-19T15:12:45+00:00",
+  "sessions": [
+    {
+      "session": 1,
+      "started_utc": "2026-11-19T15:12:45+00:00",
+      "resumed_from_step": 0,
+      "base_effective_s": 0.0,
+      "active_s": 289.159,
+      "status": "completed",
+      "model": "ELECTRA",
+      "variant": "",
+      "seed": 42,
+      "gpu": "Tesla T4",
+      "precision": "fp16",
+      "effective_s_so_far": 289.159,
+      "last_heartbeat_utc": "2026-11-19T15:17:34+00:00",
+      "last_step": 2032,
+      "last_epoch": 8.0
+    }
+  ],
+  "summary": {
+    "effective_s": 289.159,
+    "eval_s": 5.084,
+    "save_s": 11.96,
+    "gross_s": 289.159,
+    "wasted_s": 0.0,
+    "n_sessions": 1,
+    "resumed": false,
+    "session_status": [
+      "completed"
+    ]
+  }
+}

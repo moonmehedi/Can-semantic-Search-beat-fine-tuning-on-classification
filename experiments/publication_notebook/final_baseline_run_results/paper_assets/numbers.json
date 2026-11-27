@@ -1,0 +1,2148 @@
+{
+  "code_version": "final_baseline_v1",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "gpu": "Tesla T4",
+  "env": {
+    "code_version": "final_baseline_v1",
+    "started_utc": "2026-11-19T18:13:24+00:00",
+    "gpu": "Tesla T4",
+    "compute_capability": [
+      7,
+      5
+    ],
+    "precision": "fp16",
+    "visible_gpus": 1,
+    "torch": "2.10.0+cu128",
+    "transformers": "5.0.0",
+    "datasets": "4.8.3",
+    "python": "3.12.12",
+    "cpu_count": 4,
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.35",
+    "profile": "kaggle",
+    "vram_total_gb": null,
+    "vram_free_gb_at_start": null,
+    "full_batch": false,
+    "eval_bs": null,
+    "encode_bs": 64
+  },
+  "dataset": {
+    "path": "/kaggle/input/datasets/mehedihasanmoon/imbalance-free-dataset/imbalance_free_dataset",
+    "aug_path": "/kaggle/input/datasets/shadmanshafeen141/bpd-qna-classification-dataset-augmented/augmented_dataset",
+    "aug_ok": true,
+    "orig_ok": true,
+    "train_fp": "529c5eab3547f1e7f7c4240444adcd6296c377d141ac6e275b488e066e1b477f",
+    "val_fp": "591e6dd91842e2184ad6c272846d9b2e824df30cd787f4665bbbfc9fa112c513",
+    "test_fp": "b0d1f78b4093c5ef95ad488a014ddf09c5c161e4953f786e79341c7085578941",
+    "train": 4050,
+    "validation": 333,
+    "test": 333
+  },
+  "finetuned": {
+    "ELECTRA": {
+      "train_effective_s": [
+        274.7733333333333,
+        19.77454541407548
+      ],
+      "train_gross_s": [
+        274.7733333333333,
+        19.77454541407548
+      ],
+      "train_wasted_s": [
+        0.0,
+        0.0
+      ],
+      "epochs": [
+        7.666666666666667,
+        0.5773502691896257
+      ],
+      "accuracy": [
+        83.88388388388388,
+        1.2136492145127258
+      ],
+      "macro_f1": [
+        78.25459212004813,
+        1.5755197647624741
+      ],
+      "weighted_f1": [
+        84.17038097745176,
+        1.0767798313299641
+      ],
+      "bpd_f1": [
+        75.13356424067763,
+        1.0231374725399254
+      ],
+      "bpd_sensitivity": [
+        85.07462686567165,
+        7.755451377174084
+      ],
+      "specificity": [
+        89.59899749373433,
+        2.7710957879067686
+      ],
+      "auroc": [
+        0.9446003067369917,
+        0.006713192857048912
+      ],
+      "spec_at_sens85": [
+        89.47368421052632,
+        3.0075187969924855
+      ],
+      "val_macro_f1": [
+        74.03388751680595,
+        0.4435710027213905
+      ],
+      "n_seeds": 3,
+      "params_m": 109.5,
+      "precision": "fp16",
+      "collapsed_any": false,
+      "n_sessions": [
+        1,
+        1,
+        1
+      ]
+    },
+    "BERT": {
+      "train_effective_s": [
+        283.832,
+        35.023651251689905
+      ],
+      "train_gross_s": [
+        283.832,
+        35.023651251689905
+      ],
+      "train_wasted_s": [
+        0.0,
+        0.0
+      ],
+      "epochs": [
+        8,
+        1.0
+      ],
+      "accuracy": [
+        78.47847847847848,
+        0.6251249247646053
+      ],
+      "macro_f1": [
+        73.14118911290468,
+        1.2277053911182023
+      ],
+      "weighted_f1": [
+        79.25890860610426,
+        0.5173752015427352
+      ],
+      "bpd_f1": [
+        67.96261063776987,
+        1.9820333627396405
+      ],
+      "bpd_sensitivity": [
+        79.1044776119403,
+        1.492537313432834
+      ],
+      "specificity": [
+        86.46616541353383,
+        0.9946433500242836
+      ],
+      "auroc": [
+        0.90906370403621,
+        0.006797085778071744
+      ],
+      "spec_at_sens85": [
+        81.8295739348371,
+        0.782581202806818
+      ],
+      "val_macro_f1": [
+        71.47974394740741,
+        1.2555920573720032
+      ],
+      "n_seeds": 3,
+      "params_m": 109.5,
+      "precision": "fp16",
+      "collapsed_any": false,
+      "n_sessions": [
+        1,
+        1,
+        1
+      ]
+    },
+    "DistilBERT": {
+      "train_effective_s": [
+        116.36633333333333,
+        9.330395293519638
+      ],
+      "train_gross_s": [
+        116.36633333333333,
+        9.330395293519638
+      ],
+      "train_wasted_s": [
+        0.0,
+        0.0
+      ],
+      "epochs": [
+        6.333333333333333,
+        0.5773502691896257
+      ],
+      "accuracy": [
+        74.07407407407408,
+        2.77405534745766
+      ],
+      "macro_f1": [
+        67.81828957257942,
+        1.9803193568534292
+      ],
+      "weighted_f1": [
+        75.41574721034287,
+        2.4756305701706243
+      ],
+      "bpd_f1": [
+        64.38689046986588,
+        1.723432668704429
+      ],
+      "bpd_sensitivity": [
+        78.60696517412936,
+        8.99658772140553
+      ],
+      "specificity": [
+        83.33333333333333,
+        6.405703217610056
+      ],
+      "auroc": [
+        0.9021995286724274,
+        0.010489498475755891
+      ],
+      "spec_at_sens85": [
+        79.19799498746868,
+        1.320257362512869
+      ],
+      "val_macro_f1": [
+        67.24416184753599,
+        3.56736490488132
+      ],
+      "n_seeds": 3,
+      "params_m": 67.0,
+      "precision": "fp16",
+      "collapsed_any": false,
+      "n_sessions": [
+        1,
+        1,
+        1
+      ]
+    },
+    "RoBERTa": {
+      "train_effective_s": [
+        211.12066666666666,
+        14.31657271602855
+      ],
+      "train_gross_s": [
+        211.12066666666666,
+        14.31657271602855
+      ],
+      "train_wasted_s": [
+        0.0,
+        0.0
+      ],
+      "epochs": [
+        5.666666666666667,
+        0.5773502691896257
+      ],
+      "accuracy": [
+        76.47647647647648,
+        2.7902622351884574
+      ],
+      "macro_f1": [
+        70.77673552747586,
+        2.189900939252711
+      ],
+      "weighted_f1": [
+        77.87725683836645,
+        2.4078027835971527
+      ],
+      "bpd_f1": [
+        70.80745341614907,
+        1.686412707291714
+      ],
+      "bpd_sensitivity": [
+        82.5870646766169,
+        1.723433639372015
+      ],
+      "specificity": [
+        87.21804511278195,
+        1.3554704043097723
+      ],
+      "auroc": [
+        0.924063891070961,
+        0.0071048591303716985
+      ],
+      "spec_at_sens85": [
+        83.83458646616542,
+        2.7109408086195446
+      ],
+      "val_macro_f1": [
+        69.12795791234421,
+        2.249884081711686
+      ],
+      "n_seeds": 3,
+      "params_m": 124.6,
+      "precision": "fp16",
+      "collapsed_any": false,
+      "n_sessions": [
+        1,
+        1,
+        1
+      ]
+    },
+    "XLNet": {
+      "train_effective_s": [
+        509.2763333333333,
+        72.10695262132032
+      ],
+      "train_gross_s": [
+        509.2763333333333,
+        72.10695262132032
+      ],
+      "train_wasted_s": [
+        0.0,
+        0.0
+      ],
+      "epochs": [
+        7,
+        1.0
+      ],
+      "accuracy": [
+        80.68068068068068,
+        2.1305101755548375
+      ],
+      "macro_f1": [
+        73.4094222121993,
+        2.8490177650237456
+      ],
+      "weighted_f1": [
+        81.00111450310989,
+        1.960473702661445
+      ],
+      "bpd_f1": [
+        72.19341957133136,
+        2.3203635558001556
+      ],
+      "bpd_sensitivity": [
+        78.60696517412936,
+        4.559776810901328
+      ],
+      "specificity": [
+        90.10025062656642,
+        2.667142437818646
+      ],
+      "auroc": [
+        0.933266000822953,
+        0.016138194623184055
+      ],
+      "spec_at_sens85": [
+        84.58646616541353,
+        4.887218045112781
+      ],
+      "val_macro_f1": [
+        71.8879889322144,
+        3.4294443541112574
+      ],
+      "n_seeds": 3,
+      "params_m": 117.3,
+      "precision": "fp16",
+      "collapsed_any": false,
+      "n_sessions": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ModernBERT": {
+      "train_effective_s": [
+        277.172,
+        38.81309174750189
+      ],
+      "train_gross_s": [
+        277.172,
+        38.81309174750189
+      ],
+      "train_wasted_s": [
+        0.0,
+        0.0
+      ],
+      "epochs": [
+        4.666666666666667,
+        0.5773502691896257
+      ],
+      "accuracy": [
+        84.78478478478479,
+        2.724856374137379
+      ],
+      "macro_f1": [
+        77.72899837847096,
+        5.96108019227809
+      ],
+      "weighted_f1": [
+        84.50280292697903,
+        3.0697154315389943
+      ],
+      "bpd_f1": [
+        75.09504262548577,
+        2.1037380348706844
+      ],
+      "bpd_sensitivity": [
+        77.61194029850746,
+        9.320892534922978
+      ],
+      "specificity": [
+        92.60651629072682,
+        4.670337131224115
+      ],
+      "auroc": [
+        0.952006882878839,
+        0.006385833149126578
+      ],
+      "spec_at_sens85": [
+        91.2280701754386,
+        2.3875387071751475
+      ],
+      "val_macro_f1": [
+        72.2013290421001,
+        1.8990184548355638
+      ],
+      "n_seeds": 3,
+      "params_m": 149.6,
+      "precision": "fp16",
+      "collapsed_any": false,
+      "n_sessions": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "retrieval_rows": {
+    "Pooled MiniLM (answer)": {
+      "k": 1,
+      "test": {
+        "accuracy": 64.26426426426427,
+        "macro_f1": 53.296608845132056,
+        "weighted_f1": 65.27394483090687,
+        "bpd_sensitivity": 46.26865671641791,
+        "bpd_f1": 40.0,
+        "bin_specificity": 78.57142857142857,
+        "bin_ppv": 35.22727272727273,
+        "bin_npv": 85.3061224489796,
+        "inconclusive_recall": 41.46341463414634
+      },
+      "contamination_pct": 32.732732732732735,
+      "test_k5_accuracy": 57.65765765765766
+    },
+    "Pooled MiniLM (Q+A)": {
+      "k": 1,
+      "test": {
+        "accuracy": 60.96096096096096,
+        "macro_f1": 46.90530810499978,
+        "weighted_f1": 61.52868003168064,
+        "bpd_sensitivity": 32.83582089552239,
+        "bpd_f1": 35.77235772357724,
+        "bin_specificity": 87.21804511278195,
+        "bin_ppv": 39.285714285714285,
+        "bin_npv": 83.75451263537906,
+        "inconclusive_recall": 36.58536585365854
+      },
+      "contamination_pct": 0.0,
+      "test_k5_accuracy": 55.25525525525526
+    },
+    "Pooled MPNet (answer)": {
+      "k": 1,
+      "test": {
+        "accuracy": 63.36336336336336,
+        "macro_f1": 50.11178670678451,
+        "weighted_f1": 64.2738645371379,
+        "bpd_sensitivity": 58.2089552238806,
+        "bpd_f1": 45.34883720930233,
+        "bin_specificity": 75.18796992481202,
+        "bin_ppv": 37.142857142857146,
+        "bin_npv": 87.71929824561404,
+        "inconclusive_recall": 24.390243902439025
+      },
+      "contamination_pct": 28.22822822822823,
+      "test_k5_accuracy": 64.26426426426427
+    },
+    "Pooled MPNet (Q+A)": {
+      "k": 1,
+      "test": {
+        "accuracy": 66.66666666666667,
+        "macro_f1": 54.9906020292735,
+        "weighted_f1": 67.15645890151367,
+        "bpd_sensitivity": 56.71641791044776,
+        "bpd_f1": 48.10126582278482,
+        "bin_specificity": 80.07518796992481,
+        "bin_ppv": 41.75824175824176,
+        "bin_npv": 88.01652892561984,
+        "inconclusive_recall": 34.146341463414636
+      },
+      "contamination_pct": 0.0,
+      "test_k5_accuracy": 61.26126126126126
+    },
+    "Pooled PubMedBERT (answer)": {
+      "k": 1,
+      "test": {
+        "accuracy": 61.86186186186186,
+        "macro_f1": 49.960963275256766,
+        "weighted_f1": 63.1205483555998,
+        "bpd_sensitivity": 61.19402985074627,
+        "bpd_f1": 50.617283950617285,
+        "bin_specificity": 79.69924812030075,
+        "bin_ppv": 43.1578947368421,
+        "bin_npv": 89.07563025210084,
+        "inconclusive_recall": 26.82926829268293
+      },
+      "contamination_pct": 38.43843843843844,
+      "test_k5_accuracy": 56.45645645645646
+    },
+    "Pooled PubMedBERT (Q+A)": {
+      "k": 1,
+      "test": {
+        "accuracy": 61.26126126126126,
+        "macro_f1": 50.154198242784446,
+        "weighted_f1": 62.42485360020324,
+        "bpd_sensitivity": 46.26865671641791,
+        "bpd_f1": 43.05555555555556,
+        "bin_specificity": 82.70676691729324,
+        "bin_ppv": 40.25974025974026,
+        "bin_npv": 85.9375,
+        "inconclusive_recall": 39.02439024390244
+      },
+      "contamination_pct": 0.0,
+      "test_k5_accuracy": 56.75675675675676
+    },
+    "Pooled BGE (answer)": {
+      "k": 1,
+      "test": {
+        "accuracy": 67.26726726726727,
+        "macro_f1": 57.25982052270814,
+        "weighted_f1": 67.9987460552343,
+        "bpd_sensitivity": 65.67164179104478,
+        "bpd_f1": 56.41025641025641,
+        "bin_specificity": 83.0827067669173,
+        "bin_ppv": 49.438202247191015,
+        "bin_npv": 90.57377049180327,
+        "inconclusive_recall": 39.02439024390244
+      },
+      "contamination_pct": 33.933933933933936,
+      "test_k5_accuracy": 67.86786786786787
+    },
+    "Pooled BGE (Q+A)": {
+      "k": 7,
+      "test": {
+        "accuracy": 60.36036036036036,
+        "macro_f1": 51.96751113636153,
+        "weighted_f1": 62.63749610113331,
+        "bpd_sensitivity": 58.2089552238806,
+        "bpd_f1": 47.85276073619632,
+        "bin_specificity": 78.57142857142857,
+        "bin_ppv": 40.625,
+        "bin_npv": 88.18565400843882,
+        "inconclusive_recall": 46.34146341463415
+      },
+      "contamination_pct": 0.0,
+      "test_k5_accuracy": 59.45945945945946
+    },
+    "Pooled BM25": {
+      "k": 9,
+      "test": {
+        "accuracy": 61.86186186186186,
+        "macro_f1": 48.19175259624,
+        "weighted_f1": 62.80849943421454,
+        "bpd_sensitivity": 52.23880597014925,
+        "bpd_f1": 44.0251572327044,
+        "bin_specificity": 78.57142857142857,
+        "bin_ppv": 38.04347826086956,
+        "bin_npv": 86.72199170124482,
+        "inconclusive_recall": 24.390243902439025
+      },
+      "contamination_pct": 47.11378044711378,
+      "test_k5_accuracy": 61.26126126126126
+    },
+    "Pooled TF-IDF": {
+      "k": 15,
+      "test": {
+        "accuracy": 63.66366366366366,
+        "macro_f1": 51.23654123654123,
+        "weighted_f1": 65.11755511755511,
+        "bpd_sensitivity": 43.28358208955223,
+        "bpd_f1": 43.93939393939394,
+        "bin_specificity": 86.46616541353383,
+        "bin_ppv": 44.61538461538461,
+        "bin_npv": 85.82089552238806,
+        "inconclusive_recall": 41.46341463414634
+      },
+      "contamination_pct": 56.57657657657658,
+      "test_k5_accuracy": 62.76276276276276
+    },
+    "VBRI raw": {
+      "k": 3,
+      "test": {
+        "accuracy": 70.57057057057057,
+        "macro_f1": 63.15991452419019,
+        "weighted_f1": 71.8938811765816,
+        "bpd_sensitivity": 80.59701492537313,
+        "bpd_f1": 59.34065934065934,
+        "bin_specificity": 77.06766917293233,
+        "bin_ppv": 46.95652173913044,
+        "bin_npv": 94.03669724770643,
+        "inconclusive_recall": 48.78048780487805
+      },
+      "contamination_pct": 0.0,
+      "test_k5_accuracy": 72.67267267267268
+    },
+    "VBRI calibrated": {
+      "k": 3,
+      "test": {
+        "accuracy": 70.87087087087087,
+        "macro_f1": 64.24383712463312,
+        "weighted_f1": 72.2636487027861,
+        "bpd_sensitivity": 80.59701492537313,
+        "bpd_f1": 59.66850828729281,
+        "bin_specificity": 77.44360902255639,
+        "bin_ppv": 47.36842105263158,
+        "bin_npv": 94.06392694063926,
+        "inconclusive_recall": 53.65853658536586
+      },
+      "contamination_pct": 0.0,
+      "test_k5_accuracy": null
+    },
+    "VBRI raw + C-SSRS": {
+      "k": 3,
+      "test": {
+        "accuracy": 70.87087087087087,
+        "macro_f1": 63.4817237689737,
+        "weighted_f1": 72.18150176664227,
+        "bpd_sensitivity": 82.08955223880598,
+        "bpd_f1": 60.10928961748634,
+        "bin_specificity": 77.06766917293233,
+        "bin_ppv": 47.41379310344828,
+        "bin_npv": 94.47004608294931,
+        "inconclusive_recall": 48.78048780487805
+      },
+      "contamination_pct": 0.0,
+      "test_k5_accuracy": null
+    },
+    "VBRI hybrid": {
+      "k": 3,
+      "test": {
+        "accuracy": 71.17117117117117,
+        "macro_f1": 64.56669569155918,
+        "weighted_f1": 72.55224717911284,
+        "bpd_sensitivity": 82.08955223880598,
+        "bpd_f1": 60.43956043956044,
+        "bin_specificity": 77.44360902255639,
+        "bin_ppv": 47.82608695652174,
+        "bin_npv": 94.4954128440367,
+        "inconclusive_recall": 53.65853658536586
+      },
+      "contamination_pct": 0.0,
+      "test_k5_accuracy": null
+    }
+  },
+  "calibration": {
+    "tau": 0.15,
+    "delta": 0.12,
+    "theta": 0.4,
+    "val_macro_f1": 62.10733965307383,
+    "val_bpd_sens": 86.76470588235294
+  },
+  "cssrs": {
+    "VBRI raw + C-SSRS": {
+      "fired_test": [
+        {
+          "id": 1671,
+          "true": 1,
+          "answer": "I do for last couple of years. I did try to hang myself from the ceiling fan. But it did not work out."
+        }
+      ],
+      "fired_val": 0
+    },
+    "VBRI hybrid": {
+      "fired_test": [
+        {
+          "id": 1671,
+          "true": 1,
+          "answer": "I do for last couple of years. I did try to hang myself from the ceiling fan. But it did not work out."
+        }
+      ],
+      "fired_val": 0
+    }
+  },
+  "reproduction_check": {
+    "vbri_raw_k5_accuracy": 72.67267267267268,
+    "expected": 72.67,
+    "pooled_bge_k5_accuracy": 67.86786786786787,
+    "expected_pooled": 67.87
+  },
+  "per_criterion_test": {
+    "mean_acc_gain": 3.303303303303302,
+    "paired_t_p": 0.1201807934882642,
+    "wilcoxon_p": 0.15625
+  },
+  "ablation_mcnemar": {
+    "Pooled, balanced vs Isolated, balanced (VBRI raw)": {
+      "b": 23,
+      "c": 12,
+      "chi2": 2.857142857142857,
+      "p_asymptotic": 0.09096894797535778,
+      "p_exact": 0.0895310789346695
+    },
+    "Isolated, unbalanced vs Isolated, balanced (VBRI raw)": {
+      "b": 16,
+      "c": 11,
+      "chi2": 0.5925925925925926,
+      "p_asymptotic": 0.4414183267820536,
+      "p_exact": 0.44206833839416504
+    },
+    "Pooled, unbalanced vs Pooled, balanced": {
+      "b": 8,
+      "c": 14,
+      "chi2": 1.1363636363636365,
+      "p_asymptotic": 0.2864220227778587,
+      "p_exact": 0.28627872467041016
+    }
+  },
+  "ablation": {
+    "Pooled, unbalanced": {
+      "accuracy": 69.06906906906907,
+      "macro_f1": 60.45336813720362,
+      "bpd_sensitivity": 76.11940298507463,
+      "contamination_pct": 33.43343343343343
+    },
+    "Isolated, unbalanced": {
+      "accuracy": 69.06906906906907,
+      "macro_f1": 58.27578481604652,
+      "bpd_sensitivity": 79.1044776119403,
+      "contamination_pct": 0.0
+    },
+    "Pooled, unbalanced + class weights": {
+      "accuracy": 69.06906906906907,
+      "macro_f1": 60.9484307903017,
+      "bpd_sensitivity": 73.13432835820896,
+      "contamination_pct": 33.43343343343343
+    },
+    "Isolated, unbalanced + class weights": {
+      "accuracy": 69.96996996996997,
+      "macro_f1": 61.43678160919541,
+      "bpd_sensitivity": 80.59701492537313,
+      "contamination_pct": 0.0
+    },
+    "Pooled, balanced": {
+      "accuracy": 67.26726726726727,
+      "macro_f1": 59.076266178685124,
+      "bpd_sensitivity": 71.64179104477611,
+      "contamination_pct": 35.63563563563563
+    },
+    "Isolated, balanced (VBRI raw)": {
+      "accuracy": 70.57057057057057,
+      "macro_f1": 63.15991452419019,
+      "bpd_sensitivity": 80.59701492537313,
+      "contamination_pct": 0.0
+    }
+  },
+  "per_criterion": {
+    "1": {
+      "n": 37,
+      "criterion": "Abandonment avoidance",
+      "pooled": {
+        "n": 37,
+        "confusion": [
+          [
+            14,
+            4,
+            2
+          ],
+          [
+            1,
+            8,
+            3
+          ],
+          [
+            0,
+            1,
+            4
+          ]
+        ],
+        "accuracy": 70.27027027027027,
+        "macro_f1": 67.04761904761905,
+        "weighted_f1": 71.72200772200772,
+        "bpd_f1": 64.0,
+        "bpd_precision": 61.53846153846154,
+        "bpd_sensitivity": 66.66666666666666,
+        "inconclusive_recall": 80.0,
+        "bin_sensitivity": 66.66666666666667,
+        "bin_specificity": 80.0,
+        "bin_ppv": 61.53846153846154,
+        "bin_npv": 83.33333333333333,
+        "bin_accuracy": 75.67567567567568,
+        "bin_dor": 8.0
+      },
+      "vbri": {
+        "n": 37,
+        "confusion": [
+          [
+            15,
+            5,
+            0
+          ],
+          [
+            1,
+            11,
+            0
+          ],
+          [
+            1,
+            0,
+            4
+          ]
+        ],
+        "accuracy": 81.08108108108108,
+        "macro_f1": 82.84713284713284,
+        "weighted_f1": 81.32224888981645,
+        "bpd_f1": 78.57142857142857,
+        "bpd_precision": 68.75,
+        "bpd_sensitivity": 91.66666666666666,
+        "inconclusive_recall": 80.0,
+        "bin_sensitivity": 91.66666666666667,
+        "bin_specificity": 80.0,
+        "bin_ppv": 68.75,
+        "bin_npv": 95.23809523809524,
+        "bin_accuracy": 83.78378378378379,
+        "bin_dor": 44.0
+      },
+      "pooled_contamination_pct": 43.243243243243235
+    },
+    "2": {
+      "n": 37,
+      "criterion": "Unstable relationships",
+      "pooled": {
+        "n": 37,
+        "confusion": [
+          [
+            15,
+            8,
+            2
+          ],
+          [
+            0,
+            4,
+            3
+          ],
+          [
+            1,
+            0,
+            4
+          ]
+        ],
+        "accuracy": 62.16216216216216,
+        "macro_f1": 57.472950669356315,
+        "weighted_f1": 65.12755190547232,
+        "bpd_f1": 42.10526315789474,
+        "bpd_precision": 33.33333333333333,
+        "bpd_sensitivity": 57.14285714285714,
+        "inconclusive_recall": 80.0,
+        "bin_sensitivity": 57.142857142857146,
+        "bin_specificity": 73.33333333333333,
+        "bin_ppv": 33.333333333333336,
+        "bin_npv": 88.0,
+        "bin_accuracy": 70.27027027027027,
+        "bin_dor": 3.6666666666666665
+      },
+      "vbri": {
+        "n": 37,
+        "confusion": [
+          [
+            15,
+            8,
+            2
+          ],
+          [
+            0,
+            5,
+            2
+          ],
+          [
+            1,
+            2,
+            2
+          ]
+        ],
+        "accuracy": 59.45945945945946,
+        "macro_f1": 51.66297117516629,
+        "weighted_f1": 62.95319709953857,
+        "bpd_f1": 45.454545454545446,
+        "bpd_precision": 33.33333333333333,
+        "bpd_sensitivity": 71.42857142857143,
+        "inconclusive_recall": 40.0,
+        "bin_sensitivity": 71.42857142857143,
+        "bin_specificity": 66.66666666666667,
+        "bin_ppv": 33.333333333333336,
+        "bin_npv": 90.9090909090909,
+        "bin_accuracy": 67.56756756756756,
+        "bin_dor": 5.0
+      },
+      "pooled_contamination_pct": 37.83783783783784
+    },
+    "3": {
+      "n": 37,
+      "criterion": "Identity disturbance",
+      "pooled": {
+        "n": 37,
+        "confusion": [
+          [
+            19,
+            9,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ]
+        ],
+        "accuracy": 56.75675675675676,
+        "macro_f1": 32.35087719298245,
+        "weighted_f1": 62.41251778093881,
+        "bpd_f1": 21.052631578947363,
+        "bpd_precision": 14.285714285714285,
+        "bpd_sensitivity": 40.0,
+        "inconclusive_recall": 0.0,
+        "bin_sensitivity": 40.0,
+        "bin_specificity": 62.5,
+        "bin_ppv": 14.285714285714286,
+        "bin_npv": 86.95652173913044,
+        "bin_accuracy": 59.45945945945946,
+        "bin_dor": 1.1111111111111112
+      },
+      "vbri": {
+        "n": 37,
+        "confusion": [
+          [
+            19,
+            10,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "accuracy": 62.16216216216216,
+        "macro_f1": 51.99999999999999,
+        "weighted_f1": 67.67567567567566,
+        "bpd_f1": 30.0,
+        "bpd_precision": 20.0,
+        "bpd_sensitivity": 60.0,
+        "inconclusive_recall": 33.33333333333333,
+        "bin_sensitivity": 60.0,
+        "bin_specificity": 62.5,
+        "bin_ppv": 20.0,
+        "bin_npv": 90.9090909090909,
+        "bin_accuracy": 62.16216216216216,
+        "bin_dor": 2.5
+      },
+      "pooled_contamination_pct": 36.03603603603603
+    },
+    "4": {
+      "n": 37,
+      "criterion": "Impulsive behaviours",
+      "pooled": {
+        "n": 37,
+        "confusion": [
+          [
+            22,
+            0,
+            3
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            4,
+            5
+          ]
+        ],
+        "accuracy": 78.37837837837837,
+        "macro_f1": 64.97821350762527,
+        "weighted_f1": 79.8489666136725,
+        "bpd_f1": 44.44444444444444,
+        "bpd_precision": 33.33333333333333,
+        "bpd_sensitivity": 66.66666666666666,
+        "inconclusive_recall": 55.55555555555556,
+        "bin_sensitivity": 66.66666666666667,
+        "bin_specificity": 88.23529411764706,
+        "bin_ppv": 33.333333333333336,
+        "bin_npv": 96.7741935483871,
+        "bin_accuracy": 86.48648648648648,
+        "bin_dor": 15.0
+      },
+      "vbri": {
+        "n": 37,
+        "confusion": [
+          [
+            23,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            6
+          ]
+        ],
+        "accuracy": 83.78378378378379,
+        "macro_f1": 71.10733182161754,
+        "weighted_f1": 85.27762456333885,
+        "bpd_f1": 44.44444444444444,
+        "bpd_precision": 33.33333333333333,
+        "bpd_sensitivity": 66.66666666666666,
+        "inconclusive_recall": 66.66666666666666,
+        "bin_sensitivity": 66.66666666666667,
+        "bin_specificity": 88.23529411764706,
+        "bin_ppv": 33.333333333333336,
+        "bin_npv": 96.7741935483871,
+        "bin_accuracy": 86.48648648648648,
+        "bin_dor": 15.0
+      },
+      "pooled_contamination_pct": 34.23423423423423
+    },
+    "5": {
+      "n": 37,
+      "criterion": "Suicidal / self-harm",
+      "pooled": {
+        "n": 37,
+        "confusion": [
+          [
+            29,
+            2,
+            2
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "accuracy": 83.78378378378379,
+        "macro_f1": 55.13227513227514,
+        "weighted_f1": 86.07464607464607,
+        "bpd_f1": 33.33333333333333,
+        "bpd_precision": 25.0,
+        "bpd_sensitivity": 50.0,
+        "inconclusive_recall": 50.0,
+        "bin_sensitivity": 50.0,
+        "bin_specificity": 91.42857142857143,
+        "bin_ppv": 25.0,
+        "bin_npv": 96.96969696969697,
+        "bin_accuracy": 89.1891891891892,
+        "bin_dor": 10.666666666666666
+      },
+      "vbri": {
+        "n": 37,
+        "confusion": [
+          [
+            32,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "accuracy": 91.89189189189189,
+        "macro_f1": 67.87878787878788,
+        "weighted_f1": 92.25225225225226,
+        "bpd_f1": 40.0,
+        "bpd_precision": 33.33333333333333,
+        "bpd_sensitivity": 50.0,
+        "inconclusive_recall": 50.0,
+        "bin_sensitivity": 50.0,
+        "bin_specificity": 94.28571428571429,
+        "bin_ppv": 33.333333333333336,
+        "bin_npv": 97.05882352941177,
+        "bin_accuracy": 91.89189189189189,
+        "bin_dor": 16.5
+      },
+      "pooled_contamination_pct": 41.441441441441434
+    },
+    "6": {
+      "n": 37,
+      "criterion": "Affective instability",
+      "pooled": {
+        "n": 37,
+        "confusion": [
+          [
+            9,
+            8,
+            7
+          ],
+          [
+            1,
+            9,
+            0
+          ],
+          [
+            1,
+            0,
+            2
+          ]
+        ],
+        "accuracy": 54.054054054054056,
+        "macro_f1": 50.476190476190474,
+        "weighted_f1": 54.07979407979408,
+        "bpd_f1": 66.66666666666667,
+        "bpd_precision": 52.94117647058824,
+        "bpd_sensitivity": 90.0,
+        "inconclusive_recall": 66.66666666666666,
+        "bin_sensitivity": 90.0,
+        "bin_specificity": 70.37037037037037,
+        "bin_ppv": 52.94117647058823,
+        "bin_npv": 95.0,
+        "bin_accuracy": 75.67567567567568,
+        "bin_dor": 21.375
+      },
+      "vbri": {
+        "n": 37,
+        "confusion": [
+          [
+            11,
+            7,
+            6
+          ],
+          [
+            0,
+            9,
+            1
+          ],
+          [
+            1,
+            0,
+            2
+          ]
+        ],
+        "accuracy": 59.45945945945946,
+        "macro_f1": 54.55840455840456,
+        "weighted_f1": 61.05336105336105,
+        "bpd_f1": 69.23076923076923,
+        "bpd_precision": 56.25,
+        "bpd_sensitivity": 90.0,
+        "inconclusive_recall": 66.66666666666666,
+        "bin_sensitivity": 90.0,
+        "bin_specificity": 74.07407407407408,
+        "bin_ppv": 56.25,
+        "bin_npv": 95.23809523809524,
+        "bin_accuracy": 78.37837837837837,
+        "bin_dor": 25.714285714285715
+      },
+      "pooled_contamination_pct": 35.13513513513514
+    },
+    "7": {
+      "n": 37,
+      "criterion": "Chronic emptiness",
+      "pooled": {
+        "n": 37,
+        "confusion": [
+          [
+            13,
+            7,
+            3
+          ],
+          [
+            2,
+            7,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "accuracy": 56.75675675675676,
+        "macro_f1": 47.99006323396568,
+        "weighted_f1": 56.61209990478284,
+        "bpd_f1": 58.333333333333336,
+        "bpd_precision": 46.666666666666664,
+        "bpd_sensitivity": 77.77777777777779,
+        "inconclusive_recall": 20.0,
+        "bin_sensitivity": 77.77777777777777,
+        "bin_specificity": 71.42857142857143,
+        "bin_ppv": 46.666666666666664,
+        "bin_npv": 90.9090909090909,
+        "bin_accuracy": 72.97297297297297,
+        "bin_dor": 8.75
+      },
+      "vbri": {
+        "n": 37,
+        "confusion": [
+          [
+            10,
+            9,
+            4
+          ],
+          [
+            2,
+            7,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        "accuracy": 48.648648648648646,
+        "macro_f1": 41.96863530196863,
+        "weighted_f1": 48.91648405161918,
+        "bpd_f1": 51.85185185185185,
+        "bpd_precision": 38.88888888888889,
+        "bpd_sensitivity": 77.77777777777779,
+        "inconclusive_recall": 20.0,
+        "bin_sensitivity": 77.77777777777777,
+        "bin_specificity": 60.714285714285715,
+        "bin_ppv": 38.888888888888886,
+        "bin_npv": 89.47368421052632,
+        "bin_accuracy": 64.86486486486487,
+        "bin_dor": 5.409090909090909
+      },
+      "pooled_contamination_pct": 36.93693693693693
+    },
+    "8": {
+      "n": 37,
+      "criterion": "Inappropriate anger",
+      "pooled": {
+        "n": 37,
+        "confusion": [
+          [
+            17,
+            5,
+            1
+          ],
+          [
+            2,
+            8,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "accuracy": 72.97297297297297,
+        "macro_f1": 67.36507936507937,
+        "weighted_f1": 73.98198198198199,
+        "bpd_f1": 64.0,
+        "bpd_precision": 57.14285714285714,
+        "bpd_sensitivity": 72.72727272727273,
+        "inconclusive_recall": 66.66666666666666,
+        "bin_sensitivity": 72.72727272727273,
+        "bin_specificity": 76.92307692307692,
+        "bin_ppv": 57.142857142857146,
+        "bin_npv": 86.95652173913044,
+        "bin_accuracy": 75.67567567567568,
+        "bin_dor": 8.88888888888889
+      },
+      "vbri": {
+        "n": 37,
+        "confusion": [
+          [
+            18,
+            4,
+            1
+          ],
+          [
+            2,
+            9,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "accuracy": 75.67567567567568,
+        "macro_f1": 64.60606060606061,
+        "weighted_f1": 75.50859950859952,
+        "bpd_f1": 72.00000000000001,
+        "bpd_precision": 64.28571428571429,
+        "bpd_sensitivity": 81.81818181818183,
+        "inconclusive_recall": 33.33333333333333,
+        "bin_sensitivity": 81.81818181818181,
+        "bin_specificity": 80.76923076923077,
+        "bin_ppv": 64.28571428571429,
+        "bin_npv": 91.30434782608695,
+        "bin_accuracy": 81.08108108108108,
+        "bin_dor": 18.9
+      },
+      "pooled_contamination_pct": 19.819819819819816
+    },
+    "9": {
+      "n": 37,
+      "criterion": "Paranoia / dissociation",
+      "pooled": {
+        "n": 37,
+        "confusion": [
+          [
+            18,
+            5,
+            0
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            5,
+            0,
+            1
+          ]
+        ],
+        "accuracy": 70.27027027027027,
+        "macro_f1": 58.38905775075989,
+        "weighted_f1": 67.3819107861661,
+        "bpd_f1": 70.0,
+        "bpd_precision": 58.333333333333336,
+        "bpd_sensitivity": 87.5,
+        "inconclusive_recall": 16.666666666666664,
+        "bin_sensitivity": 87.5,
+        "bin_specificity": 82.75862068965517,
+        "bin_ppv": 58.333333333333336,
+        "bin_npv": 96.0,
+        "bin_accuracy": 83.78378378378379,
+        "bin_dor": 33.6
+      },
+      "vbri": {
+        "n": 37,
+        "confusion": [
+          [
+            18,
+            4,
+            1
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "accuracy": 72.97297297297297,
+        "macro_f1": 64.81481481481482,
+        "weighted_f1": 72.07207207207207,
+        "bpd_f1": 70.0,
+        "bpd_precision": 58.333333333333336,
+        "bpd_sensitivity": 87.5,
+        "inconclusive_recall": 33.33333333333333,
+        "bin_sensitivity": 87.5,
+        "bin_specificity": 82.75862068965517,
+        "bin_ppv": 58.333333333333336,
+        "bin_npv": 96.0,
+        "bin_accuracy": 83.78378378378379,
+        "bin_dor": 33.6
+      },
+      "pooled_contamination_pct": 36.03603603603604
+    }
+  },
+  "cost": {
+    "ELECTRA": {
+      "train_effective_s": [
+        274.7733333333333,
+        19.77454541407548
+      ],
+      "weights_mb": 438.0,
+      "gpu_bs1_median_ms": 8.54220099995473,
+      "gpu_bs32_ms_per_answer": 5.797646042042247,
+      "cpu_bs1_median_ms": 93.46695500005353
+    },
+    "BERT": {
+      "train_effective_s": [
+        283.832,
+        35.023651251689905
+      ],
+      "weights_mb": 438.0,
+      "gpu_bs1_median_ms": 8.53289900010168,
+      "gpu_bs32_ms_per_answer": 6.0184029459457715,
+      "cpu_bs1_median_ms": 95.31177250005385
+    },
+    "DistilBERT": {
+      "train_effective_s": [
+        116.36633333333333,
+        9.330395293519638
+      ],
+      "weights_mb": 267.8,
+      "gpu_bs1_median_ms": 4.682139999886203,
+      "gpu_bs32_ms_per_answer": 3.0917820030032095,
+      "cpu_bs1_median_ms": 47.134185500112835
+    },
+    "RoBERTa": {
+      "train_effective_s": [
+        211.12066666666666,
+        14.31657271602855
+      ],
+      "weights_mb": 498.6,
+      "gpu_bs1_median_ms": 8.588383999949656,
+      "gpu_bs32_ms_per_answer": 5.83119755855841,
+      "cpu_bs1_median_ms": 94.18848849998085
+    },
+    "XLNet": {
+      "train_effective_s": [
+        509.2763333333333,
+        72.10695262132032
+      ],
+      "weights_mb": 469.3,
+      "gpu_bs1_median_ms": 16.08032900003309,
+      "gpu_bs32_ms_per_answer": 8.775127165165316,
+      "cpu_bs1_median_ms": 132.35342849998233
+    },
+    "ModernBERT": {
+      "train_effective_s": [
+        277.172,
+        38.81309174750189
+      ],
+      "weights_mb": 598.4,
+      "gpu_bs1_median_ms": 25.57454299994788,
+      "gpu_bs32_ms_per_answer": 9.309738627627787,
+      "cpu_bs1_median_ms": 126.155729000061
+    }
+  },
+  "vbri_timing": {
+    "encoder": "BAAI/bge-base-en-v1.5",
+    "k": 3,
+    "model_load_s": 1.4058512139999948,
+    "index_build_s_runs": [
+      12.107338638999863,
+      12.421075141999836,
+      11.803387121000014
+    ],
+    "index_build_s_median": 12.107338638999863,
+    "index_mb": 12.474,
+    "n_vectors": 4050,
+    "encoder_params_m": 109.5,
+    "gpu": "Tesla T4",
+    "gpu_bs1_encode_ms_median": 10.737646000052337,
+    "gpu_bs1_search_ms_median": 0.13221499989413132,
+    "gpu_bs1_total_ms_median": 10.886691999985487,
+    "gpu_bs1_total_ms_mean": 11.027922924921693,
+    "gpu_bs1_total_ms_p95": 12.294944999894142,
+    "gpu_bs1_n": 333,
+    "gpu_bs32_ms_per_answer": 2.5504981261261004,
+    "cpu_bs1_encode_ms_median": 70.11711000006926,
+    "cpu_bs1_search_ms_median": 0.24302000008447067,
+    "cpu_bs1_total_ms_median": 70.36434000008285,
+    "cpu_bs1_total_ms_mean": 73.14308163998703,
+    "cpu_bs1_total_ms_p95": 95.98402899996472,
+    "cpu_bs1_n": 100,
+    "cpu_threads": 2
+  },
+  "analysis": {
+    "best_finetuned": {
+      "model": "ELECTRA",
+      "selection": "highest mean validation macro-F1",
+      "mean_val_macro_f1": {
+        "BERT": 71.47974394740741,
+        "DistilBERT": 67.244161847536,
+        "ELECTRA": 74.03388751680595,
+        "ModernBERT": 72.2013290421001,
+        "RoBERTa": 69.1279579123442,
+        "XLNet": 71.8879889322144
+      }
+    },
+    "bootstrap": {
+      "n_boot": 10000,
+      "ci": {
+        "ELECTRA": {
+          "accuracy": {
+            "point": 82.58258258258259,
+            "ci95": [
+              78.37837837837837,
+              86.48648648648648
+            ]
+          },
+          "macro_f1": {
+            "point": 76.69581479953307,
+            "ci95": [
+              70.84625073277572,
+              82.01202887388187
+            ]
+          },
+          "bpd_sensitivity": {
+            "point": 94.02985074626866,
+            "ci95": [
+              87.6923076923077,
+              98.63013698630137
+            ]
+          },
+          "bin_specificity": {
+            "point": 86.46616541353383,
+            "ci95": [
+              82.1969696969697,
+              90.45801526717557
+            ]
+          }
+        },
+        "VBRI raw": {
+          "accuracy": {
+            "point": 70.57057057057057,
+            "ci95": [
+              65.46546546546547,
+              75.37537537537537
+            ]
+          },
+          "macro_f1": {
+            "point": 63.15991452419019,
+            "ci95": [
+              56.642564002222194,
+              69.10411468338843
+            ]
+          },
+          "bpd_sensitivity": {
+            "point": 80.59701492537313,
+            "ci95": [
+              70.58823529411765,
+              89.70588235294117
+            ]
+          },
+          "bin_specificity": {
+            "point": 77.06766917293233,
+            "ci95": [
+              71.7948717948718,
+              81.91881918819188
+            ]
+          }
+        },
+        "VBRI hybrid": {
+          "accuracy": {
+            "point": 71.17117117117117,
+            "ci95": [
+              66.36636636636636,
+              75.97597597597597
+            ]
+          },
+          "macro_f1": {
+            "point": 64.56669569155918,
+            "ci95": [
+              58.06985307471578,
+              70.46423464209788
+            ]
+          },
+          "bpd_sensitivity": {
+            "point": 82.08955223880598,
+            "ci95": [
+              72.22222222222221,
+              90.9090909090909
+            ]
+          },
+          "bin_specificity": {
+            "point": 77.44360902255639,
+            "ci95": [
+              72.13740458015268,
+              82.28782287822878
+            ]
+          }
+        },
+        "Pooled BGE (answer)": {
+          "accuracy": {
+            "point": 67.26726726726727,
+            "ci95": [
+              62.16216216216216,
+              72.07207207207207
+            ]
+          },
+          "macro_f1": {
+            "point": 57.25982052270814,
+            "ci95": [
+              50.64114950972107,
+              63.30800334955087
+            ]
+          },
+          "bpd_sensitivity": {
+            "point": 65.67164179104478,
+            "ci95": [
+              54.285714285714285,
+              76.78571428571429
+            ]
+          },
+          "bin_specificity": {
+            "point": 83.0827067669173,
+            "ci95": [
+              78.46153846153847,
+              87.40747402078337
+            ]
+          }
+        }
+      },
+      "differences": {
+        "ELECTRA - VBRI raw": {
+          "accuracy": {
+            "point": 12.012012012012022,
+            "ci95": [
+              6.906906906906897,
+              17.41741741741741
+            ],
+            "p_two_sided": 0.0
+          },
+          "macro_f1": {
+            "point": 13.535900275342875,
+            "ci95": [
+              6.604354589863631,
+              20.688997845738108
+            ],
+            "p_two_sided": 0.0
+          },
+          "bpd_sensitivity": {
+            "point": 13.432835820895534,
+            "ci95": [
+              3.3333333333333286,
+              23.88059701492537
+            ],
+            "p_two_sided": 0.0116
+          },
+          "bin_specificity": {
+            "point": 9.398496240601503,
+            "ci95": [
+              4.029304029304029,
+              15.037998221359839
+            ],
+            "p_two_sided": 0.0006
+          }
+        },
+        "ELECTRA - VBRI hybrid": {
+          "accuracy": {
+            "point": 11.411411411411422,
+            "ci95": [
+              6.306306306306297,
+              16.81681681681681
+            ],
+            "p_two_sided": 0.0
+          },
+          "macro_f1": {
+            "point": 12.129119107973892,
+            "ci95": [
+              5.219456825754328,
+              19.18328417011555
+            ],
+            "p_two_sided": 0.0004
+          },
+          "bpd_sensitivity": {
+            "point": 11.940298507462686,
+            "ci95": [
+              2.2981974921630117,
+              22.222222222222214
+            ],
+            "p_two_sided": 0.0222
+          },
+          "bin_specificity": {
+            "point": 9.022556390977442,
+            "ci95": [
+              3.6900369003690088,
+              14.695340501792117
+            ],
+            "p_two_sided": 0.001
+          }
+        }
+      },
+      "seed_of_finetuned_run": 42
+    },
+    "mcnemar": {
+      "ELECTRA vs VBRI raw": {
+        "b": 23,
+        "c": 63,
+        "chi2": 17.686046511627907,
+        "p_asymptotic": 2.605307538629172e-05,
+        "p_exact": 1.876279690007309e-05
+      },
+      "ELECTRA vs VBRI hybrid": {
+        "b": 23,
+        "c": 61,
+        "chi2": 16.297619047619047,
+        "p_asymptotic": 5.4131925265096e-05,
+        "p_exact": 4.077126550660336e-05
+      },
+      "VBRI raw vs VBRI calibrated": {
+        "b": 2,
+        "c": 1,
+        "chi2": 0.0,
+        "p_asymptotic": 1.0,
+        "p_exact": 1.0
+      },
+      "VBRI raw vs VBRI hybrid": {
+        "b": 3,
+        "c": 1,
+        "chi2": 0.25,
+        "p_asymptotic": 0.6170750774519738,
+        "p_exact": 0.625
+      },
+      "Pooled BGE (answer) vs VBRI raw": {
+        "b": 34,
+        "c": 23,
+        "chi2": 1.7543859649122806,
+        "p_asymptotic": 0.18532630419857962,
+        "p_exact": 0.18485048241641847
+      }
+    },
+    "mcnemar_bpd_only": {
+      "ELECTRA vs VBRI raw": {
+        "b": 2,
+        "c": 11,
+        "chi2": 4.923076923076923,
+        "p_asymptotic": 0.026500280602491877,
+        "p_exact": 0.0224609375
+      }
+    },
+    "errors_vbri_raw": {
+      "n_errors": 98,
+      "normal_to_bpd": 49,
+      "normal_to_bpd_with_negation": 27,
+      "by_true_class": {
+        "Normal": 64,
+        "BPD": 13,
+        "Inconclusive": 21
+      }
+    },
+    "vignettes": [
+      {
+        "case": "Pooled index retrieves the wrong criterion",
+        "id": 3023,
+        "question": 9,
+        "criterion": "Paranoia / dissociation",
+        "answer": "I cannot control myself",
+        "true": "Inconclusive",
+        "pooled_pred": "Normal",
+        "pooled_contamination_pct": 100.0,
+        "vbri_raw_pred": "Inconclusive",
+        "vbri_calibrated_pred": "Inconclusive",
+        "vbri_neighbours": [
+          {
+            "question": 9,
+            "label": "Inconclusive",
+            "sim": 0.672,
+            "answer": "I find it stressful.."
+          },
+          {
+            "question": 9,
+            "label": "Normal",
+            "sim": 0.671,
+            "answer": "I disconnect myself from people when I am stressed, but not from reality. That would be scary"
+          },
+          {
+            "question": 9,
+            "label": "BPD",
+            "sim": 0.668,
+            "answer": "I doubt myself when I am stressed. Specially if I am going through something. I have no experience with being detached from reality however"
+          }
+        ],
+        "pooled_neighbours": [
+          {
+            "question": 4,
+            "label": "Normal",
+            "sim": 0.815,
+            "answer": "I try to control my impulses"
+          },
+          {
+            "question": 8,
+            "label": "Inconclusive",
+            "sim": 0.779,
+            "answer": "I sometimes become anxious but i can control myself"
+          },
+          {
+            "question": 6,
+            "label": "BPD",
+            "sim": 0.778,
+            "answer": "I have emotions that I feel when I experience them. But I can't control myself by myself. I have no control over myself. I always feel my emotions and I can't c"
+          }
+        ]
+      },
+      {
+        "case": "Uncertainty margin flags an ambiguous answer",
+        "id": 2322,
+        "question": 7,
+        "criterion": "Chronic emptiness",
+        "answer": "i do not think anything important is missing in my life",
+        "true": "Inconclusive",
+        "pooled_pred": "BPD",
+        "pooled_contamination_pct": 0.0,
+        "vbri_raw_pred": "BPD",
+        "vbri_calibrated_pred": "Inconclusive",
+        "vbri_neighbours": [
+          {
+            "question": 7,
+            "label": "Normal",
+            "sim": 0.838,
+            "answer": "No. I do not feel empty or like something important was missing in my life"
+          },
+          {
+            "question": 7,
+            "label": "BPD",
+            "sim": 0.76,
+            "answer": "All the time,something is really missing in my life. I feel like I have no purpose. but I do not feel sad or anxious about it. Or that is what I tell myself, th"
+          },
+          {
+            "question": 7,
+            "label": "BPD",
+            "sim": 0.76,
+            "answer": "Yes,i always feel like this.. Something important is really missing in my life. I hope my life gets better soon"
+          }
+        ],
+        "pooled_neighbours": [
+          {
+            "question": 7,
+            "label": "Normal",
+            "sim": 0.838,
+            "answer": "No. I do not feel empty or like something important was missing in my life"
+          },
+          {
+            "question": 7,
+            "label": "BPD",
+            "sim": 0.76,
+            "answer": "All the time,something is really missing in my life. I feel like I have no purpose. but I do not feel sad or anxious about it. Or that is what I tell myself, th"
+          },
+          {
+            "question": 7,
+            "label": "BPD",
+            "sim": 0.76,
+            "answer": "Yes,i always feel like this.. Something important is really missing in my life. I hope my life gets better soon"
+          }
+        ]
+      },
+      {
+        "case": "Clear BPD-indicative answer",
+        "id": 73,
+        "question": 1,
+        "criterion": "Abandonment avoidance",
+        "answer": "Yes I felt the need to prevent someone leaving me emotionallly",
+        "true": "BPD",
+        "pooled_pred": "BPD",
+        "pooled_contamination_pct": 0.0,
+        "vbri_raw_pred": "BPD",
+        "vbri_calibrated_pred": "BPD",
+        "vbri_neighbours": [
+          {
+            "question": 1,
+            "label": "BPD",
+            "sim": 0.933,
+            "answer": "Yes I felt a need to prevent someone leaving during emotionally difficult times in my life"
+          },
+          {
+            "question": 1,
+            "label": "BPD",
+            "sim": 0.876,
+            "answer": "I felt a strong need to prevent someone from leaving me emotionally when i am mentally broken and depressed."
+          },
+          {
+            "question": 1,
+            "label": "BPD",
+            "sim": 0.876,
+            "answer": "Yes,i felt a strong need to prevent friends from leaving me"
+          }
+        ],
+        "pooled_neighbours": [
+          {
+            "question": 1,
+            "label": "BPD",
+            "sim": 0.933,
+            "answer": "Yes I felt a need to prevent someone leaving during emotionally difficult times in my life"
+          },
+          {
+            "question": 1,
+            "label": "BPD",
+            "sim": 0.876,
+            "answer": "I felt a strong need to prevent someone from leaving me emotionally when i am mentally broken and depressed."
+          },
+          {
+            "question": 1,
+            "label": "BPD",
+            "sim": 0.876,
+            "answer": "Yes,i felt a strong need to prevent friends from leaving me"
+          }
+        ]
+      },
+      {
+        "case": "Error: negated statement read as BPD",
+        "id": 3218,
+        "question": 9,
+        "criterion": "Paranoia / dissociation",
+        "answer": "i never trust people... i always think, they are good for some reason until they have what they want. I have found that to be true most of the times",
+        "true": "Normal",
+        "pooled_pred": "Normal",
+        "pooled_contamination_pct": 66.66666666666666,
+        "vbri_raw_pred": "BPD",
+        "vbri_calibrated_pred": "BPD",
+        "vbri_neighbours": [
+          {
+            "question": 9,
+            "label": "BPD",
+            "sim": 0.811,
+            "answer": "I have severe trust issues. I find it extremely hard to trust someone. I sometimes, doubt even my closest ones."
+          },
+          {
+            "question": 9,
+            "label": "BPD",
+            "sim": 0.796,
+            "answer": "No, I'm usually a trusting person, I trust people until or unless they don't give me a reason. I get away from reality when I'm in need. I focus on one side of "
+          },
+          {
+            "question": 9,
+            "label": "BPD",
+            "sim": 0.796,
+            "answer": "No, I'm usually a trusting person, I trust people until or unless they don't give me a reason. I get away from reality when I'm in need. I focus on one side of "
+          }
+        ],
+        "pooled_neighbours": [
+          {
+            "question": 2,
+            "label": "Normal",
+            "sim": 0.86,
+            "answer": "I trust people too much. i often overlook their bad qualities to identify them as \"terrible\" , but when something happens unexpectedly, i simply cannot accept t"
+          },
+          {
+            "question": 2,
+            "label": "Normal",
+            "sim": 0.815,
+            "answer": "I only try to be close with those persons, whom I can trust. Otherwise I keep myself reserved. People do not show their true face these days. Too much showing o"
+          },
+          {
+            "question": 9,
+            "label": "BPD",
+            "sim": 0.811,
+            "answer": "I have severe trust issues. I find it extremely hard to trust someone. I sometimes, doubt even my closest ones."
+          }
+        ]
+      }
+    ]
+  },
+  "roc": {
+    "ELECTRA": {
+      "auroc": 0.9523061384805297,
+      "spec_at_sens85": 92.4812030075188,
+      "operating_point": {
+        "sens": 94.02985074626865,
+        "spec": 86.46616541353383
+      }
+    },
+    "VBRI raw": {
+      "auroc": 0.8411513859275054,
+      "spec_at_sens85": 70.67669172932331,
+      "operating_point": {
+        "sens": 80.59701492537313,
+        "spec": 77.06766917293233
+      }
+    },
+    "VBRI calibrated": {
+      "auroc": 0.8407586129502862,
+      "spec_at_sens85": 70.67669172932331,
+      "operating_point": {
+        "sens": 80.59701492537313,
+        "spec": 77.44360902255639
+      }
+    },
+    "Pooled BGE (answer)": {
+      "auroc": 0.7437717427898104,
+      "spec_at_sens85": 0.0,
+      "operating_point": {
+        "sens": 65.67164179104478,
+        "spec": 83.0827067669173
+      }
+    }
+  },
+  "participant": {
+    "n_participants": 221,
+    "answers_per_participant_max": 5,
+    "true_bpd_count_max": 2,
+    "models": {
+      "Pooled BGE (answer)": {
+        "mae": 0.2895927601809955,
+        "pearson_r": 0.48052158575410187
+      },
+      "VBRI raw": {
+        "mae": 0.3257918552036199,
+        "pearson_r": 0.5524817250300388
+      },
+      "VBRI hybrid": {
+        "mae": 0.3167420814479638,
+        "pearson_r": 0.5704502270427948
+      },
+      "ELECTRA": {
+        "mae": 0.17194570135746606,
+        "pearson_r": 0.7716626616106484
+      }
+    }
+  },
+  "data": {
+    "original": {
+      "rows": 3258,
+      "class_counts": {
+        "Normal": 2195,
+        "BPD": 673,
+        "Inconclusive": 390
+      },
+      "question_label_proportions": {
+        "Q1": {
+          "Normal": 0.547,
+          "BPD": 0.326,
+          "Inconclusive": 0.1271
+        },
+        "Q2": {
+          "Normal": 0.674,
+          "BPD": 0.1961,
+          "Inconclusive": 0.1298
+        },
+        "Q3": {
+          "Normal": 0.7818,
+          "BPD": 0.1409,
+          "Inconclusive": 0.0773
+        },
+        "Q4": {
+          "Normal": 0.663,
+          "BPD": 0.0912,
+          "Inconclusive": 0.2459
+        },
+        "Q5": {
+          "Normal": 0.8978,
+          "BPD": 0.0608,
+          "Inconclusive": 0.0414
+        },
+        "Q6": {
+          "Normal": 0.6354,
+          "BPD": 0.2735,
+          "Inconclusive": 0.0912
+        },
+        "Q7": {
+          "Normal": 0.6271,
+          "BPD": 0.2486,
+          "Inconclusive": 0.1243
+        },
+        "Q8": {
+          "Normal": 0.6077,
+          "BPD": 0.3122,
+          "Inconclusive": 0.0801
+        },
+        "Q9": {
+          "Normal": 0.6298,
+          "BPD": 0.2099,
+          "Inconclusive": 0.1602
+        }
+      },
+      "mean_words": {
+        "Normal": 21.10250569476082,
+        "BPD": 33.429420505200596,
+        "Inconclusive": 18.102564102564102
+      }
+    },
+    "training_views": {
+      "Original training split": {
+        "Normal": 1746,
+        "BPD": 538,
+        "Inconclusive": 308
+      },
+      "Augmented, unbalanced (ablation only)": {
+        "Normal": 1746,
+        "BPD": 1612,
+        "Inconclusive": 921
+      },
+      "Balanced, used by all models (150 per class per question)": {
+        "Normal": 1350,
+        "BPD": 1350,
+        "Inconclusive": 1350
+      }
+    },
+    "balanced_store_augmented_share_pct": {
+      "Q1": {
+        "Normal": 0.0,
+        "BPD": 68.7,
+        "Inconclusive": 64.0
+      },
+      "Q2": {
+        "Normal": 0.0,
+        "BPD": 68.0,
+        "Inconclusive": 67.3
+      },
+      "Q3": {
+        "Normal": 0.0,
+        "BPD": 64.0,
+        "Inconclusive": 64.0
+      },
+      "Q4": {
+        "Normal": 0.0,
+        "BPD": 69.3,
+        "Inconclusive": 66.7
+      },
+      "Q5": {
+        "Normal": 0.0,
+        "BPD": 66.7,
+        "Inconclusive": 70.7
+      },
+      "Q6": {
+        "Normal": 0.0,
+        "BPD": 66.7,
+        "Inconclusive": 67.3
+      },
+      "Q7": {
+        "Normal": 0.0,
+        "BPD": 68.7,
+        "Inconclusive": 62.7
+      },
+      "Q8": {
+        "Normal": 0.0,
+        "BPD": 65.3,
+        "Inconclusive": 66.7
+      },
+      "Q9": {
+        "Normal": 0.0,
+        "BPD": 66.7,
+        "Inconclusive": 66.7
+      }
+    },
+    "balanced_store_original_rows": 2250,
+    "balanced_store_aug_methods": {
+      "paraphrase": 633,
+      "substitute": 516,
+      "backtranslate": 651
+    }
+  }
+}

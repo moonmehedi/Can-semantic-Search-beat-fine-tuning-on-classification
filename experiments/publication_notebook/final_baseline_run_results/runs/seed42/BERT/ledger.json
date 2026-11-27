@@ -1,0 +1,35 @@
+{
+  "code_version": "final_baseline_v1",
+  "created_utc": "2026-11-19T15:17:42+00:00",
+  "sessions": [
+    {
+      "session": 1,
+      "started_utc": "2026-11-19T15:17:42+00:00",
+      "resumed_from_step": 0,
+      "base_effective_s": 0.0,
+      "active_s": 319.575,
+      "status": "completed",
+      "model": "BERT",
+      "variant": "",
+      "seed": 42,
+      "gpu": "Tesla T4",
+      "precision": "fp16",
+      "effective_s_so_far": 319.575,
+      "last_heartbeat_utc": "2026-11-19T15:23:02+00:00",
+      "last_step": 2286,
+      "last_epoch": 9.0
+    }
+  ],
+  "summary": {
+    "effective_s": 319.575,
+    "eval_s": 5.603,
+    "save_s": 10.718,
+    "gross_s": 319.575,
+    "wasted_s": 0.0,
+    "n_sessions": 1,
+    "resumed": false,
+    "session_status": [
+      "completed"
+    ]
+  }
+}

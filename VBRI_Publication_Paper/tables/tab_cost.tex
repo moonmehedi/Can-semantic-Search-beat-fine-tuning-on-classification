@@ -1,0 +1,15 @@
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Model} & \textbf{Gradient updates} & \textbf{Train / index (s)} & \textbf{GPU bs 1 (ms)} & \textbf{GPU bs 32 (ms/ans.)} & \textbf{CPU bs 1 (ms)} & \textbf{Storage (MB)} \\
+\midrule
+ELECTRA & Yes & 275 $\pm$ 20 & 8.02 & 5.55 & 94.95 & 438.0 \\
+BERT & Yes & 284 $\pm$ 35 & 8.62 & 5.73 & 93.69 & 438.0 \\
+DistilBERT & Yes & 116 $\pm$ 9 & 4.55 & 2.90 & 46.82 & 267.8 \\
+RoBERTa & Yes & 211 $\pm$ 14 & 8.26 & 5.49 & 94.90 & 498.6 \\
+XLNet & Yes & 509 $\pm$ 72 & 16.10 & 8.14 & 131.31 & 469.3 \\
+DeBERTa & Yes & 796 $\pm$ 130 & 23.98 & 7.58 & 179.49 & 737.7 \\
+ModernBERT & Yes & 277 $\pm$ 39 & 24.57 & 8.82 & 119.81 & 598.4 \\
+\midrule
+\textbf{VBRI} & \textbf{No} & 9.6 & 10.09 & 2.27 & 68.94 & 12.5 \\
+\bottomrule
+\end{tabular}

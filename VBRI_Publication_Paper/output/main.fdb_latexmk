@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber output/main"] 1794584680.61764 "output/main.bcf" "output/main.bbl" "output/main" 1795072672.17032 0
-  "output/main.bcf" 1795072671.7286 113735 6d9c61f13b55680737ac685d61af97ed "pdflatex"
+["biber output/main"] 1795769966.27558 "output/main.bcf" "output/main.bbl" "output/main" 1795769971.89305 0
+  "output/main.bcf" 1795769971.79367 113735 6d9c61f13b55680737ac685d61af97ed "pdflatex"
   "references.bib" 1794584356.2645 29038 ed1bfde6f0c6fe0df1c93aab08a3f76a ""
   (generated)
   "output/main.bbl"
   "output/main.blg"
   (rewritten before read)
-["pdflatex"] 1795072657.21582 "main.tex" "output/main.pdf" "main" 1795072672.17131 0
+["pdflatex"] 1795769967.97115 "main.tex" "output/main.pdf" "main" 1795769971.8933 0
   "/home/thelagari/.TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
   "/home/thelagari/.TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
   "/home/thelagari/.TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -214,7 +214,7 @@
   "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/home/thelagari/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty" 1727642399 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/home/thelagari/.TinyTeX/texmf-dist/web2c/texmf.cnf" 1782667392 43815 bcd8835056a2dfac260166a1c9541261 ""
-  "/home/thelagari/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1794579744 133847 1cd667da82c5b15b387f51defd4c9d34 ""
+  "/home/thelagari/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1795186778 133930 14dcbbfea645a6975dad037e6a3881c8 ""
   "/home/thelagari/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600.600pk" 1794580178.0322 7260 b1e0a0b177e4e1cfbe2178f16fc30711 ""
   "/home/thelagari/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk" 1794580178.16419 9268 b1b113cd199a24bef401629ca9999912 ""
   "/home/thelagari/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1794584680.47445 12644 05f2cd7561d092463565bc6003c3584a ""
@@ -223,13 +223,14 @@
   "figures/data_analysis/01_original_class_distribution.png" 1790183812 41383 3e84487f61b35ceeba14cb6d6917afaf ""
   "figures/data_analysis/03_question_label_heatmap_refined.png" 1790183812 107038 968e8eb398ca72dbb0a16b8133b9e1c4 ""
   "figures/data_analysis/10_train_augmentation_comparison.png" 1790183812 63314 302dbedbac7e2abc9cb2a1845ca0da63 ""
-  "figures/generated/ablation_progression.pdf" 1794584306.07089 14362 50ae96ae586ce87576b57f66a123d145 ""
-  "figures/generated/cost_comparison.pdf" 1794584305.6049 20289 db6903b70bd5982d1401ba3c42d5781e ""
-  "figures/generated/effectiveness_comparison.pdf" 1794584304.87791 18870 7cd6dbe4814cb32d0242d9e59f05f559 ""
-  "figures/generated/ft_confusion_matrices.pdf" 1794584303.19694 22557 1ef95e977d371f43a06c19ecf18aace2 ""
-  "figures/generated/ft_loss_curves.pdf" 1794584302.15196 22805 7d314ecae62440c089154a76f12229c1 ""
-  "figures/generated/head_to_head_confusion.pdf" 1794584304.20492 23244 075de1adbbe30c123cbb52bea95132ba ""
-  "figures/generated/k_sweep.pdf" 1794584306.45688 17035 36d386d5016e3eae0691af8656f050d1 ""
+  "figures/generated/ablation_progression.pdf" 1795769959.40803 14362 50ae96ae586ce87576b57f66a123d145 ""
+  "figures/generated/cost_comparison.pdf" 1795769959.40818 20289 db6903b70bd5982d1401ba3c42d5781e ""
+  "figures/generated/effectiveness_comparison.pdf" 1795769959.40832 18870 7cd6dbe4814cb32d0242d9e59f05f559 ""
+  "figures/generated/encoder_input_text.pdf" 1795769960.36369 17119 90ad656597cfd2b9f27285216d341258 ""
+  "figures/generated/ft_confusion_matrices.pdf" 1795769959.40845 22557 1ef95e977d371f43a06c19ecf18aace2 ""
+  "figures/generated/ft_loss_curves.pdf" 1795769959.40859 22805 7d314ecae62440c089154a76f12229c1 ""
+  "figures/generated/head_to_head_confusion.pdf" 1795769959.40873 23244 075de1adbbe30c123cbb52bea95132ba ""
+  "figures/generated/k_sweep.pdf" 1795769959.40884 17035 36d386d5016e3eae0691af8656f050d1 ""
   "figures/methodology_workflow_v4.png" 1790183812 346701 e27e39d91eddc91b696c39daea6d24be ""
   "figures/study_design.pdf" 1795072642.51157 45195 ae709830f6b96a2e8adabc05539ed3e8 ""
   "figures/vbri/calibration_before_after_confusion.png" 1790183820 105969 35c9453fdedbef0d6e7ced92b6e17c1b ""
@@ -237,11 +238,11 @@
   "figures/vbri/imbalance_free_9_vdb_benchmark.png" 1790183820 232969 f57619359cc5838c064e4d07c46c11c7 ""
   "figures/vbri/patient_level_diagnostic_agreement.png" 1790183820 254765 2e4a2893051fb601252d7dd8532f0136 ""
   "figures/vbri_architecture.pdf" 1795072642.51789 40493 df8d89b2e5d8190fb64316936c44fa51 ""
-  "main.tex" 1795072642.58028 64280 19c7453a50ccc538fbc43ac86a5a84f9 ""
-  "output/main.aux" 1795072671.6956 29460 260b21c800ae808bd0df998f46718054 "pdflatex"
-  "output/main.bbl" 1794584681.78498 103811 ebe64d24b3af8ff8e6c507d4c1253dc3 "biber output/main"
-  "output/main.out" 1795072671.7216 5851 cb11d212a05453e177cbdff3e1699742 "pdflatex"
-  "output/main.run.xml" 1795072671.73368 2305 52d3a306210725300226f58fd1189a9c "pdflatex"
+  "main.tex" 1795769959.39717 65188 c9789896880c4d201725086b16735af8 ""
+  "output/main.aux" 1795769971.78649 30145 4ca93c625073e690959bf59cc37ff712 "pdflatex"
+  "output/main.bbl" 1795769967.94016 103811 ebe64d24b3af8ff8e6c507d4c1253dc3 "biber output/main"
+  "output/main.out" 1795769971.79249 6122 22f716add9f422ad73ad9c5b7c5e0214 "pdflatex"
+  "output/main.run.xml" 1795769971.79521 2305 52d3a306210725300226f58fd1189a9c "pdflatex"
   (generated)
   "output/main.aux"
   "output/main.bcf"

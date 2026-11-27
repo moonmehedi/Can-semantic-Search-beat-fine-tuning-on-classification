@@ -1,0 +1,104 @@
+{
+  "code_version": "final_baseline_v1",
+  "status": "done",
+  "model": "DeBERTa",
+  "variant": "",
+  "seed": 43,
+  "checkpoint": "microsoft/deberta-v3-base",
+  "params_m": 184.4,
+  "precision": "fp32",
+  "gpu": "Tesla T4",
+  "train_batch": 8,
+  "grad_accum": 2,
+  "dataset": "/kaggle/input/datasets/mehedihasanmoon/imbalance-free-dataset/imbalance_free_dataset",
+  "epochs_run": 6,
+  "best_epoch": 4.0,
+  "best_val_loss": 0.6544793248176575,
+  "collapsed": false,
+  "timing": {
+    "effective_s": 805.809,
+    "eval_s": 18.36,
+    "save_s": 19.511,
+    "gross_s": 807.079,
+    "wasted_s": 1.27,
+    "n_sessions": 3,
+    "resumed": false,
+    "session_status": [
+      "crashed",
+      "crashed",
+      "completed"
+    ]
+  },
+  "val": {
+    "n": 333,
+    "confusion": [
+      [
+        172,
+        33,
+        19
+      ],
+      [
+        15,
+        48,
+        5
+      ],
+      [
+        12,
+        5,
+        24
+      ]
+    ],
+    "accuracy": 73.27327327327328,
+    "macro_f1": 65.86470789196106,
+    "weighted_f1": 74.07431068280539,
+    "bpd_f1": 62.33766233766234,
+    "bpd_precision": 55.81395348837209,
+    "bpd_sensitivity": 70.58823529411765,
+    "inconclusive_recall": 58.536585365853654,
+    "bin_sensitivity": 70.58823529411765,
+    "bin_specificity": 85.66037735849056,
+    "bin_ppv": 55.81395348837209,
+    "bin_npv": 91.90283400809717,
+    "bin_accuracy": 82.58258258258259,
+    "bin_dor": 14.336842105263157
+  },
+  "test": {
+    "n": 333,
+    "confusion": [
+      [
+        176,
+        38,
+        11
+      ],
+      [
+        14,
+        51,
+        2
+      ],
+      [
+        8,
+        13,
+        20
+      ]
+    ],
+    "accuracy": 74.17417417417417,
+    "macro_f1": 65.87473788783117,
+    "weighted_f1": 75.02524760896061,
+    "bpd_f1": 60.35502958579882,
+    "bpd_precision": 50.0,
+    "bpd_sensitivity": 76.11940298507463,
+    "inconclusive_recall": 48.78048780487805,
+    "bin_sensitivity": 76.11940298507463,
+    "bin_specificity": 80.82706766917293,
+    "bin_ppv": 50.0,
+    "bin_npv": 93.07359307359307,
+    "bin_accuracy": 79.87987987987988,
+    "bin_dor": 13.4375
+  },
+  "hf_train_runtime_last_session_s": 805.8095,
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.0.0"
+  },
+  "finished_utc": "2026-11-19T18:57:44+00:00"
+}

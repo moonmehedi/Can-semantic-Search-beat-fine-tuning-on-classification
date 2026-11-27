@@ -501,6 +501,11 @@ INPUT ./figures/generated/ft_confusion_matrices.pdf
 INPUT ./figures/generated/ft_confusion_matrices.pdf
 INPUT ./figures/generated/ft_confusion_matrices.pdf
 INPUT ./figures/generated/ft_confusion_matrices.pdf
+INPUT ./figures/generated/encoder_input_text.pdf
+INPUT ./figures/generated/encoder_input_text.pdf
+INPUT ./figures/generated/encoder_input_text.pdf
+INPUT ./figures/generated/encoder_input_text.pdf
+INPUT ./figures/generated/encoder_input_text.pdf
 INPUT ./figures/vbri/imbalance_free_9_vdb_benchmark.png
 INPUT ./figures/vbri/imbalance_free_9_vdb_benchmark.png
 INPUT ./figures/vbri/imbalance_free_9_vdb_benchmark.png

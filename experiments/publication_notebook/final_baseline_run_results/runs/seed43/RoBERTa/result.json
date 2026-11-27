@@ -1,0 +1,102 @@
+{
+  "code_version": "final_baseline_v1",
+  "status": "done",
+  "model": "RoBERTa",
+  "variant": "",
+  "seed": 43,
+  "checkpoint": "FacebookAI/roberta-base",
+  "params_m": 124.6,
+  "precision": "fp16",
+  "gpu": "Tesla T4",
+  "train_batch": 16,
+  "grad_accum": 1,
+  "dataset": "/kaggle/input/datasets/mehedihasanmoon/imbalance-free-dataset/imbalance_free_dataset",
+  "epochs_run": 6,
+  "best_epoch": 4.0,
+  "best_val_loss": 0.6693742275238037,
+  "collapsed": false,
+  "timing": {
+    "effective_s": 220.075,
+    "eval_s": 3.453,
+    "save_s": 9.502,
+    "gross_s": 220.075,
+    "wasted_s": 0.0,
+    "n_sessions": 1,
+    "resumed": false,
+    "session_status": [
+      "completed"
+    ]
+  },
+  "val": {
+    "n": 333,
+    "confusion": [
+      [
+        163,
+        37,
+        24
+      ],
+      [
+        6,
+        59,
+        3
+      ],
+      [
+        6,
+        8,
+        27
+      ]
+    ],
+    "accuracy": 74.77477477477477,
+    "macro_f1": 69.05033902585922,
+    "weighted_f1": 75.96815910157405,
+    "bpd_f1": 68.6046511627907,
+    "bpd_precision": 56.730769230769226,
+    "bpd_sensitivity": 86.76470588235294,
+    "inconclusive_recall": 65.85365853658537,
+    "bin_sensitivity": 86.76470588235294,
+    "bin_specificity": 83.01886792452831,
+    "bin_ppv": 56.73076923076923,
+    "bin_npv": 96.06986899563319,
+    "bin_accuracy": 83.78378378378379,
+    "bin_dor": 32.04938271604938
+  },
+  "test": {
+    "n": 333,
+    "confusion": [
+      [
+        159,
+        32,
+        34
+      ],
+      [
+        4,
+        56,
+        7
+      ],
+      [
+        3,
+        6,
+        32
+      ]
+    ],
+    "accuracy": 74.17417417417417,
+    "macro_f1": 69.01183051405154,
+    "weighted_f1": 75.86143149476034,
+    "bpd_f1": 69.56521739130434,
+    "bpd_precision": 59.57446808510638,
+    "bpd_sensitivity": 83.5820895522388,
+    "inconclusive_recall": 78.04878048780488,
+    "bin_sensitivity": 83.58208955223881,
+    "bin_specificity": 85.71428571428571,
+    "bin_ppv": 59.57446808510638,
+    "bin_npv": 95.39748953974896,
+    "bin_accuracy": 85.28528528528528,
+    "bin_dor": 30.545454545454547
+  },
+  "hf_train_runtime_last_session_s": 220.075,
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.0.0"
+  },
+  "finished_utc": "2026-11-19T15:56:27+00:00"
+}

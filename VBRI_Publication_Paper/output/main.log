@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.11)  19 NOV 2026 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.11)  27 NOV 2026 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -782,24 +782,24 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 30.
  (output/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
  (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -844,13 +844,13 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 49.
-Package microtype Info: Applying patch `item' on input line 49.
-Package microtype Info: Applying patch `toc' on input line 49.
-Package microtype Info: Applying patch `eqnum' on input line 49.
-Package microtype Info: Applying patch `footnote' on input line 49.
-Package microtype Info: Applying patch `verbatim' on input line 49.
-LaTeX Info: Redefining \microtypesetup on input line 49.
+LaTeX Info: Redefining \microtypecontext on input line 47.
+Package microtype Info: Applying patch `item' on input line 47.
+Package microtype Info: Applying patch `toc' on input line 47.
+Package microtype Info: Applying patch `eqnum' on input line 47.
+Package microtype Info: Applying patch `footnote' on input line 47.
+Package microtype Info: Applying patch `verbatim' on input line 47.
+LaTeX Info: Redefining \microtypesetup on input line 47.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -877,20 +877,20 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (output/main.bbl)
-Package biblatex Info: Reference section=0 on input line 49.
-Package biblatex Info: Reference segment=0 on input line 49.
-Package hyperref Info: Link coloring ON on input line 49.
+Package biblatex Info: Reference section=0 on input line 47.
+Package biblatex Info: Reference segment=0 on input line 47.
+Package hyperref Info: Link coloring ON on input line 47.
  (output/main.out) (output/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
  (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
  (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -898,188 +898,193 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 {/home/thelagari/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
-<figures/data_analysis/01_original_class_distribution.png, id=267, 498.663pt x 317.988pt>
+<figures/data_analysis/01_original_class_distribution.png, id=271, 498.663pt x 317.988pt>
 File: figures/data_analysis/01_original_class_distribution.png Graphic file (type png)
 <use figures/data_analysis/01_original_class_distribution.png>
-Package pdftex.def Info: figures/data_analysis/01_original_class_distribution.png  used on input line 328.
+Package pdftex.def Info: figures/data_analysis/01_original_class_distribution.png  used on input line 322.
 (pdftex.def)             Requested size: 206.69334pt x 131.80243pt.
-<figures/data_analysis/03_question_label_heatmap_refined.png, id=269, 544.0325pt x 368.1755pt>
+<figures/data_analysis/03_question_label_heatmap_refined.png, id=273, 544.0325pt x 368.1755pt>
 File: figures/data_analysis/03_question_label_heatmap_refined.png Graphic file (type png)
 <use figures/data_analysis/03_question_label_heatmap_refined.png>
-Package pdftex.def Info: figures/data_analysis/03_question_label_heatmap_refined.png  used on input line 332.
+Package pdftex.def Info: figures/data_analysis/03_question_label_heatmap_refined.png  used on input line 326.
 (pdftex.def)             Requested size: 253.66455pt x 171.67174pt.
  [5]
-<figures/data_analysis/10_train_augmentation_comparison.png, id=276, 570.933pt x 353.7215pt>
+<figures/data_analysis/10_train_augmentation_comparison.png, id=280, 570.933pt x 353.7215pt>
 File: figures/data_analysis/10_train_augmentation_comparison.png Graphic file (type png)
 <use figures/data_analysis/10_train_augmentation_comparison.png>
-Package pdftex.def Info: figures/data_analysis/10_train_augmentation_comparison.png  used on input line 362.
+Package pdftex.def Info: figures/data_analysis/10_train_augmentation_comparison.png  used on input line 356.
 (pdftex.def)             Requested size: 328.82707pt x 203.7337pt.
  [6 <./figures/data_analysis/01_original_class_distribution.png> <./figures/data_analysis/03_question_label_heatmap_refined.png>]
-<figures/study_design.pdf, id=287, 1383.66937pt x 319.94531pt>
+<figures/study_design.pdf, id=291, 1383.66937pt x 319.94531pt>
 File: figures/study_design.pdf Graphic file (type pdf)
 <use figures/study_design.pdf>
-Package pdftex.def Info: figures/study_design.pdf  used on input line 378.
+Package pdftex.def Info: figures/study_design.pdf  used on input line 372.
 (pdftex.def)             Requested size: 469.75502pt x 108.61885pt.
  [7 <./figures/data_analysis/10_train_augmentation_comparison.png> <./figures/study_design.pdf>]
-<figures/methodology_workflow_v4.png, id=316, 1806.75pt x 1224.575pt>
+<figures/methodology_workflow_v4.png, id=320, 1806.75pt x 1224.575pt>
 File: figures/methodology_workflow_v4.png Graphic file (type png)
 <use figures/methodology_workflow_v4.png>
-Package pdftex.def Info: figures/methodology_workflow_v4.png  used on input line 408.
+Package pdftex.def Info: figures/methodology_workflow_v4.png  used on input line 402.
 (pdftex.def)             Requested size: 460.35791pt x 312.01024pt.
  [8 <./figures/methodology_workflow_v4.png>]
-<figures/vbri_architecture.pdf, id=330, 1258.7025pt x 668.4975pt>
+<figures/vbri_architecture.pdf, id=334, 1258.7025pt x 668.4975pt>
 File: figures/vbri_architecture.pdf Graphic file (type pdf)
 <use figures/vbri_architecture.pdf>
-Package pdftex.def Info: figures/vbri_architecture.pdf  used on input line 453.
+Package pdftex.def Info: figures/vbri_architecture.pdf  used on input line 447.
 (pdftex.def)             Requested size: 432.17375pt x 229.52003pt.
  [9 <./figures/vbri_architecture.pdf>] [10]
-<figures/generated/ft_loss_curves.pdf, id=382, 794.46751pt x 345.59682pt>
+<figures/generated/ft_loss_curves.pdf, id=386, 794.46751pt x 345.59682pt>
 File: figures/generated/ft_loss_curves.pdf Graphic file (type pdf)
 <use figures/generated/ft_loss_curves.pdf>
-Package pdftex.def Info: figures/generated/ft_loss_curves.pdf  used on input line 565.
+Package pdftex.def Info: figures/generated/ft_loss_curves.pdf  used on input line 559.
 (pdftex.def)             Requested size: 469.75502pt x 204.34859pt.
  [11]
-<figures/generated/ft_confusion_matrices.pdf, id=395, 790.65561pt x 402.20236pt>
+<figures/generated/ft_confusion_matrices.pdf, id=399, 790.65561pt x 402.20236pt>
 File: figures/generated/ft_confusion_matrices.pdf Graphic file (type pdf)
 <use figures/generated/ft_confusion_matrices.pdf>
-Package pdftex.def Info: figures/generated/ft_confusion_matrices.pdf  used on input line 606.
+Package pdftex.def Info: figures/generated/ft_confusion_matrices.pdf  used on input line 600.
 (pdftex.def)             Requested size: 469.75502pt x 238.96661pt.
  [12 <./figures/generated/ft_loss_curves.pdf>]
-<figures/vbri/imbalance_free_9_vdb_benchmark.png, id=428, 1149.093pt x 424.7067pt>
+<figures/generated/encoder_input_text.pdf, id=431, 788.74214pt x 257.86101pt>
+File: figures/generated/encoder_input_text.pdf Graphic file (type pdf)
+<use figures/generated/encoder_input_text.pdf>
+Package pdftex.def Info: figures/generated/encoder_input_text.pdf  used on input line 620.
+(pdftex.def)             Requested size: 469.75502pt x 153.57675pt.
+ [13 <./figures/generated/ft_confusion_matrices.pdf> <./figures/generated/encoder_input_text.pdf>]
+<figures/vbri/imbalance_free_9_vdb_benchmark.png, id=472, 1149.093pt x 424.7067pt>
 File: figures/vbri/imbalance_free_9_vdb_benchmark.png Graphic file (type png)
 <use figures/vbri/imbalance_free_9_vdb_benchmark.png>
-Package pdftex.def Info: figures/vbri/imbalance_free_9_vdb_benchmark.png  used on input line 625.
+Package pdftex.def Info: figures/vbri/imbalance_free_9_vdb_benchmark.png  used on input line 646.
 (pdftex.def)             Requested size: 469.75502pt x 173.62538pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 632.
+(hyperref)                removing `math shift' on input line 653.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\times' on input line 632.
+(hyperref)                removing `\times' on input line 653.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 632.
+(hyperref)                removing `math shift' on input line 653.
 
-[13 <./figures/generated/ft_confusion_matrices.pdf> <./figures/vbri/imbalance_free_9_vdb_benchmark.png>]
-<figures/generated/ablation_progression.pdf, id=463, 788.74214pt x 226.09093pt>
+[14 <./figures/vbri/imbalance_free_9_vdb_benchmark.png>]
+<figures/generated/ablation_progression.pdf, id=484, 788.74214pt x 226.09093pt>
 File: figures/generated/ablation_progression.pdf Graphic file (type pdf)
 <use figures/generated/ablation_progression.pdf>
-Package pdftex.def Info: figures/generated/ablation_progression.pdf  used on input line 670.
+Package pdftex.def Info: figures/generated/ablation_progression.pdf  used on input line 691.
 (pdftex.def)             Requested size: 469.75502pt x 134.65514pt.
-<figures/generated/k_sweep.pdf, id=465, 644.20215pt x 210.6708pt>
+<figures/generated/k_sweep.pdf, id=486, 644.20215pt x 210.6708pt>
 File: figures/generated/k_sweep.pdf Graphic file (type pdf)
 <use figures/generated/k_sweep.pdf>
-Package pdftex.def Info: figures/generated/k_sweep.pdf  used on input line 690.
+Package pdftex.def Info: figures/generated/k_sweep.pdf  used on input line 711.
 (pdftex.def)             Requested size: 399.29463pt x 130.57918pt.
- [14 <./figures/generated/ablation_progression.pdf>]
-<figures/generated/effectiveness_comparison.pdf, id=483, 787.3237pt x 291.28426pt>
+ [15 <./figures/generated/ablation_progression.pdf> <./figures/generated/k_sweep.pdf>]
+<figures/generated/effectiveness_comparison.pdf, id=515, 787.3237pt x 291.28426pt>
 File: figures/generated/effectiveness_comparison.pdf Graphic file (type pdf)
 <use figures/generated/effectiveness_comparison.pdf>
-Package pdftex.def Info: figures/generated/effectiveness_comparison.pdf  used on input line 744.
+Package pdftex.def Info: figures/generated/effectiveness_comparison.pdf  used on input line 765.
 (pdftex.def)             Requested size: 469.75502pt x 173.79407pt.
- [15 <./figures/generated/k_sweep.pdf>]
-<figures/generated/head_to_head_confusion.pdf, id=504, 790.65561pt x 197.33806pt>
+ [16 <./figures/generated/effectiveness_comparison.pdf>]
+<figures/generated/head_to_head_confusion.pdf, id=532, 790.65561pt x 197.33806pt>
 File: figures/generated/head_to_head_confusion.pdf Graphic file (type pdf)
 <use figures/generated/head_to_head_confusion.pdf>
-Package pdftex.def Info: figures/generated/head_to_head_confusion.pdf  used on input line 771.
+Package pdftex.def Info: figures/generated/head_to_head_confusion.pdf  used on input line 792.
 (pdftex.def)             Requested size: 469.75502pt x 117.24747pt.
- [16 <./figures/generated/effectiveness_comparison.pdf> <./figures/generated/head_to_head_confusion.pdf>]
-<figures/generated/cost_comparison.pdf, id=545, 787.33833pt x 225.48616pt>
+<figures/generated/cost_comparison.pdf, id=535, 787.33833pt x 225.48616pt>
 File: figures/generated/cost_comparison.pdf Graphic file (type pdf)
 <use figures/generated/cost_comparison.pdf>
-Package pdftex.def Info: figures/generated/cost_comparison.pdf  used on input line 812.
+Package pdftex.def Info: figures/generated/cost_comparison.pdf  used on input line 833.
 (pdftex.def)             Requested size: 469.75502pt x 134.53578pt.
- [17 <./figures/generated/cost_comparison.pdf>]
-<figures/vbri/confusion_matrices_9_vdb.png, id=569, 1045.506pt x 933.4875pt>
+ [17 <./figures/generated/head_to_head_confusion.pdf>]
+<figures/vbri/confusion_matrices_9_vdb.png, id=567, 1045.506pt x 933.4875pt>
 File: figures/vbri/confusion_matrices_9_vdb.png Graphic file (type png)
 <use figures/vbri/confusion_matrices_9_vdb.png>
-Package pdftex.def Info: figures/vbri/confusion_matrices_9_vdb.png  used on input line 878.
+Package pdftex.def Info: figures/vbri/confusion_matrices_9_vdb.png  used on input line 899.
 (pdftex.def)             Requested size: 422.77664pt x 377.47638pt.
-<figures/vbri/calibration_before_after_confusion.png, id=571, 817.8555pt x 353.8821pt>
+ [18 <./figures/generated/cost_comparison.pdf>]
+<figures/vbri/calibration_before_after_confusion.png, id=590, 817.8555pt x 353.8821pt>
 File: figures/vbri/calibration_before_after_confusion.png Graphic file (type png)
 <use figures/vbri/calibration_before_after_confusion.png>
-Package pdftex.def Info: figures/vbri/calibration_before_after_confusion.png  used on input line 890.
+Package pdftex.def Info: figures/vbri/calibration_before_after_confusion.png  used on input line 911.
 (pdftex.def)             Requested size: 375.80544pt x 162.60953pt.
- [18 <./figures/vbri/confusion_matrices_9_vdb.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+ [19 <./figures/vbri/confusion_matrices_9_vdb.png> <./figures/vbri/calibration_before_after_confusion.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 945--945
 []|\OT1/cmr/bx/n/10 (+20) True la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 945--945
 []|\OT1/cmr/bx/n/10 (+20) What the re-trieval
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 945--945
 []|\OT1/cmr/m/n/10 (+20) Pooled:
  []
 
 
-Overfull \hbox (3.67384pt too wide) in paragraph at lines 924--924
+Overfull \hbox (3.67384pt too wide) in paragraph at lines 945--945
 []|\OT1/cmr/m/n/10 (-20) Inconclusive| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 945--945
 []|\OT1/cmr/m/n/10 (+20) VBRI: In-
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 924--924
+Underfull \hbox (badness 3907) in paragraph at lines 945--945
 \OT1/cmr/m/n/10 (+20) the mar-gin $\OML/cmm/m/it/10 ^^N \OT1/cmr/m/n/10 (+20) = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (+20) 05$.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 945--945
 []|\OT1/cmr/m/n/10 (+20) Neighbours agree with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 945--945
 \OT1/cmr/m/n/10 (+20) la-belled abandonment-
  []
 
-[19 <./figures/vbri/calibration_before_after_confusion.png>]
-<figures/vbri/patient_level_diagnostic_agreement.png, id=589, 1004.553pt x 353.8821pt>
+<figures/vbri/patient_level_diagnostic_agreement.png, id=602, 1004.553pt x 353.8821pt>
 File: figures/vbri/patient_level_diagnostic_agreement.png Graphic file (type png)
 <use figures/vbri/patient_level_diagnostic_agreement.png>
-Package pdftex.def Info: figures/vbri/patient_level_diagnostic_agreement.png  used on input line 964.
+Package pdftex.def Info: figures/vbri/patient_level_diagnostic_agreement.png  used on input line 985.
 (pdftex.def)             Requested size: 399.29463pt x 140.66475pt.
- [20 <./figures/vbri/patient_level_diagnostic_agreement.png>] [21]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1054.
+[20] [21 <./figures/vbri/patient_level_diagnostic_agreement.png>]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1072.
  (/home/thelagari/.TinyTeX/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1054.
- [22] [23] [24] [25] (output/main.aux)
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1072.
+ [22] [23] [24] [25] [26] (output/main.aux)
  ***********
 LaTeX2e <2026-11-01>
 L3 programming layer <2026-09-09>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CB11D212A05453E177CBDFF3E1699742;5851.
+(rerunfilecheck)             Checksum: 22F716ADD9F422AD73AD9C5B7C5E0214;6122.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33848 strings out of 468958
- 652812 string characters out of 5454276
- 1510080 words of memory out of 5000000
- 62148 multiletter control sequences out of 15000+600000
- 652494 words of font info for 242 fonts, out of 8000000 for 9000
+ 33856 strings out of 468958
+ 653210 string characters out of 5454276
+ 1511055 words of memory out of 5000000
+ 62155 multiletter control sequences out of 15000+600000
+ 652378 words of font info for 241 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 92i,16n,94p,1001b,1484s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,16n,94p,1001b,1488s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/thelagari/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/thelagari/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0600.600pk> </home/thelagari/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/thelagari/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on output/main.pdf (25 pages, 1757504 bytes).
+Output written on output/main.pdf (26 pages, 1772376 bytes).
 PDF statistics:
- 814 PDF objects out of 1000 (max. 8388607)
- 639 compressed objects within 7 object streams
- 154 named destinations out of 1000 (max. 500000)
- 50466 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 832 PDF objects out of 1000 (max. 8388607)
+ 654 compressed objects within 7 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 50479 words of extra memory for PDF output out of 51595 (max. 10000000)
 

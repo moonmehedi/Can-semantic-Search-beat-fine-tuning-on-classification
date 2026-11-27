@@ -18,7 +18,8 @@ def run_all():
     for seed in SEEDS:
         for m in MODELS:
             try:
-                res = run_training(m, seed)
+                # DeBERTa-v3 cannot use the Trainer's fp16 scaler (FP16 gradient unscale error), so it trains in fp32
+                res = run_training(m, seed, precision="fp32" if (m == "DeBERTa" and PRECISION == "fp16") else None)
                 if m == "DeBERTa" and res.get("collapsed") and (PRECISION == "fp16" or (PROFILE == "windows" and PRECISION == "bf16")):
                     print(f"[seed{seed}/DeBERTa] collapsed under {PRECISION} -> one documented retry in fp32")
                     run_training(m, seed, variant="-fp32", precision="fp32")

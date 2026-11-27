@@ -1,0 +1,14 @@
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Configuration} & \textbf{Vectors} & \textbf{Isolation} & \textbf{Balance} & \textbf{Accuracy} & \textbf{Macro F1} & \textbf{BPD Sens.} \\
+\midrule
+Pooled, unbalanced & 4,279 & -- & -- & 69.07 & 60.45 & 76.12 \\
+Isolated, unbalanced & 4,279 & \checkmark & -- & 69.07 & 58.28 & 79.10 \\
+Pooled, unbalanced + class weights & 4,279 & -- & weights & 69.07 & 60.95 & 73.13 \\
+Isolated, unbalanced + class weights & 4,279 & \checkmark & weights & 69.97 & 61.44 & 80.60 \\
+Pooled, balanced & 4,050 & -- & \checkmark & 67.27 & 59.08 & 71.64 \\
+Isolated, balanced (VBRI raw) & 4,050 & \checkmark & \checkmark & 70.57 & 63.16 & 80.60 \\
+\quad + uncertainty margin ($\tau$=0.15, $\delta$=0.12, $\theta$=0.4) & 4,050 & \checkmark & \checkmark & 70.87 & 64.24 & 80.60 \\
+\quad + C-SSRS rule (hybrid) & 4,050 & \checkmark & \checkmark & 71.17 & 64.57 & 82.09 \\
+\bottomrule
+\end{tabular}

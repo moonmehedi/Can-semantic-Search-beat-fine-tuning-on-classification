@@ -1,0 +1,49 @@
+{
+  "code_version": "final_baseline_v1",
+  "created_utc": "2026-11-19T16:33:18+00:00",
+  "sessions": [
+    {
+      "session": 1,
+      "started_utc": "2026-11-19T16:33:18+00:00",
+      "resumed_from_step": 0,
+      "base_effective_s": 0.0,
+      "active_s": 0.206,
+      "status": "crashed",
+      "model": "DeBERTa",
+      "variant": "",
+      "seed": 44,
+      "gpu": "Tesla T4",
+      "precision": "fp16",
+      "effective_s_so_far": 0.206,
+      "last_heartbeat_utc": "2026-11-19T16:33:18+00:00"
+    },
+    {
+      "session": 2,
+      "started_utc": "2026-11-19T18:13:51+00:00",
+      "resumed_from_step": 0,
+      "base_effective_s": 0.0,
+      "active_s": 0.198,
+      "status": "crashed",
+      "model": "DeBERTa",
+      "variant": "",
+      "seed": 44,
+      "gpu": "Tesla T4",
+      "precision": "fp16",
+      "effective_s_so_far": 0.198,
+      "last_heartbeat_utc": "2026-11-19T18:13:51+00:00"
+    }
+  ],
+  "summary": {
+    "effective_s": 0.198,
+    "eval_s": 0.0,
+    "save_s": 0.0,
+    "gross_s": 0.404,
+    "wasted_s": 0.206,
+    "n_sessions": 2,
+    "resumed": false,
+    "session_status": [
+      "crashed",
+      "crashed"
+    ]
+  }
+}

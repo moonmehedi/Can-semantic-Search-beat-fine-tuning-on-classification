@@ -1,0 +1,35 @@
+{
+  "code_version": "final_baseline_v1",
+  "created_utc": "2026-11-19T16:19:48+00:00",
+  "sessions": [
+    {
+      "session": 1,
+      "started_utc": "2026-11-19T16:19:48+00:00",
+      "resumed_from_step": 0,
+      "base_effective_s": 0.0,
+      "active_s": 218.678,
+      "status": "completed",
+      "model": "RoBERTa",
+      "variant": "",
+      "seed": 44,
+      "gpu": "Tesla T4",
+      "precision": "fp16",
+      "effective_s_so_far": 218.678,
+      "last_heartbeat_utc": "2026-11-19T16:23:26+00:00",
+      "last_step": 1524,
+      "last_epoch": 6.0
+    }
+  ],
+  "summary": {
+    "effective_s": 218.678,
+    "eval_s": 3.452,
+    "save_s": 8.955,
+    "gross_s": 218.678,
+    "wasted_s": 0.0,
+    "n_sessions": 1,
+    "resumed": false,
+    "session_status": [
+      "completed"
+    ]
+  }
+}

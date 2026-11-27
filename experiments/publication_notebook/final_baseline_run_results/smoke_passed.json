@@ -1,0 +1,36 @@
+{
+  "code_version": "final_baseline_v1",
+  "passed_utc": "2026-11-19T15:12:36+00:00",
+  "checks": {
+    "B was resumed in a 2nd session": true,
+    "B has wasted time (lost partial epoch)": true,
+    "B effective < B gross": true,
+    "B effective close to uninterrupted C (+-40% or 8 s)": true,
+    "B first session was marked interrupted": true
+  },
+  "B": {
+    "effective_s": 16.939,
+    "eval_s": 0.479,
+    "save_s": 3.074,
+    "gross_s": 17.994,
+    "wasted_s": 1.055,
+    "n_sessions": 2,
+    "resumed": true,
+    "session_status": [
+      "interrupted",
+      "completed"
+    ]
+  },
+  "C": {
+    "effective_s": 17.273,
+    "eval_s": 0.473,
+    "save_s": 4.296,
+    "gross_s": 17.273,
+    "wasted_s": 0.0,
+    "n_sessions": 1,
+    "resumed": false,
+    "session_status": [
+      "completed"
+    ]
+  }
+}

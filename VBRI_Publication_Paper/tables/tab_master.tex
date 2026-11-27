@@ -1,0 +1,30 @@
+\begin{tabular}{@{}llccccccc@{}}
+\toprule
+\textbf{Paradigm} & \textbf{Model} & \textbf{Trainable} & \textbf{k} & \textbf{Contam.} & \textbf{Accuracy} & \textbf{Macro F1} & \textbf{BPD Sens.} & \textbf{BPD F1} \\
+\midrule
+Fine-tuned & ELECTRA & 110M & -- & N/A & 83.88 $\pm$ 1.21 & 78.25 $\pm$ 1.58 & 85.07 $\pm$ 7.76 & 75.13 $\pm$ 1.02 \\
+Fine-tuned & BERT & 110M & -- & N/A & 78.48 $\pm$ 0.63 & 73.14 $\pm$ 1.23 & 79.10 $\pm$ 1.49 & 67.96 $\pm$ 1.98 \\
+Fine-tuned & DistilBERT & 67M & -- & N/A & 74.07 $\pm$ 2.77 & 67.82 $\pm$ 1.98 & 78.61 $\pm$ 9.00 & 64.39 $\pm$ 1.72 \\
+Fine-tuned & RoBERTa & 125M & -- & N/A & 76.48 $\pm$ 2.79 & 70.78 $\pm$ 2.19 & 82.59 $\pm$ 1.72 & 70.81 $\pm$ 1.69 \\
+Fine-tuned & XLNet & 117M & -- & N/A & 80.68 $\pm$ 2.13 & 73.41 $\pm$ 2.85 & 78.61 $\pm$ 4.56 & 72.19 $\pm$ 2.32 \\
+Fine-tuned & DeBERTa & 184M & -- & N/A & 70.87 $\pm$ 4.48 & 63.72 $\pm$ 1.86 & 77.61 $\pm$ 9.79 & 57.36 $\pm$ 2.96 \\
+Fine-tuned & ModernBERT & 150M & -- & N/A & 84.78 $\pm$ 2.72 & 77.73 $\pm$ 5.96 & 77.61 $\pm$ 9.32 & 75.10 $\pm$ 2.10 \\
+\midrule
+Pooled dense & Pooled MiniLM (answer) & 0 & 1 & 32.7 & 64.26 & 53.30 & 46.27 & 40.00 \\
+Pooled dense & Pooled MiniLM (Q+A) & 0 & 1 & 0.0 & 60.96 & 46.91 & 32.84 & 35.77 \\
+Pooled dense & Pooled MPNet (answer) & 0 & 1 & 28.2 & 63.36 & 50.11 & 58.21 & 45.35 \\
+Pooled dense & Pooled MPNet (Q+A) & 0 & 1 & 0.0 & 66.67 & 54.99 & 56.72 & 48.10 \\
+Pooled dense & Pooled PubMedBERT (answer) & 0 & 1 & 38.4 & 61.86 & 49.96 & 61.19 & 50.62 \\
+Pooled dense & Pooled PubMedBERT (Q+A) & 0 & 1 & 0.0 & 61.26 & 50.15 & 46.27 & 43.06 \\
+Pooled dense & Pooled BGE (answer) & 0 & 1 & 33.9 & 67.27 & 57.26 & 65.67 & 56.41 \\
+Pooled dense & Pooled BGE (Q+A) & 0 & 7 & 0.0 & 60.36 & 51.97 & 58.21 & 47.85 \\
+\midrule
+Pooled lexical & Pooled BM25 & 0 & 9 & 47.1 & 61.86 & 48.19 & 52.24 & 44.03 \\
+Pooled lexical & Pooled TF-IDF & 0 & 15 & 56.6 & 63.66 & 51.24 & 43.28 & 43.94 \\
+\midrule
+\textbf{VBRI (ours)} & VBRI raw & 0 & 3 & 0.0 & 70.57 & 63.16 & 80.60 & 59.34 \\
+\textbf{VBRI (ours)} & VBRI calibrated & 0 & 3 & 0.0 & 70.87 & 64.24 & 80.60 & 59.67 \\
+\textbf{VBRI (ours)} & VBRI raw + C-SSRS & 0 & 3 & 0.0 & 70.87 & 63.48 & 82.09 & 60.11 \\
+\textbf{VBRI (ours)} & VBRI hybrid & 0 & 3 & 0.0 & 71.17 & 64.57 & 82.09 & 60.44 \\
+\bottomrule
+\end{tabular}

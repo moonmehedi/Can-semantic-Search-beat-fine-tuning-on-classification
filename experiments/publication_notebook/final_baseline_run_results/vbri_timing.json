@@ -1,0 +1,29 @@
+{
+  "encoder": "BAAI/bge-base-en-v1.5",
+  "k": 3,
+  "model_load_s": 1.4058512139999948,
+  "index_build_s_runs": [
+    12.107338638999863,
+    12.421075141999836,
+    11.803387121000014
+  ],
+  "index_build_s_median": 12.107338638999863,
+  "index_mb": 12.474,
+  "n_vectors": 4050,
+  "encoder_params_m": 109.5,
+  "gpu": "Tesla T4",
+  "gpu_bs1_encode_ms_median": 10.737646000052337,
+  "gpu_bs1_search_ms_median": 0.13221499989413132,
+  "gpu_bs1_total_ms_median": 10.886691999985487,
+  "gpu_bs1_total_ms_mean": 11.027922924921693,
+  "gpu_bs1_total_ms_p95": 12.294944999894142,
+  "gpu_bs1_n": 333,
+  "gpu_bs32_ms_per_answer": 2.5504981261261004,
+  "cpu_bs1_encode_ms_median": 70.11711000006926,
+  "cpu_bs1_search_ms_median": 0.24302000008447067,
+  "cpu_bs1_total_ms_median": 70.36434000008285,
+  "cpu_bs1_total_ms_mean": 73.14308163998703,
+  "cpu_bs1_total_ms_p95": 95.98402899996472,
+  "cpu_bs1_n": 100,
+  "cpu_threads": 2
+}

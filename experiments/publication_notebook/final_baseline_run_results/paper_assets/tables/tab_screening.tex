@@ -1,0 +1,11 @@
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{Sensitivity} & \textbf{Specificity} & \textbf{PPV} & \textbf{NPV} & \textbf{AUROC} \\
+\midrule
+ELECTRA (fine-tuned, 3 seeds) & 88.69 $\pm$ 0.76 & 85.07 $\pm$ 7.76 & 89.60 $\pm$ 2.77 & 67.68 $\pm$ 3.75 & 96.04 $\pm$ 1.95 & 0.945 $\pm$ 0.007 \\
+VBRI raw & 77.78 & 80.60 & 77.07 & 46.96 & 94.04 & 0.841 \\
+VBRI calibrated & 78.08 & 80.60 & 77.44 & 47.37 & 94.06 & 0.841 \\
+VBRI hybrid & 78.38 & 82.09 & 77.44 & 47.83 & 94.50 & -- \\
+Pooled BGE (answer) & 79.58 & 65.67 & 83.08 & 49.44 & 90.57 & 0.744 \\
+\bottomrule
+\end{tabular}

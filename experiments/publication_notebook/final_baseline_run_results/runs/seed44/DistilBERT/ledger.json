@@ -1,0 +1,35 @@
+{
+  "code_version": "final_baseline_v1",
+  "created_utc": "2026-11-19T16:17:38+00:00",
+  "sessions": [
+    {
+      "session": 1,
+      "started_utc": "2026-11-19T16:17:38+00:00",
+      "resumed_from_step": 0,
+      "base_effective_s": 0.0,
+      "active_s": 127.034,
+      "status": "completed",
+      "model": "DistilBERT",
+      "variant": "",
+      "seed": 44,
+      "gpu": "Tesla T4",
+      "precision": "fp16",
+      "effective_s_so_far": 127.034,
+      "last_heartbeat_utc": "2026-11-19T16:19:45+00:00",
+      "last_step": 1778,
+      "last_epoch": 7.0
+    }
+  ],
+  "summary": {
+    "effective_s": 127.034,
+    "eval_s": 2.233,
+    "save_s": 4.88,
+    "gross_s": 127.034,
+    "wasted_s": 0.0,
+    "n_sessions": 1,
+    "resumed": false,
+    "session_status": [
+      "completed"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "path": "/kaggle/input/datasets/mehedihasanmoon/imbalance-free-dataset/imbalance_free_dataset",
+  "aug_path": "/kaggle/input/datasets/shadmanshafeen141/bpd-qna-classification-dataset-augmented/augmented_dataset",
+  "aug_ok": true,
+  "orig_ok": true,
+  "train_fp": "529c5eab3547f1e7f7c4240444adcd6296c377d141ac6e275b488e066e1b477f",
+  "val_fp": "591e6dd91842e2184ad6c272846d9b2e824df30cd787f4665bbbfc9fa112c513",
+  "test_fp": "b0d1f78b4093c5ef95ad488a014ddf09c5c161e4953f786e79341c7085578941",
+  "train": 4050,
+  "validation": 333,
+  "test": 333
+}

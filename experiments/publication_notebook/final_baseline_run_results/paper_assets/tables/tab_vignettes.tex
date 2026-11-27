@@ -1,0 +1,10 @@
+\begin{tabular}{@{}p{2.2cm}p{5.2cm}p{1.6cm}p{2.2cm}p{4.4cm}@{}}
+\toprule
+\textbf{Case} & \textbf{Answer (excerpt)} & \textbf{True} & \textbf{Predictions} & \textbf{Retrieved neighbours (VBRI)} \\
+\midrule
+Pooled index retrieves the wrong criterion (Q9) & ``I cannot control myself\ldots'' & Inconclusive & Pooled: Normal (100\% contam.)\newline VBRI: Inconclusive\newline Calibrated: Inconclusive & Inconclusive (0.67); Normal (0.67); BPD (0.67) \\
+Uncertainty margin flags an ambiguous answer (Q7) & ``i do not think anything important is missing in my life\ldots'' & Inconclusive & Pooled: BPD (0\% contam.)\newline VBRI: BPD\newline Calibrated: Inconclusive & Normal (0.84); BPD (0.76); BPD (0.76) \\
+Clear BPD-indicative answer (Q1) & ``Yes I felt the need to prevent someone leaving me emotionallly\ldots'' & BPD & Pooled: BPD (0\% contam.)\newline VBRI: BPD\newline Calibrated: BPD & BPD (0.93); BPD (0.88); BPD (0.88) \\
+Error: negated statement read as BPD (Q9) & ``i never trust people... i always think, they are good for some reason until they have what they want. I have found that to be true most of the times\ldots'' & Normal & Pooled: Normal (67\% contam.)\newline VBRI: BPD\newline Calibrated: BPD & BPD (0.81); BPD (0.80); BPD (0.80) \\
+\bottomrule
+\end{tabular}

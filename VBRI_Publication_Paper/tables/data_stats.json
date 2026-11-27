@@ -1,0 +1,132 @@
+{
+  "original": {
+    "rows": 3258,
+    "class_counts": {
+      "Normal": 2195,
+      "BPD": 673,
+      "Inconclusive": 390
+    },
+    "question_label_proportions": {
+      "Q1": {
+        "Normal": 0.547,
+        "BPD": 0.326,
+        "Inconclusive": 0.1271
+      },
+      "Q2": {
+        "Normal": 0.674,
+        "BPD": 0.1961,
+        "Inconclusive": 0.1298
+      },
+      "Q3": {
+        "Normal": 0.7818,
+        "BPD": 0.1409,
+        "Inconclusive": 0.0773
+      },
+      "Q4": {
+        "Normal": 0.663,
+        "BPD": 0.0912,
+        "Inconclusive": 0.2459
+      },
+      "Q5": {
+        "Normal": 0.8978,
+        "BPD": 0.0608,
+        "Inconclusive": 0.0414
+      },
+      "Q6": {
+        "Normal": 0.6354,
+        "BPD": 0.2735,
+        "Inconclusive": 0.0912
+      },
+      "Q7": {
+        "Normal": 0.6271,
+        "BPD": 0.2486,
+        "Inconclusive": 0.1243
+      },
+      "Q8": {
+        "Normal": 0.6077,
+        "BPD": 0.3122,
+        "Inconclusive": 0.0801
+      },
+      "Q9": {
+        "Normal": 0.6298,
+        "BPD": 0.2099,
+        "Inconclusive": 0.1602
+      }
+    },
+    "mean_words": {
+      "Normal": 21.10250569476082,
+      "BPD": 33.429420505200596,
+      "Inconclusive": 18.102564102564102
+    }
+  },
+  "training_views": {
+    "Original training split": {
+      "Normal": 1746,
+      "BPD": 538,
+      "Inconclusive": 308
+    },
+    "Augmented, unbalanced (ablation only)": {
+      "Normal": 1746,
+      "BPD": 1612,
+      "Inconclusive": 921
+    },
+    "Balanced, used by all models (150 per class per question)": {
+      "Normal": 1350,
+      "BPD": 1350,
+      "Inconclusive": 1350
+    }
+  },
+  "balanced_store_augmented_share_pct": {
+    "Q1": {
+      "Normal": 0.0,
+      "BPD": 68.7,
+      "Inconclusive": 64.0
+    },
+    "Q2": {
+      "Normal": 0.0,
+      "BPD": 68.0,
+      "Inconclusive": 67.3
+    },
+    "Q3": {
+      "Normal": 0.0,
+      "BPD": 64.0,
+      "Inconclusive": 64.0
+    },
+    "Q4": {
+      "Normal": 0.0,
+      "BPD": 69.3,
+      "Inconclusive": 66.7
+    },
+    "Q5": {
+      "Normal": 0.0,
+      "BPD": 66.7,
+      "Inconclusive": 70.7
+    },
+    "Q6": {
+      "Normal": 0.0,
+      "BPD": 66.7,
+      "Inconclusive": 67.3
+    },
+    "Q7": {
+      "Normal": 0.0,
+      "BPD": 68.7,
+      "Inconclusive": 62.7
+    },
+    "Q8": {
+      "Normal": 0.0,
+      "BPD": 65.3,
+      "Inconclusive": 66.7
+    },
+    "Q9": {
+      "Normal": 0.0,
+      "BPD": 66.7,
+      "Inconclusive": 66.7
+    }
+  },
+  "balanced_store_original_rows": 2250,
+  "balanced_store_aug_methods": {
+    "paraphrase": 633,
+    "substitute": 516,
+    "backtranslate": 651
+  }
+}

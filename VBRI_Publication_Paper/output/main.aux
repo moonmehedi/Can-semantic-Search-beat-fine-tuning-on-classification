@@ -11,6 +11,8 @@
 \abx@aux@segm{0}{0}{xu2024mental}
 \abx@aux@cite{0}{guo2024llmreview}
 \abx@aux@segm{0}{0}{guo2024llmreview}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
 \abx@aux@cite{0}{strubell2019energy}
 \abx@aux@segm{0}{0}{strubell2019energy}
 \abx@aux@cite{0}{schwartz2020green}
@@ -49,8 +51,6 @@
 \abx@aux@segm{0}{0}{zanarini2003}
 \abx@aux@cite{0}{huque2025}
 \abx@aux@segm{0}{0}{huque2025}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
-\newlabel{sec:intro}{{1}{2}{Introduction}{section.1}{}}
 \abx@aux@cite{0}{singh2020framework}
 \abx@aux@segm{0}{0}{singh2020framework}
 \abx@aux@cite{0}{harrigian2021state}
@@ -87,16 +87,17 @@
 \abx@aux@segm{0}{0}{khazbak2021mindtime}
 \abx@aux@cite{0}{wang2020learning}
 \abx@aux@segm{0}{0}{wang2020learning}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Literature Review}{3}{section.2}\protected@file@percent }
-\newlabel{sec:lit}{{2}{3}{Literature Review}{section.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Mental health text classification: from feature engineering to fine-tuning}{3}{subsection.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Personality disorder and BPD detection}{3}{subsection.2.2}\protected@file@percent }
 \abx@aux@cite{0}{yang2024mentallama}
 \abx@aux@segm{0}{0}{yang2024mentallama}
 \abx@aux@cite{0}{xu2024mental}
 \abx@aux@segm{0}{0}{xu2024mental}
 \abx@aux@cite{0}{guo2024llmreview}
 \abx@aux@segm{0}{0}{guo2024llmreview}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Literature Review}{3}{section.2}\protected@file@percent }
+\newlabel{sec:lit}{{2}{3}{Literature Review}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Mental health text classification: from feature engineering to fine-tuning}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Personality disorder and BPD detection}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Large language models for mental health: power and price}{3}{subsection.2.3}\protected@file@percent }
 \abx@aux@cite{0}{lamichhane2023chatgpt}
 \abx@aux@segm{0}{0}{lamichhane2023chatgpt}
 \abx@aux@cite{0}{bucher2024finetuned}
@@ -151,7 +152,6 @@
 \abx@aux@segm{0}{0}{fabregat2022clpsych}
 \abx@aux@cite{0}{lho2025jama}
 \abx@aux@segm{0}{0}{lho2025jama}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Large language models for mental health: power and price}{4}{subsection.2.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Embedding models, semantic search and training-free classification}{4}{subsection.2.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Research gap and research questions}{4}{subsection.2.5}\protected@file@percent }
 \abx@aux@cite{0}{dsm}
@@ -216,47 +216,45 @@
 \newlabel{tab:encoder_results}{{2}{12}{Fine-tuned encoders on the \bpdqac {} test set ($N=333$). Training time is the \texttt {Trainer} wall-clock time on one Tesla T4, including all epochs up to early stopping}{table.caption.25}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Test confusion matrices of the fine-tuned models (counts and row-normalised proportions). The best models find most BPD answers. They confuse some Inconclusive answers with the other two classes.}}{13}{figure.caption.26}\protected@file@percent }
 \newlabel{fig:ft_cm}{{7}{13}{Test confusion matrices of the fine-tuned models (counts and row-normalised proportions). The best models find most BPD answers. They confuse some Inconclusive answers with the other two classes}{figure.caption.26}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Why naive semantic search fails: cross-criterion contamination}{13}{subsection.5.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces (a) Macro F1 per criterion for the pooled store and VBRI{} (9-VDB). (b) Share of retrieved neighbours that come from the wrong criterion in the pooled store. For VBRI{} it is 0\% by design.}}{13}{figure.caption.27}\protected@file@percent }
-\newlabel{fig:contam}{{8}{13}{(a) Macro F1 per criterion for the pooled store and \vbri {} (9-VDB). (b) Share of retrieved neighbours that come from the wrong criterion in the pooled store. For \vbri {} it is 0\% by design}{figure.caption.27}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}What makes semantic search work: a $2\times 2$ ablation}{14}{subsection.5.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Ablation of VBRI{} design decisions (BGE-base, answer-only, $k=5$, $N=333$). ``Unbalanced'' uses the augmented training data with its natural per-criterion class mix (4,279 vectors). ``Balanced'' uses 150 answers per class per criterion (4,050 vectors).}}{14}{table.caption.28}\protected@file@percent }
-\newlabel{tab:ablation}{{3}{14}{Ablation of \vbri {} design decisions (BGE-base, answer-only, $k=5$, $N=333$). ``Unbalanced'' uses the augmented training data with its natural per-criterion class mix (4,279 vectors). ``Balanced'' uses 150 answers per class per criterion (4,050 vectors)}{table.caption.28}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Accuracy and macro F1 as the VBRI{} design decisions are added. Grey bars miss at least one of the two key decisions (isolation and balance). Orange bars have both.}}{14}{figure.caption.29}\protected@file@percent }
-\newlabel{fig:ablation}{{9}{14}{Accuracy and macro F1 as the \vbri {} design decisions are added. Grey bars miss at least one of the two key decisions (isolation and balance). Orange bars have both}{figure.caption.29}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Sensitivity to the number of neighbours $k$. Left: macro F1. Right: share of neighbours retrieved from the wrong criterion.}}{15}{figure.caption.30}\protected@file@percent }
-\newlabel{fig:ksweep}{{10}{15}{Sensitivity to the number of neighbours $k$. Left: macro F1. Right: share of neighbours retrieved from the wrong criterion}{figure.caption.30}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Head-to-head: fine-tuning versus semantic search}{15}{subsection.5.4}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces All configurations on the same test set ($N=333$). ``Contam.'' is the share of retrieved neighbours from the wrong criterion. It does not apply to fine-tuned models. Values in \%.}}{15}{table.caption.31}\protected@file@percent }
-\newlabel{tab:master}{{4}{15}{All configurations on the same test set ($N=333$). ``Contam.'' is the share of retrieved neighbours from the wrong criterion. It does not apply to fine-tuned models. Values in \%}{table.caption.31}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Accuracy, macro F1 and BPD sensitivity of fine-tuned encoders (blue), pooled retrieval baselines (grey) and VBRI{} (orange). On BPD sensitivity, training-free VBRI{} sits with the best fine-tuned models. On accuracy and macro F1, it sits between them and the baselines.}}{16}{figure.caption.32}\protected@file@percent }
-\newlabel{fig:effect}{{11}{16}{Accuracy, macro F1 and BPD sensitivity of fine-tuned encoders (blue), pooled retrieval baselines (grey) and \vbri {} (orange). On BPD sensitivity, training-free \vbri {} sits with the best fine-tuned models. On accuracy and macro F1, it sits between them and the baselines}{figure.caption.32}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Test confusion matrices of the best fine-tuned model (blue) and three semantic search configurations (orange). Moving from the pooled store to VBRI{} mainly recovers BPD answers. ModernBERT is still better at keeping Normal and Inconclusive answers apart from BPD.}}{16}{figure.caption.33}\protected@file@percent }
-\newlabel{fig:h2h}{{12}{16}{Test confusion matrices of the best fine-tuned model (blue) and three semantic search configurations (orange). Moving from the pooled store to \vbri {} mainly recovers BPD answers. ModernBERT is still better at keeping Normal and Inconclusive answers apart from BPD}{figure.caption.33}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}What fine-tuning costs and what semantic search saves}{16}{subsection.5.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Computational cost of building and running each classifier. Inference time is per answer with batched inputs on a Tesla T4. Storage is what must be kept for this task only (fp32 weights, or the vector index). The frozen VBRI{} encoder (109M parameters) is shared across tasks, so it is not counted.}}{17}{table.caption.34}\protected@file@percent }
-\newlabel{tab:cost}{{5}{17}{Computational cost of building and running each classifier. Inference time is per answer with batched inputs on a Tesla T4. Storage is what must be kept for this task only (fp32 weights, or the vector index). The frozen \vbri {} encoder (109M parameters) is shared across tasks, so it is not counted}{table.caption.34}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Cost of each classifier: time to train (fine-tuning) or to build the index (VBRI{}), inference time per answer, and task-specific storage. The first and third panels use logarithmic scales.}}{17}{figure.caption.35}\protected@file@percent }
-\newlabel{fig:cost}{{13}{17}{Cost of each classifier: time to train (fine-tuning) or to build the index (\vbri {}), inference time per answer, and task-specific storage. The first and third panels use logarithmic scales}{figure.caption.35}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Per-criterion behaviour}{17}{subsection.5.6}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Per-criterion comparison of the pooled store and VBRI{} (9-VDB raw), $N=37$ per criterion. Values in \%.}}{18}{table.caption.36}\protected@file@percent }
-\newlabel{tab:per_criterion}{{6}{18}{Per-criterion comparison of the pooled store and \vbri {} (9-VDB raw), $N=37$ per criterion. Values in \%}{table.caption.36}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces VBRI{} confusion matrices for each of the nine DSM-5{} criteria (test set, 37 answers each).}}{18}{figure.caption.37}\protected@file@percent }
-\newlabel{fig:vdb_cm}{{14}{18}{\vbri {} confusion matrices for each of the nine \dsmv {} criteria (test set, 37 answers each)}{figure.caption.37}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces VBRI{} confusion matrix before (left) and after (right) the uncertainty margin. The margin moves a few uncertain answers into the Inconclusive class.}}{19}{figure.caption.38}\protected@file@percent }
-\newlabel{fig:calib}{{15}{19}{\vbri {} confusion matrix before (left) and after (right) the uncertainty margin. The margin moves a few uncertain answers into the Inconclusive class}{figure.caption.38}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Explainability: every decision comes with its evidence}{19}{subsection.5.7}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Clinical vignettes from the test set. They show how retrieval exposes its reasoning.}}{19}{table.caption.39}\protected@file@percent }
-\newlabel{tab:vignettes}{{7}{19}{Clinical vignettes from the test set. They show how retrieval exposes its reasoning}{table.caption.39}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Binary screening and participant-level agreement}{19}{subsection.5.8}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Binary screening view (BPD vs.\ not BPD) on the test set ($N=333$, 67 positive). Values in \%.}}{20}{table.caption.40}\protected@file@percent }
-\newlabel{tab:screening}{{8}{20}{Binary screening view (BPD vs.\ not BPD) on the test set ($N=333$, 67 positive). Values in \%}{table.caption.40}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Participant-level agreement between predicted and expert-labelled BPD criterion counts (221 test participants).}}{20}{figure.caption.41}\protected@file@percent }
-\newlabel{fig:patient_level}{{16}{20}{Participant-level agreement between predicted and expert-labelled BPD criterion counts (221 test participants)}{figure.caption.41}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{20}{section.6}\protected@file@percent }
-\newlabel{sec:discussion}{{6}{20}{Discussion}{section.6}{}}
-\@writefile{toc}{\contentsline {paragraph}{So, do we need to fine-tune?}{20}{section*.42}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{The index structure is the model.}{20}{section*.43}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Choosing the encoder and the input text}{13}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:encoder_text}{{5.2}{13}{Choosing the encoder and the input text}{subsection.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Effect of the input text on four frozen encoders (pooled index, $k=3$, class-weighted vote, $N=333$). (a) Accuracy. (b) Macro F1.}}{13}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:encoder_text}{{8}{13}{Effect of the input text on four frozen encoders (pooled index, $k=3$, class-weighted vote, $N=333$). (a) Accuracy. (b) Macro F1}{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Why naive semantic search fails: cross-criterion contamination}{14}{subsection.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces (a) Macro F1 per criterion for the pooled store and VBRI{} (9-VDB). (b) Share of retrieved neighbours that come from the wrong criterion in the pooled store. For VBRI{} it is 0\% by design.}}{14}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:contam}{{9}{14}{(a) Macro F1 per criterion for the pooled store and \vbri {} (9-VDB). (b) Share of retrieved neighbours that come from the wrong criterion in the pooled store. For \vbri {} it is 0\% by design}{figure.caption.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}What makes semantic search work: a $2\times 2$ ablation}{14}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Ablation of VBRI{} design decisions (BGE-base, answer-only, $k=5$, $N=333$). ``Unbalanced'' uses the augmented training data with its natural per-criterion class mix (4,279 vectors). ``Balanced'' uses 150 answers per class per criterion (4,050 vectors).}}{15}{table.caption.29}\protected@file@percent }
+\newlabel{tab:ablation}{{3}{15}{Ablation of \vbri {} design decisions (BGE-base, answer-only, $k=5$, $N=333$). ``Unbalanced'' uses the augmented training data with its natural per-criterion class mix (4,279 vectors). ``Balanced'' uses 150 answers per class per criterion (4,050 vectors)}{table.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Accuracy and macro F1 as the VBRI{} design decisions are added. Grey bars miss at least one of the two key decisions (isolation and balance). Orange bars have both.}}{15}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:ablation}{{10}{15}{Accuracy and macro F1 as the \vbri {} design decisions are added. Grey bars miss at least one of the two key decisions (isolation and balance). Orange bars have both}{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Sensitivity to the number of neighbours $k$. Left: macro F1. Right: share of neighbours retrieved from the wrong criterion.}}{15}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:ksweep}{{11}{15}{Sensitivity to the number of neighbours $k$. Left: macro F1. Right: share of neighbours retrieved from the wrong criterion}{figure.caption.31}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Head-to-head: fine-tuning versus semantic search}{16}{subsection.5.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces All configurations on the same test set ($N=333$). ``Contam.'' is the share of retrieved neighbours from the wrong criterion. It does not apply to fine-tuned models. Values in \%.}}{16}{table.caption.32}\protected@file@percent }
+\newlabel{tab:master}{{4}{16}{All configurations on the same test set ($N=333$). ``Contam.'' is the share of retrieved neighbours from the wrong criterion. It does not apply to fine-tuned models. Values in \%}{table.caption.32}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Accuracy, macro F1 and BPD sensitivity of fine-tuned encoders (blue), pooled retrieval baselines (grey) and VBRI{} (orange). On BPD sensitivity, training-free VBRI{} sits with the best fine-tuned models. On accuracy and macro F1, it sits between them and the baselines.}}{16}{figure.caption.33}\protected@file@percent }
+\newlabel{fig:effect}{{12}{16}{Accuracy, macro F1 and BPD sensitivity of fine-tuned encoders (blue), pooled retrieval baselines (grey) and \vbri {} (orange). On BPD sensitivity, training-free \vbri {} sits with the best fine-tuned models. On accuracy and macro F1, it sits between them and the baselines}{figure.caption.33}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Test confusion matrices of the best fine-tuned model (blue) and three semantic search configurations (orange). Moving from the pooled store to VBRI{} mainly recovers BPD answers. ModernBERT is still better at keeping Normal and Inconclusive answers apart from BPD.}}{17}{figure.caption.34}\protected@file@percent }
+\newlabel{fig:h2h}{{13}{17}{Test confusion matrices of the best fine-tuned model (blue) and three semantic search configurations (orange). Moving from the pooled store to \vbri {} mainly recovers BPD answers. ModernBERT is still better at keeping Normal and Inconclusive answers apart from BPD}{figure.caption.34}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}What fine-tuning costs and what semantic search saves}{17}{subsection.5.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Computational cost of building and running each classifier. Inference time is per answer with batched inputs on a Tesla T4. Storage is what must be kept for this task only (fp32 weights, or the vector index). The frozen VBRI{} encoder (109M parameters) is shared across tasks, so it is not counted.}}{17}{table.caption.35}\protected@file@percent }
+\newlabel{tab:cost}{{5}{17}{Computational cost of building and running each classifier. Inference time is per answer with batched inputs on a Tesla T4. Storage is what must be kept for this task only (fp32 weights, or the vector index). The frozen \vbri {} encoder (109M parameters) is shared across tasks, so it is not counted}{table.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Cost of each classifier: time to train (fine-tuning) or to build the index (VBRI{}), inference time per answer, and task-specific storage. The first and third panels use logarithmic scales.}}{18}{figure.caption.36}\protected@file@percent }
+\newlabel{fig:cost}{{14}{18}{Cost of each classifier: time to train (fine-tuning) or to build the index (\vbri {}), inference time per answer, and task-specific storage. The first and third panels use logarithmic scales}{figure.caption.36}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Per-criterion behaviour}{18}{subsection.5.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Per-criterion comparison of the pooled store and VBRI{} (9-VDB raw), $N=37$ per criterion. Values in \%.}}{18}{table.caption.37}\protected@file@percent }
+\newlabel{tab:per_criterion}{{6}{18}{Per-criterion comparison of the pooled store and \vbri {} (9-VDB raw), $N=37$ per criterion. Values in \%}{table.caption.37}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces VBRI{} confusion matrices for each of the nine DSM-5{} criteria (test set, 37 answers each).}}{19}{figure.caption.38}\protected@file@percent }
+\newlabel{fig:vdb_cm}{{15}{19}{\vbri {} confusion matrices for each of the nine \dsmv {} criteria (test set, 37 answers each)}{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces VBRI{} confusion matrix before (left) and after (right) the uncertainty margin. The margin moves a few uncertain answers into the Inconclusive class.}}{19}{figure.caption.39}\protected@file@percent }
+\newlabel{fig:calib}{{16}{19}{\vbri {} confusion matrix before (left) and after (right) the uncertainty margin. The margin moves a few uncertain answers into the Inconclusive class}{figure.caption.39}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Explainability: every decision comes with its evidence}{20}{subsection.5.8}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Clinical vignettes from the test set. They show how retrieval exposes its reasoning.}}{20}{table.caption.40}\protected@file@percent }
+\newlabel{tab:vignettes}{{7}{20}{Clinical vignettes from the test set. They show how retrieval exposes its reasoning}{table.caption.40}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.9}Binary screening and participant-level agreement}{20}{subsection.5.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Binary screening view (BPD vs.\ not BPD) on the test set ($N=333$, 67 positive). Values in \%.}}{20}{table.caption.41}\protected@file@percent }
+\newlabel{tab:screening}{{8}{20}{Binary screening view (BPD vs.\ not BPD) on the test set ($N=333$, 67 positive). Values in \%}{table.caption.41}{}}
 \abx@aux@cite{0}{bucher2024finetuned}
 \abx@aux@segm{0}{0}{bucher2024finetuned}
 \abx@aux@cite{0}{edwards2024icl}
@@ -269,10 +267,16 @@
 \abx@aux@segm{0}{0}{chiang2023heros}
 \abx@aux@cite{0}{cao2025negation}
 \abx@aux@segm{0}{0}{cao2025negation}
-\@writefile{toc}{\contentsline {paragraph}{Relation to LLMs.}{21}{section*.44}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Limitations.}{21}{section*.45}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{21}{section.7}\protected@file@percent }
-\newlabel{sec:conclusion}{{7}{21}{Conclusion}{section.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Participant-level agreement between predicted and expert-labelled BPD criterion counts (221 test participants).}}{21}{figure.caption.42}\protected@file@percent }
+\newlabel{fig:patient_level}{{17}{21}{Participant-level agreement between predicted and expert-labelled BPD criterion counts (221 test participants)}{figure.caption.42}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{21}{section.6}\protected@file@percent }
+\newlabel{sec:discussion}{{6}{21}{Discussion}{section.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{So, do we need to fine-tune?}{21}{section*.43}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{The index structure is the model.}{21}{section*.44}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Relation to LLMs.}{21}{section*.45}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Limitations.}{21}{section*.46}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{22}{section.7}\protected@file@percent }
+\newlabel{sec:conclusion}{{7}{22}{Conclusion}{section.7}{}}
 \abx@aux@read@bbl@mdfivesum{EBE64D24B3AF8FF8E6C507D4C1253DC3}
 \abx@aux@defaultrefcontext{0}{devlin2019bert}{none/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{yang2024mentallama}{none/global//global/global/global}
@@ -326,4 +330,4 @@
 \abx@aux@defaultrefcontext{0}{warner2024modernbert}{none/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{posner2011cssrs}{none/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{mcnemar1947}{none/global//global/global/global}
-\gdef \@abspage@last{25}
+\gdef \@abspage@last{26}

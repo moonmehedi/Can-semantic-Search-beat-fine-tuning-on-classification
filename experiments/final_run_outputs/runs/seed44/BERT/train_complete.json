@@ -1,0 +1,13 @@
+{
+  "finished_utc": "2026-11-19T16:17:35+00:00",
+  "effective_s": 249.575,
+  "eval_s": 4.371,
+  "save_s": 7.992,
+  "gross_s": 249.575,
+  "wasted_s": 0.0,
+  "n_sessions": 1,
+  "resumed": false,
+  "session_status": [
+    "completed"
+  ]
+}

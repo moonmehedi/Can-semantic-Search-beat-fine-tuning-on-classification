@@ -1,0 +1,67 @@
+{
+  "code_version": "final_baseline_v1",
+  "created_utc": "2026-11-19T16:05:11+00:00",
+  "sessions": [
+    {
+      "session": 1,
+      "started_utc": "2026-11-19T16:05:11+00:00",
+      "resumed_from_step": 0,
+      "base_effective_s": 0.0,
+      "active_s": 0.631,
+      "status": "crashed",
+      "model": "DeBERTa",
+      "variant": "",
+      "seed": 43,
+      "gpu": "Tesla T4",
+      "precision": "fp16",
+      "effective_s_so_far": 0.631,
+      "last_heartbeat_utc": "2026-11-19T16:05:11+00:00"
+    },
+    {
+      "session": 2,
+      "started_utc": "2026-11-19T18:13:49+00:00",
+      "resumed_from_step": 0,
+      "base_effective_s": 0.0,
+      "active_s": 0.639,
+      "status": "crashed",
+      "model": "DeBERTa",
+      "variant": "",
+      "seed": 43,
+      "gpu": "Tesla T4",
+      "precision": "fp16",
+      "effective_s_so_far": 0.639,
+      "last_heartbeat_utc": "2026-11-19T18:13:50+00:00"
+    },
+    {
+      "session": 3,
+      "started_utc": "2026-11-19T18:44:12+00:00",
+      "resumed_from_step": 0,
+      "base_effective_s": 0.0,
+      "active_s": 805.809,
+      "status": "completed",
+      "model": "DeBERTa",
+      "variant": "",
+      "seed": 43,
+      "gpu": "Tesla T4",
+      "precision": "fp32",
+      "effective_s_so_far": 805.809,
+      "last_heartbeat_utc": "2026-11-19T18:57:38+00:00",
+      "last_step": 1524,
+      "last_epoch": 6.0
+    }
+  ],
+  "summary": {
+    "effective_s": 805.809,
+    "eval_s": 18.36,
+    "save_s": 19.511,
+    "gross_s": 807.079,
+    "wasted_s": 1.27,
+    "n_sessions": 3,
+    "resumed": false,
+    "session_status": [
+      "crashed",
+      "crashed",
+      "completed"
+    ]
+  }
+}

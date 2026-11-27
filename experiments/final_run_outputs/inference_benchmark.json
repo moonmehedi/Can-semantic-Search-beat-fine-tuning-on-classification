@@ -1,0 +1,86 @@
+[
+  {
+    "model": "ELECTRA",
+    "weights_mb": 437.967501,
+    "gpu_bs1_mean_ms": 8.476536024020833,
+    "gpu_bs1_median_ms": 8.024693000038496,
+    "gpu_bs1_p95_ms": 9.165505999931156,
+    "gpu_bs32_ms_per_answer": 5.552108489489449,
+    "cpu_bs1_mean_ms": 96.79815115000338,
+    "cpu_bs1_median_ms": 94.95343399999001,
+    "cpu_bs1_p95_ms": 126.6799310000124,
+    "cpu_threads": 2
+  },
+  {
+    "model": "BERT",
+    "weights_mb": 437.966901,
+    "gpu_bs1_mean_ms": 8.769561762761242,
+    "gpu_bs1_median_ms": 8.620044000053895,
+    "gpu_bs1_p95_ms": 9.80292899998858,
+    "gpu_bs32_ms_per_answer": 5.7323455375374825,
+    "cpu_bs1_mean_ms": 95.55471863000093,
+    "cpu_bs1_median_ms": 93.6942545000079,
+    "cpu_bs1_p95_ms": 126.76540500001465,
+    "cpu_threads": 2
+  },
+  {
+    "model": "DistilBERT",
+    "weights_mb": 267.840845,
+    "gpu_bs1_mean_ms": 4.658062219222132,
+    "gpu_bs1_median_ms": 4.54623600001014,
+    "gpu_bs1_p95_ms": 5.452862000083769,
+    "gpu_bs32_ms_per_answer": 2.895038252252182,
+    "cpu_bs1_mean_ms": 48.332817099995964,
+    "cpu_bs1_median_ms": 46.82043950003845,
+    "cpu_bs1_p95_ms": 65.06687499995678,
+    "cpu_threads": 2
+  },
+  {
+    "model": "RoBERTa",
+    "weights_mb": 498.621077,
+    "gpu_bs1_mean_ms": 8.443186750751407,
+    "gpu_bs1_median_ms": 8.261757000013858,
+    "gpu_bs1_p95_ms": 9.587765999981457,
+    "gpu_bs32_ms_per_answer": 5.493969741741643,
+    "cpu_bs1_mean_ms": 94.72172933999673,
+    "cpu_bs1_median_ms": 94.89962250000872,
+    "cpu_bs1_p95_ms": 125.18029199998182,
+    "cpu_threads": 2
+  },
+  {
+    "model": "XLNet",
+    "weights_mb": 469.272877,
+    "gpu_bs1_mean_ms": 16.247741450452732,
+    "gpu_bs1_median_ms": 16.099753000048622,
+    "gpu_bs1_p95_ms": 18.01984100006848,
+    "gpu_bs32_ms_per_answer": 8.140248708708864,
+    "cpu_bs1_mean_ms": 134.08009582000432,
+    "cpu_bs1_median_ms": 131.3087879999557,
+    "cpu_bs1_p95_ms": 174.21773299997767,
+    "cpu_threads": 2
+  },
+  {
+    "model": "DeBERTa",
+    "weights_mb": 737.727533,
+    "gpu_bs1_mean_ms": 24.207849279280726,
+    "gpu_bs1_median_ms": 23.978453999916383,
+    "gpu_bs1_p95_ms": 25.710544000048685,
+    "gpu_bs32_ms_per_answer": 7.583368330330387,
+    "cpu_bs1_mean_ms": 184.24169724999615,
+    "cpu_bs1_median_ms": 179.48597949998657,
+    "cpu_bs1_p95_ms": 225.95396600002005,
+    "cpu_threads": 2
+  },
+  {
+    "model": "ModernBERT",
+    "weights_mb": 598.448061,
+    "gpu_bs1_mean_ms": 24.793596561561184,
+    "gpu_bs1_median_ms": 24.565993000010167,
+    "gpu_bs1_p95_ms": 26.56272599995191,
+    "gpu_bs32_ms_per_answer": 8.824294051051238,
+    "cpu_bs1_mean_ms": 121.62846360000458,
+    "cpu_bs1_median_ms": 119.80881700003465,
+    "cpu_bs1_p95_ms": 158.42897699997138,
+    "cpu_threads": 2
+  }
+]

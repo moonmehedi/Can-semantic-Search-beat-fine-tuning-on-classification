@@ -1,0 +1,11 @@
+# Versions recorded in the final run (Python 3.12.12, Tesla T4)
+torch==2.10.0
+transformers==5.0.0
+datasets==4.8.3
+# Versions not recorded
+sentence-transformers
+scikit-learn
+numpy
+matplotlib
+rank-bm25
+contractions

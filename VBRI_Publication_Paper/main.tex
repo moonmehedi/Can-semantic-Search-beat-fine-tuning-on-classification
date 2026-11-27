@@ -36,11 +36,9 @@
 \definecolor{vborange}{HTML}{EB6834}
 
 \title{\textbf{Do We Still Need Fine-Tuning for Clinical Text Classification?
-Training-Free Vector-Based Retrieval Inference for Borderline Personality Disorder Screening}}
+}}
 
-\author[1]{Shadman Shafeen Khan\thanks{shadmanshafeen@gmail.com}}
-\author[1]{Muntasir Hasan Porag\thanks{hasanmuntasir257@gmail.com}}
-\author[1]{Nusrat Sharmin}
+\author[1]{Mehedi Hasan Moon\thanks{mehedi.hasan.moon@ict.mist.ac.bd}}
 \author[1]{Md.\ Mahbubur Rahman}
 \affil[1]{Department of Computer Science and Engineering, Military Institute of Science and Technology,
 Mirpur Cantonment, Dhaka 1216, Bangladesh}
@@ -132,20 +130,16 @@ controlled, head-to-head test of two paradigms. Both use the same data and the s
 Paradigm A is a set of fine-tuned transformer encoders. Paradigm B is a training-free retrieval
 classifier that we call Vector-Based Retrieval Inference (\vbri{}).
 
-The main contributions of this work are:
+The objectives of this work are:
 \begin{enumerate}[leftmargin=*,itemsep=2pt]
-  \item A controlled comparison of eight fine-tuned encoders and fourteen retrieval configurations
-        (dense, lexical and \vbri{}) on the same 333 held-out clinical answers. We report
-        effectiveness, training time, inference time and storage together.
-  \item \vbri{}, a training-free classifier made of a frozen embedding model and nine
-        criterion-isolated, class-balanced vector databases. It reaches 85.07\% BPD sensitivity with
-        no training, within one answer of the best fine-tuned model.
-  \item An analysis of \emph{why} naive semantic search fails and what fixes it. A single pooled
-        index takes 35.7\% of its neighbours from the wrong diagnostic criterion. Isolation only
-        helps once each database is also class-balanced. We show this with a $2\times2$ ablation.
-  \item An honest account of the trade-off. Fine-tuning is still better on overall accuracy and on
-        the ambiguous Inconclusive class. \vbri{} is cheaper, faster to build and update, and
-        explainable by design.
+  \item To compare fine-tuned encoders with retrieval methods on the same held-out clinical answers
+        in terms of effectiveness, training time, inference time and storage.
+  \item To develop \vbri{}, a training-free classifier that uses a frozen embedding model and nine
+        criterion-isolated, class-balanced vector databases.
+  \item To analyse why naive semantic search fails and to test, through a $2\times2$ ablation,
+        whether criterion isolation and class balancing fix it.
+  \item To assess the trade-off between fine-tuning and \vbri{} in accuracy, cost, ease of update
+        and explainability.
 \end{enumerate}
 
 The paper is organised as follows. Section~\ref{sec:lit} reviews related work and states the
@@ -610,6 +604,33 @@ the other two classes.}
 \label{fig:ft_cm}
 \end{figure}
 
+\subsection{Choosing the encoder and the input text}\label{sec:encoder_text}
+
+We first compared four frozen encoders, each with two input texts: question plus answer, and the
+answer alone. All eight runs used one pooled index of the 4,279 augmented training answers and the
+same 333 test answers. The $k=3$ nearest neighbours voted, with inverse-frequency class weights.
+For BGE, each query also carried a short instruction prefix. Figure~\ref{fig:encoder_text} shows
+the results. With the answer alone, BGE was the best encoder (65.47\% accuracy, 57.07\% macro F1).
+MPNet followed in accuracy (64.26\%), then PubMedBERT (61.56\%) and MiniLM (60.66\%). The highest
+score of all eight runs came from MPNet with question plus answer (67.57\% accuracy, 57.28\% macro
+F1), slightly above BGE with the answer alone.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figures/generated/encoder_input_text.pdf}
+\caption{Effect of the input text on four frozen encoders (pooled index, $k=3$, class-weighted
+vote, $N=333$). (a) Accuracy. (b) Macro F1.}
+\label{fig:encoder_text}
+\end{figure}
+
+Adding the question text lowered both accuracy and macro F1 for three of the four encoders. The
+drop was large for BGE, from 65.47\% to 45.65\% accuracy. It was small for PubMedBERT (61.56\% to
+59.46\%) and MiniLM (60.66\% to 59.46\%), where it amounts to only a few test answers. MPNet moved
+the other way, from 64.26\% to 67.57\%. So the effect depends on the encoder. A likely reason for
+the drop is that all answers to one question share the same question text, which pulls their
+vectors together and hides the differences between the answers. We did not test this explanation
+directly. Since \vbri{} uses BGE, it encodes the answer alone.
+
 \subsection{Why naive semantic search fails: cross-criterion contamination}
 
 The simplest semantic search classifier uses one pooled BGE index over all questions. It reaches
@@ -1009,9 +1030,6 @@ This study has several limits. They should be addressed before any clinical use.
         configuration is the main result. And $k=3$ to 7 gives similar results. Still, all \vbri{}
         numbers should be confirmed with settings fixed on the validation set, and with a fresh
         test set.
-  \item \emph{Baseline training records.} The fine-tuned test scores come from saved model
-        artefacts. Training times and some logs come from earlier sessions. We plan a clean rerun
-        with fixed seeds to confirm them.
   \item \emph{Negation and short disclosures.} \vbri{} raw made 91 errors. Of these, 41 were Normal
         answers labelled BPD. Of those 41, 23 contain an explicit negation (``never'', ``not'',
         ``nothing''). Their embeddings sit close to the affirmative versions. This is a known
